@@ -1,0 +1,50 @@
+{
+  "Claude": {
+    "old": "Fable 5 $10/$50; Opus 5 & 4.8 $5/$25; Sonnet 5 $2/$10 intro (→$3/$15 Sep 1); Haiku 4.5 $1/$5; batch −50%",
+    "proposed": "$10/$50 per MTok (claude-fable-5)",
+    "source": "LiteLLM community price map",
+    "retrieved": "2026-07-29"
+  },
+  "OpenAI API": {
+    "old": "Sol $5/$30; Terra $2.50/$15; Luna $1/$6",
+    "proposed": "$5/$30 per MTok (gpt-5.6)",
+    "source": "LiteLLM community price map",
+    "retrieved": "2026-07-29"
+  },
+  "Google Gemini": {
+    "old": "Gemini 3.1 Pro $2/$12 (API)",
+    "proposed": "$2/$12 per MTok (gemini/gemini-3-pro-preview)",
+    "source": "LiteLLM community price map",
+    "retrieved": "2026-07-29"
+  },
+  "DeepSeek — chat + hosted API": {
+    "old": "Sub-$1/MTok class historically; verify V4 rate card",
+    "proposed": "$0.28/$0.42 per MTok (deepseek/deepseek-chat)",
+    "source": "LiteLLM community price map",
+    "retrieved": "2026-07-29"
+  },
+  "Grok — xAI chat + hosted API": {
+    "old": "Grok 4.5 $2/$6",
+    "proposed": "$3/$15 per MTok (xai/grok-4)",
+    "source": "LiteLLM community price map",
+    "retrieved": "2026-07-29"
+  },
+  "Mistral — hosted + open weights": {
+    "old": "Varies by model size (verify La Plateforme rates)",
+    "proposed": "$0.5/$1.5 per MTok (mistral/mistral-large-latest)",
+    "source": "LiteLLM community price map",
+    "retrieved": "2026-07-29"
+  },
+  "Alibaba Qwen — chat + hosted API": {
+    "old": "Qwen 3.7 Max $2.50/$7.50 list ($1.25/$3.75 promo)",
+    "proposed": "$1.6/$6.4 per MTok (dashscope/qwen-max)",
+    "source": "LiteLLM community price map",
+    "retrieved": "2026-07-29"
+  },
+  "Cohere — enterprise API": {
+    "old": "Command A ≈$2.50/$10 (pre-2026 rate; verify)",
+    "proposed": "$2.5/$10 per MTok (command-a-03-2025)",
+    "source": "LiteLLM community price map",
+    "retrieved": "2026-07-29"
+  }
+}

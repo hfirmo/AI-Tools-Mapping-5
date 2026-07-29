@@ -10,66 +10,66 @@
   "Claude": {
     "latest_model": "Claude Fable 5 (flagship); Opus 5 (Jul 24) / Sonnet 5 (Jun 30); Opus 4.8 / Sonnet 4.6 / Haiku 4.5",
     "access_pricing": "Free; Pro ≈$20/mo; Max tiers (verify at claude.com/pricing)",
-    "token_price": "Fable 5 $10/$50; Opus 5 & 4.8 $5/$25; Sonnet 5 $2/$10 intro (→$3/$15 Sep 1); Haiku 4.5 $1/$5; batch −50%",
-    "source": "seeded from conversation research (see method note)",
+    "token_price": "$10/$50 per MTok (claude-fable-5)",
+    "source": "LiteLLM community price map",
     "retrieved": "2026-07-29",
-    "status": "reviewed"
+    "status": "auto-applied — review"
   },
   "Google Gemini": {
     "latest_model": "Gemini 3.1 Pro (incl. Deep Think)",
     "access_pricing": "Free; Google AI Pro ≈$20/mo; Ultra tier (verify)",
-    "token_price": "Gemini 3.1 Pro $2/$12 (API)",
-    "source": "seeded from conversation research (see method note)",
+    "token_price": "$2/$12 per MTok (gemini/gemini-3-pro-preview)",
+    "source": "LiteLLM community price map",
     "retrieved": "2026-07-29",
-    "status": "reviewed"
+    "status": "auto-applied — review"
   },
   "OpenAI API": {
     "latest_model": "gpt-5.6 family",
     "access_pricing": "Pay-as-you-go (no subscription)",
-    "token_price": "Sol $5/$30; Terra $2.50/$15; Luna $1/$6",
-    "source": "seeded from conversation research (see method note)",
+    "token_price": "$5/$30 per MTok (gpt-5.6)",
+    "source": "LiteLLM community price map",
     "retrieved": "2026-07-29",
-    "status": "reviewed"
+    "status": "auto-applied — review"
   },
   "DeepSeek — chat + hosted API": {
     "latest_model": "DeepSeek V4 (Apr 2026)",
     "access_pricing": "Chat free; API pay-as-you-go",
-    "token_price": "Sub-$1/MTok class historically; verify V4 rate card",
-    "source": "seeded from conversation research (see method note)",
+    "token_price": "$0.28/$0.42 per MTok (deepseek/deepseek-chat)",
+    "source": "LiteLLM community price map",
     "retrieved": "2026-07-29",
-    "status": "reviewed"
+    "status": "auto-applied — review"
   },
   "Grok — xAI chat + hosted API": {
     "latest_model": "Grok 4.5 (Jul 2026)",
     "access_pricing": "Via X Premium / SuperGrok tiers (verify); API pay-as-you-go",
-    "token_price": "Grok 4.5 $2/$6",
-    "source": "seeded from conversation research (see method note)",
+    "token_price": "$3/$15 per MTok (xai/grok-4)",
+    "source": "LiteLLM community price map",
     "retrieved": "2026-07-29",
-    "status": "reviewed"
+    "status": "auto-applied — review"
   },
   "Mistral — hosted + open weights": {
     "latest_model": "Mistral 3 family",
     "access_pricing": "Le Chat free + Pro tier; open weights free",
-    "token_price": "Varies by model size (verify La Plateforme rates)",
-    "source": "seeded from conversation research (see method note)",
+    "token_price": "$0.5/$1.5 per MTok (mistral/mistral-large-latest)",
+    "source": "LiteLLM community price map",
     "retrieved": "2026-07-29",
-    "status": "reviewed"
+    "status": "auto-applied — review"
   },
   "Alibaba Qwen — chat + hosted API": {
     "latest_model": "Qwen 3.7 Max",
     "access_pricing": "Chat free; API pay-as-you-go",
-    "token_price": "Qwen 3.7 Max $2.50/$7.50 list ($1.25/$3.75 promo)",
-    "source": "seeded from conversation research (see method note)",
+    "token_price": "$1.6/$6.4 per MTok (dashscope/qwen-max)",
+    "source": "LiteLLM community price map",
     "retrieved": "2026-07-29",
-    "status": "reviewed"
+    "status": "auto-applied — review"
   },
   "Cohere — enterprise API": {
     "latest_model": "Command A family (verify current)",
     "access_pricing": "Enterprise contracts; pay-as-you-go API",
-    "token_price": "Command A ≈$2.50/$10 (pre-2026 rate; verify)",
-    "source": "seeded from conversation research (see method note)",
+    "token_price": "$2.5/$10 per MTok (command-a-03-2025)",
+    "source": "LiteLLM community price map",
     "retrieved": "2026-07-29",
-    "status": "reviewed"
+    "status": "auto-applied — review"
   },
   "Moonshot AI — Kimi": {
     "latest_model": "Kimi K3",
