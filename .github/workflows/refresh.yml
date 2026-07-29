@@ -1,0 +1,31 @@
+name: Weekly price refresh (opens a pull request for review)
+on:
+  schedule:
+    - cron: "0 6 * * 1"   # every Monday 06:00 UTC
+  workflow_dispatch: {}    # and on demand via the Actions tab
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with: { python-version: "3.12" }
+      - run: python scripts/refresh.py
+      - run: python scripts/model_index.py
+      - run: python scripts/aa_index.py
+        env:
+          AA_API_KEY: ${{ secrets.AA_API_KEY }}
+        continue-on-error: true
+      - run: python scripts/refresh.py --apply
+      - uses: peter-evans/create-pull-request@v8
+        with:
+          branch: auto/price-refresh
+          title: "Price refresh proposals — review before merging"
+          body-path: PROPOSALS.md
+          commit-message: "Auto: fetched price proposals (unreviewed)"
+          add-paths: |
+            data/*.json
+            PROPOSALS.md
