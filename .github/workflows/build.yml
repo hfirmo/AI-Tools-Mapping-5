@@ -1,0 +1,20 @@
+name: Rebuild mapping outputs
+on:
+  push:
+    branches: [ main ]
+    paths: [ "data/**", "scripts/build.py" ]
+  workflow_dispatch: {}
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions: { contents: write }
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with: { python-version: "3.12" }
+      - run: pip install openpyxl
+      - run: python scripts/build.py
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto: rebuilt mapping.md and mapping.xlsx"
+          file_pattern: "output/*"
