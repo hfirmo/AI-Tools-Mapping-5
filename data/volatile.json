@@ -1,0 +1,122 @@
+{
+  "ChatGPT": {
+    "latest_model": "GPT-5.6 (Sol / Terra / Luna tiers)",
+    "access_pricing": "Free tier; Plus $20/mo; Pro $100–200/mo tiers",
+    "token_price": "n/a in app — see OpenAI API row",
+    "source": "seeded from conversation research (see method note)",
+    "retrieved": "2026-07-29",
+    "status": "reviewed"
+  },
+  "Claude": {
+    "latest_model": "Claude Fable 5 (flagship); Opus 5 (Jul 24) / Sonnet 5 (Jun 30); Opus 4.8 / Sonnet 4.6 / Haiku 4.5",
+    "access_pricing": "Free; Pro ≈$20/mo; Max tiers (verify at claude.com/pricing)",
+    "token_price": "Fable 5 $10/$50; Opus 5 & 4.8 $5/$25; Sonnet 5 $2/$10 intro (→$3/$15 Sep 1); Haiku 4.5 $1/$5; batch −50%",
+    "source": "seeded from conversation research (see method note)",
+    "retrieved": "2026-07-29",
+    "status": "reviewed"
+  },
+  "Google Gemini": {
+    "latest_model": "Gemini 3.1 Pro (incl. Deep Think)",
+    "access_pricing": "Free; Google AI Pro ≈$20/mo; Ultra tier (verify)",
+    "token_price": "Gemini 3.1 Pro $2/$12 (API)",
+    "source": "seeded from conversation research (see method note)",
+    "retrieved": "2026-07-29",
+    "status": "reviewed"
+  },
+  "OpenAI API": {
+    "latest_model": "gpt-5.6 family",
+    "access_pricing": "Pay-as-you-go (no subscription)",
+    "token_price": "Sol $5/$30; Terra $2.50/$15; Luna $1/$6",
+    "source": "seeded from conversation research (see method note)",
+    "retrieved": "2026-07-29",
+    "status": "reviewed"
+  },
+  "DeepSeek — chat + hosted API": {
+    "latest_model": "DeepSeek V4 (Apr 2026)",
+    "access_pricing": "Chat free; API pay-as-you-go",
+    "token_price": "Sub-$1/MTok class historically; verify V4 rate card",
+    "source": "seeded from conversation research (see method note)",
+    "retrieved": "2026-07-29",
+    "status": "reviewed"
+  },
+  "Grok — xAI chat + hosted API": {
+    "latest_model": "Grok 4.5 (Jul 2026)",
+    "access_pricing": "Via X Premium / SuperGrok tiers (verify); API pay-as-you-go",
+    "token_price": "Grok 4.5 $2/$6",
+    "source": "seeded from conversation research (see method note)",
+    "retrieved": "2026-07-29",
+    "status": "reviewed"
+  },
+  "Mistral — hosted + open weights": {
+    "latest_model": "Mistral 3 family",
+    "access_pricing": "Le Chat free + Pro tier; open weights free",
+    "token_price": "Varies by model size (verify La Plateforme rates)",
+    "source": "seeded from conversation research (see method note)",
+    "retrieved": "2026-07-29",
+    "status": "reviewed"
+  },
+  "Alibaba Qwen — chat + hosted API": {
+    "latest_model": "Qwen 3.7 Max",
+    "access_pricing": "Chat free; API pay-as-you-go",
+    "token_price": "Qwen 3.7 Max $2.50/$7.50 list ($1.25/$3.75 promo)",
+    "source": "seeded from conversation research (see method note)",
+    "retrieved": "2026-07-29",
+    "status": "reviewed"
+  },
+  "Cohere — enterprise API": {
+    "latest_model": "Command A family (verify current)",
+    "access_pricing": "Enterprise contracts; pay-as-you-go API",
+    "token_price": "Command A ≈$2.50/$10 (pre-2026 rate; verify)",
+    "source": "seeded from conversation research (see method note)",
+    "retrieved": "2026-07-29",
+    "status": "reviewed"
+  },
+  "Moonshot AI — Kimi": {
+    "latest_model": "Kimi K3",
+    "access_pricing": "Chat free tier; API pay-as-you-go",
+    "token_price": "Verify at platform.moonshot.ai",
+    "source": "seeded from conversation research (see method note)",
+    "retrieved": "2026-07-29",
+    "status": "reviewed"
+  },
+  "Z AI — GLM": {
+    "latest_model": "GLM-5.2",
+    "access_pricing": "Chat free tier; API pay-as-you-go; weights downloadable",
+    "token_price": "Verify current rate card",
+    "source": "seeded from conversation research (see method note)",
+    "retrieved": "2026-07-29",
+    "status": "reviewed"
+  },
+  "MiniMax": {
+    "latest_model": "MiniMax-M3",
+    "access_pricing": "Chat free tier; API pay-as-you-go",
+    "token_price": "Verify current rate card",
+    "source": "seeded from conversation research (see method note)",
+    "retrieved": "2026-07-29",
+    "status": "reviewed"
+  },
+  "Local open models (via Ollama)": {
+    "latest_model": "Llama 4 (Scout/Maverick); Qwen3.x; Gemma 3; DeepSeek R1/V4 open weights",
+    "access_pricing": "Free (hardware + electricity only)",
+    "token_price": "$0 marginal per token",
+    "source": "seeded from conversation research (see method note)",
+    "retrieved": "2026-07-29",
+    "status": "reviewed"
+  },
+  "Microsoft 365 Copilot": {
+    "latest_model": "GPT-5.x class (via Azure OpenAI)",
+    "access_pricing": "≈$30/user/mo add-on (organizational license)",
+    "token_price": "n/a (seat license; Azure OpenAI for metered use)",
+    "source": "seeded from conversation research (see method note)",
+    "retrieved": "2026-07-29",
+    "status": "reviewed"
+  },
+  "NotebookLM": {
+    "latest_model": "Runs on Gemini 3.x",
+    "access_pricing": "Free; higher limits via Google AI subscriptions",
+    "token_price": "n/a (bundled)",
+    "source": "seeded from conversation research (see method note)",
+    "retrieved": "2026-07-29",
+    "status": "reviewed"
+  }
+}
