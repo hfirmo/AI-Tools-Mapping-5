@@ -1,8 +1,8 @@
 {
- "retrieved": "2026-07-29",
+ "retrieved": "2026-09-07",
  "source": "LiteLLM model_prices_and_context_window.json (MIT licence)",
  "note": "Auto-generated appendix: enumeration and list prices only, no analytic judgment. Quality/benchmark rankings are NOT included — see artificialanalysis.ai/models, cited as a live source rather than copied.",
- "count": 2406,
+ "count": 3083,
  "models": [
   {
    "provider": "ai21",
@@ -160,6 +160,13 @@
   },
   {
    "provider": "anthropic",
+   "model": "claude-fable-5-1",
+   "input_per_mtok": 10.0,
+   "output_per_mtok": 50.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "anthropic",
    "model": "claude-haiku-4-5",
    "input_per_mtok": 1.0,
    "output_per_mtok": 5.0,
@@ -171,6 +178,27 @@
    "input_per_mtok": 1.0,
    "output_per_mtok": 5.0,
    "context_window": 200000
+  },
+  {
+   "provider": "anthropic",
+   "model": "claude-mythos-5",
+   "input_per_mtok": 10.0,
+   "output_per_mtok": 50.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "anthropic",
+   "model": "claude-mythos-5-1",
+   "input_per_mtok": 10.0,
+   "output_per_mtok": 50.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "anthropic",
+   "model": "claude-mythos-preview",
+   "input_per_mtok": 10.0,
+   "output_per_mtok": 50.0,
+   "context_window": 1000000
   },
   {
    "provider": "anthropic",
@@ -499,28 +527,28 @@
    "model": "azure/eu/gpt-5.6",
    "input_per_mtok": 5.5,
    "output_per_mtok": 33.0,
-   "context_window": 1050000
+   "context_window": 922000
   },
   {
    "provider": "azure",
    "model": "azure/eu/gpt-5.6-luna",
-   "input_per_mtok": 1.1,
-   "output_per_mtok": 6.6,
-   "context_window": 1050000
+   "input_per_mtok": 0.22,
+   "output_per_mtok": 1.32,
+   "context_window": 922000
   },
   {
    "provider": "azure",
    "model": "azure/eu/gpt-5.6-sol",
    "input_per_mtok": 5.5,
    "output_per_mtok": 33.0,
-   "context_window": 1050000
+   "context_window": 922000
   },
   {
    "provider": "azure",
    "model": "azure/eu/gpt-5.6-terra",
-   "input_per_mtok": 2.75,
-   "output_per_mtok": 16.5,
-   "context_window": 1050000
+   "input_per_mtok": 2.2,
+   "output_per_mtok": 13.2,
+   "context_window": 922000
   },
   {
    "provider": "azure",
@@ -1045,28 +1073,28 @@
    "model": "azure/gpt-5.4-mini",
    "input_per_mtok": 0.75,
    "output_per_mtok": 4.5,
-   "context_window": 1050000
+   "context_window": 272000
   },
   {
    "provider": "azure",
    "model": "azure/gpt-5.4-mini-2026-03-17",
    "input_per_mtok": 0.75,
    "output_per_mtok": 4.5,
-   "context_window": 1050000
+   "context_window": 272000
   },
   {
    "provider": "azure",
    "model": "azure/gpt-5.4-nano",
    "input_per_mtok": 0.2,
    "output_per_mtok": 1.25,
-   "context_window": 1050000
+   "context_window": 272000
   },
   {
    "provider": "azure",
    "model": "azure/gpt-5.4-nano-2026-03-17",
    "input_per_mtok": 0.2,
    "output_per_mtok": 1.25,
-   "context_window": 1050000
+   "context_window": 272000
   },
   {
    "provider": "azure",
@@ -1115,28 +1143,35 @@
    "model": "azure/gpt-5.6",
    "input_per_mtok": 5.0,
    "output_per_mtok": 30.0,
-   "context_window": 1050000
+   "context_window": 922000
   },
   {
    "provider": "azure",
    "model": "azure/gpt-5.6-luna",
-   "input_per_mtok": 1.0,
-   "output_per_mtok": 6.0,
-   "context_window": 1050000
+   "input_per_mtok": 0.2,
+   "output_per_mtok": 1.2,
+   "context_window": 922000
   },
   {
    "provider": "azure",
    "model": "azure/gpt-5.6-sol",
    "input_per_mtok": 5.0,
    "output_per_mtok": 30.0,
-   "context_window": 1050000
+   "context_window": 922000
   },
   {
    "provider": "azure",
    "model": "azure/gpt-5.6-terra",
-   "input_per_mtok": 2.5,
-   "output_per_mtok": 15.0,
-   "context_window": 1050000
+   "input_per_mtok": 2.0,
+   "output_per_mtok": 12.0,
+   "context_window": 922000
+  },
+  {
+   "provider": "azure",
+   "model": "azure/gpt-6-astra",
+   "input_per_mtok": 10.0,
+   "output_per_mtok": 50.0,
+   "context_window": 922000
   },
   {
    "provider": "azure",
@@ -1150,6 +1185,13 @@
    "model": "azure/gpt-audio-2025-08-28",
    "input_per_mtok": 2.5,
    "output_per_mtok": 10.0,
+   "context_window": 128000
+  },
+  {
+   "provider": "azure",
+   "model": "azure/gpt-audio-mini",
+   "input_per_mtok": 0.6,
+   "output_per_mtok": 2.4,
    "context_window": 128000
   },
   {
@@ -1280,6 +1322,20 @@
   },
   {
    "provider": "azure",
+   "model": "azure/us-gov/gpt-5.1",
+   "input_per_mtok": 1.7188,
+   "output_per_mtok": 13.75,
+   "context_window": 272000
+  },
+  {
+   "provider": "azure",
+   "model": "azure/us-gov/o3-mini",
+   "input_per_mtok": 1.513,
+   "output_per_mtok": 6.05,
+   "context_window": 200000
+  },
+  {
+   "provider": "azure",
    "model": "azure/us/gpt-4.1-2025-04-14",
    "input_per_mtok": 2.2,
    "output_per_mtok": 8.8,
@@ -1402,28 +1458,35 @@
    "model": "azure/us/gpt-5.6",
    "input_per_mtok": 5.5,
    "output_per_mtok": 33.0,
-   "context_window": 1050000
+   "context_window": 922000
   },
   {
    "provider": "azure",
    "model": "azure/us/gpt-5.6-luna",
-   "input_per_mtok": 1.1,
-   "output_per_mtok": 6.6,
-   "context_window": 1050000
+   "input_per_mtok": 0.22,
+   "output_per_mtok": 1.32,
+   "context_window": 922000
   },
   {
    "provider": "azure",
    "model": "azure/us/gpt-5.6-sol",
    "input_per_mtok": 5.5,
    "output_per_mtok": 33.0,
-   "context_window": 1050000
+   "context_window": 922000
   },
   {
    "provider": "azure",
    "model": "azure/us/gpt-5.6-terra",
-   "input_per_mtok": 2.75,
-   "output_per_mtok": 16.5,
-   "context_window": 1050000
+   "input_per_mtok": 2.2,
+   "output_per_mtok": 13.2,
+   "context_window": 922000
+  },
+  {
+   "provider": "azure",
+   "model": "azure/us/gpt-6-astra",
+   "input_per_mtok": 11.0,
+   "output_per_mtok": 55.0,
+   "context_window": 922000
   },
   {
    "provider": "azure",
@@ -1476,6 +1539,125 @@
   },
   {
    "provider": "azure_ai",
+   "model": "azure_ai/Codestral-2501",
+   "input_per_mtok": 0.3,
+   "output_per_mtok": 0.9,
+   "context_window": 256000
+  },
+  {
+   "provider": "azure_ai",
+   "model": "azure_ai/DeepSeek-V4-Flash-0731",
+   "input_per_mtok": 0.44,
+   "output_per_mtok": 1.32,
+   "context_window": 1000000
+  },
+  {
+   "provider": "azure_ai",
+   "model": "azure_ai/FW-DeepSeek-V3.2",
+   "input_per_mtok": 0.62,
+   "output_per_mtok": 1.85,
+   "context_window": 163840
+  },
+  {
+   "provider": "azure_ai",
+   "model": "azure_ai/FW-DeepSeek-V4-Pro",
+   "input_per_mtok": 1.925,
+   "output_per_mtok": 3.828,
+   "context_window": 1000000
+  },
+  {
+   "provider": "azure_ai",
+   "model": "azure_ai/FW-GLM-5",
+   "input_per_mtok": 1.1,
+   "output_per_mtok": 3.52,
+   "context_window": 200000
+  },
+  {
+   "provider": "azure_ai",
+   "model": "azure_ai/FW-GLM-5.1",
+   "input_per_mtok": 1.54,
+   "output_per_mtok": 4.84,
+   "context_window": 202800
+  },
+  {
+   "provider": "azure_ai",
+   "model": "azure_ai/FW-GLM-5.2",
+   "input_per_mtok": 1.54,
+   "output_per_mtok": 4.84,
+   "context_window": 1048576
+  },
+  {
+   "provider": "azure_ai",
+   "model": "azure_ai/FW-GLM-5.2-Fast",
+   "input_per_mtok": 2.1,
+   "output_per_mtok": 6.6,
+   "context_window": 1048576
+  },
+  {
+   "provider": "azure_ai",
+   "model": "azure_ai/FW-Inkling",
+   "input_per_mtok": 1.0,
+   "output_per_mtok": 4.05,
+   "context_window": 1048576
+  },
+  {
+   "provider": "azure_ai",
+   "model": "azure_ai/FW-Kimi-K2.5",
+   "input_per_mtok": 0.66,
+   "output_per_mtok": 3.3,
+   "context_window": 262144
+  },
+  {
+   "provider": "azure_ai",
+   "model": "azure_ai/FW-Kimi-K2.6",
+   "input_per_mtok": 1.045,
+   "output_per_mtok": 4.4,
+   "context_window": 262144
+  },
+  {
+   "provider": "azure_ai",
+   "model": "azure_ai/FW-Kimi-K2.7-Code",
+   "input_per_mtok": 1.05,
+   "output_per_mtok": 4.4,
+   "context_window": 262144
+  },
+  {
+   "provider": "azure_ai",
+   "model": "azure_ai/FW-Kimi-K3",
+   "input_per_mtok": 3.3,
+   "output_per_mtok": 16.5,
+   "context_window": 1048576
+  },
+  {
+   "provider": "azure_ai",
+   "model": "azure_ai/FW-MiniMax-M2.5",
+   "input_per_mtok": 0.33,
+   "output_per_mtok": 1.32,
+   "context_window": 1000000
+  },
+  {
+   "provider": "azure_ai",
+   "model": "azure_ai/FW-MiniMax-M3",
+   "input_per_mtok": 0.33,
+   "output_per_mtok": 1.32,
+   "context_window": 512000
+  },
+  {
+   "provider": "azure_ai",
+   "model": "azure_ai/FW-Nemotron-3-Ultra-NVFP4",
+   "input_per_mtok": 0.6,
+   "output_per_mtok": 2.4,
+   "context_window": 262144
+  },
+  {
+   "provider": "azure_ai",
+   "model": "azure_ai/FW-Nemotron-Lightning-3.5-30B-A3B",
+   "input_per_mtok": 0.06,
+   "output_per_mtok": 0.22,
+   "context_window": 262144
+  },
+  {
+   "provider": "azure_ai",
    "model": "azure_ai/Llama-3.2-11B-Vision-Instruct",
    "input_per_mtok": 0.37,
    "output_per_mtok": 0.37,
@@ -1515,6 +1697,13 @@
    "input_per_mtok": 1.35,
    "output_per_mtok": 5.4,
    "context_window": 128000
+  },
+  {
+   "provider": "azure_ai",
+   "model": "azure_ai/MAI-Thinking-1",
+   "input_per_mtok": 2.0,
+   "output_per_mtok": 8.0,
+   "context_window": 256000
   },
   {
    "provider": "azure_ai",
@@ -1645,6 +1834,13 @@
   {
    "provider": "azure_ai",
    "model": "azure_ai/claude-fable-5",
+   "input_per_mtok": 10.0,
+   "output_per_mtok": 50.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "azure_ai",
+   "model": "azure_ai/claude-fable-5-1",
    "input_per_mtok": 10.0,
    "output_per_mtok": 50.0,
    "context_window": 1000000
@@ -1808,28 +2004,28 @@
    "model": "azure_ai/gpt-5.4-mini",
    "input_per_mtok": 0.75,
    "output_per_mtok": 4.5,
-   "context_window": 400000
+   "context_window": 272000
   },
   {
    "provider": "azure_ai",
    "model": "azure_ai/gpt-5.4-mini-2026-03-17",
    "input_per_mtok": 0.75,
    "output_per_mtok": 4.5,
-   "context_window": 400000
+   "context_window": 272000
   },
   {
    "provider": "azure_ai",
    "model": "azure_ai/gpt-5.4-nano",
    "input_per_mtok": 0.2,
    "output_per_mtok": 1.25,
-   "context_window": 400000
+   "context_window": 272000
   },
   {
    "provider": "azure_ai",
    "model": "azure_ai/gpt-5.4-nano-2026-03-17",
    "input_per_mtok": 0.2,
    "output_per_mtok": 1.25,
-   "context_window": 400000
+   "context_window": 272000
   },
   {
    "provider": "azure_ai",
@@ -1917,6 +2113,20 @@
   },
   {
    "provider": "azure_ai",
+   "model": "azure_ai/grok-4.3",
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
+   "context_window": 200000
+  },
+  {
+   "provider": "azure_ai",
+   "model": "azure_ai/grok-4.6",
+   "input_per_mtok": 2.0,
+   "output_per_mtok": 6.0,
+   "context_window": 200000
+  },
+  {
+   "provider": "azure_ai",
    "model": "azure_ai/grok-code-fast-1",
    "input_per_mtok": 0.2,
    "output_per_mtok": 1.5,
@@ -1946,6 +2156,13 @@
   {
    "provider": "azure_ai",
    "model": "azure_ai/kimi-k2.6",
+   "input_per_mtok": 0.95,
+   "output_per_mtok": 4.0,
+   "context_window": 262144
+  },
+  {
+   "provider": "azure_ai",
+   "model": "azure_ai/kimi-k2.7-code",
    "input_per_mtok": 0.95,
    "output_per_mtok": 4.0,
    "context_window": 262144
@@ -2117,6 +2334,13 @@
    "input_per_mtok": 0.95,
    "output_per_mtok": 3.15,
    "context_window": null
+  },
+  {
+   "provider": "baseten",
+   "model": "baseten/zai-org/GLM-5.3",
+   "input_per_mtok": 1.4,
+   "output_per_mtok": 4.4,
+   "context_window": 1048576
   },
   {
    "provider": "bedrock",
@@ -3065,10 +3289,24 @@
   },
   {
    "provider": "bedrock",
+   "model": "bedrock/us-gov-east-1/anthropic.claude-opus-4-8",
+   "input_per_mtok": 6.0,
+   "output_per_mtok": 30.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "bedrock",
    "model": "bedrock/us-gov-east-1/anthropic.claude-sonnet-4-5-20250929-v1:0",
    "input_per_mtok": 3.6,
    "output_per_mtok": 18.0,
    "context_window": 200000
+  },
+  {
+   "provider": "bedrock",
+   "model": "bedrock/us-gov-east-1/anthropic.claude-sonnet-5",
+   "input_per_mtok": 2.4,
+   "output_per_mtok": 12.0,
+   "context_window": 1000000
   },
   {
    "provider": "bedrock",
@@ -3090,6 +3328,41 @@
    "input_per_mtok": 0.3,
    "output_per_mtok": 2.65,
    "context_window": 8000
+  },
+  {
+   "provider": "bedrock",
+   "model": "bedrock/us-gov-east-1/nvidia.nemotron-nano-12b-v2",
+   "input_per_mtok": 0.24,
+   "output_per_mtok": 0.72,
+   "context_window": 128000
+  },
+  {
+   "provider": "bedrock",
+   "model": "bedrock/us-gov-east-1/nvidia.nemotron-nano-3-30b",
+   "input_per_mtok": 0.072,
+   "output_per_mtok": 0.288,
+   "context_window": 262144
+  },
+  {
+   "provider": "bedrock",
+   "model": "bedrock/us-gov-east-1/nvidia.nemotron-super-3-120b",
+   "input_per_mtok": 0.18,
+   "output_per_mtok": 0.78,
+   "context_window": 256000
+  },
+  {
+   "provider": "bedrock",
+   "model": "bedrock/us-gov-east-1/openai.gpt-oss-120b-1:0",
+   "input_per_mtok": 0.18,
+   "output_per_mtok": 0.72,
+   "context_window": 128000
+  },
+  {
+   "provider": "bedrock",
+   "model": "bedrock/us-gov-east-1/openai.gpt-oss-20b-1:0",
+   "input_per_mtok": 0.084,
+   "output_per_mtok": 0.36,
+   "context_window": 128000
   },
   {
    "provider": "bedrock",
@@ -3149,10 +3422,24 @@
   },
   {
    "provider": "bedrock",
+   "model": "bedrock/us-gov-west-1/anthropic.claude-opus-4-8",
+   "input_per_mtok": 6.0,
+   "output_per_mtok": 30.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "bedrock",
    "model": "bedrock/us-gov-west-1/anthropic.claude-sonnet-4-5-20250929-v1:0",
    "input_per_mtok": 3.6,
    "output_per_mtok": 18.0,
    "context_window": 200000
+  },
+  {
+   "provider": "bedrock",
+   "model": "bedrock/us-gov-west-1/anthropic.claude-sonnet-5",
+   "input_per_mtok": 2.4,
+   "output_per_mtok": 12.0,
+   "context_window": 1000000
   },
   {
    "provider": "bedrock",
@@ -3172,8 +3459,43 @@
    "provider": "bedrock",
    "model": "bedrock/us-gov-west-1/meta.llama3-8b-instruct-v1:0",
    "input_per_mtok": 0.3,
-   "output_per_mtok": 2.65,
+   "output_per_mtok": 0.6,
    "context_window": 8000
+  },
+  {
+   "provider": "bedrock",
+   "model": "bedrock/us-gov-west-1/nvidia.nemotron-nano-12b-v2",
+   "input_per_mtok": 0.24,
+   "output_per_mtok": 0.72,
+   "context_window": 128000
+  },
+  {
+   "provider": "bedrock",
+   "model": "bedrock/us-gov-west-1/nvidia.nemotron-nano-3-30b",
+   "input_per_mtok": 0.072,
+   "output_per_mtok": 0.288,
+   "context_window": 262144
+  },
+  {
+   "provider": "bedrock",
+   "model": "bedrock/us-gov-west-1/nvidia.nemotron-super-3-120b",
+   "input_per_mtok": 0.18,
+   "output_per_mtok": 0.78,
+   "context_window": 256000
+  },
+  {
+   "provider": "bedrock",
+   "model": "bedrock/us-gov-west-1/openai.gpt-oss-120b-1:0",
+   "input_per_mtok": 0.18,
+   "output_per_mtok": 0.72,
+   "context_window": 128000
+  },
+  {
+   "provider": "bedrock",
+   "model": "bedrock/us-gov-west-1/openai.gpt-oss-20b-1:0",
+   "input_per_mtok": 0.084,
+   "output_per_mtok": 0.36,
+   "context_window": 128000
   },
   {
    "provider": "bedrock",
@@ -3702,6 +4024,13 @@
   },
   {
    "provider": "bedrock_converse",
+   "model": "anthropic.claude-fable-5-1",
+   "input_per_mtok": 10.0,
+   "output_per_mtok": 50.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "bedrock_converse",
    "model": "anthropic.claude-haiku-4-5-20251001-v1:0",
    "input_per_mtok": 1.0,
    "output_per_mtok": 5.0,
@@ -3954,6 +4283,13 @@
   },
   {
    "provider": "bedrock_converse",
+   "model": "eu.anthropic.claude-fable-5-1",
+   "input_per_mtok": 11.0,
+   "output_per_mtok": 55.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "bedrock_converse",
    "model": "eu.anthropic.claude-haiku-4-5-20251001-v1:0",
    "input_per_mtok": 1.1,
    "output_per_mtok": 5.5,
@@ -4066,6 +4402,13 @@
   },
   {
    "provider": "bedrock_converse",
+   "model": "global.anthropic.claude-fable-5-1",
+   "input_per_mtok": 10.0,
+   "output_per_mtok": 50.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "bedrock_converse",
    "model": "global.anthropic.claude-haiku-4-5-20251001-v1:0",
    "input_per_mtok": 1.0,
    "output_per_mtok": 5.0,
@@ -4133,6 +4476,34 @@
    "input_per_mtok": 2.0,
    "output_per_mtok": 10.0,
    "context_window": 1000000
+  },
+  {
+   "provider": "bedrock_converse",
+   "model": "global.openai.gpt-5.6-luna",
+   "input_per_mtok": 0.2,
+   "output_per_mtok": 1.2,
+   "context_window": 1000000
+  },
+  {
+   "provider": "bedrock_converse",
+   "model": "global.openai.gpt-5.6-sol",
+   "input_per_mtok": 4.0,
+   "output_per_mtok": 20.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "bedrock_converse",
+   "model": "global.openai.gpt-5.6-terra",
+   "input_per_mtok": 2.0,
+   "output_per_mtok": 12.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "bedrock_converse",
+   "model": "global.xai.grok-4.6",
+   "input_per_mtok": 2.0,
+   "output_per_mtok": 6.0,
+   "context_window": 500000
   },
   {
    "provider": "bedrock_converse",
@@ -4396,7 +4767,7 @@
   {
    "provider": "bedrock_converse",
    "model": "qwen.qwen3-coder-480b-a35b-v1:0",
-   "input_per_mtok": 0.22,
+   "input_per_mtok": 0.45,
    "output_per_mtok": 1.8,
    "context_window": 262000
   },
@@ -4423,10 +4794,24 @@
   },
   {
    "provider": "bedrock_converse",
+   "model": "us-gov.anthropic.claude-opus-4-8",
+   "input_per_mtok": 6.0,
+   "output_per_mtok": 30.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "bedrock_converse",
    "model": "us-gov.anthropic.claude-sonnet-4-5-20250929-v1:0",
    "input_per_mtok": 3.6,
    "output_per_mtok": 18.0,
    "context_window": 200000
+  },
+  {
+   "provider": "bedrock_converse",
+   "model": "us-gov.anthropic.claude-sonnet-5",
+   "input_per_mtok": 2.4,
+   "output_per_mtok": 12.0,
+   "context_window": 1000000
   },
   {
    "provider": "bedrock_converse",
@@ -4480,6 +4865,13 @@
   {
    "provider": "bedrock_converse",
    "model": "us.anthropic.claude-fable-5",
+   "input_per_mtok": 11.0,
+   "output_per_mtok": 55.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "bedrock_converse",
+   "model": "us.anthropic.claude-fable-5-1",
    "input_per_mtok": 11.0,
    "output_per_mtok": 55.0,
    "context_window": 1000000
@@ -4612,6 +5004,27 @@
   },
   {
    "provider": "bedrock_converse",
+   "model": "us.openai.gpt-5.6-luna",
+   "input_per_mtok": 0.22,
+   "output_per_mtok": 1.32,
+   "context_window": 1000000
+  },
+  {
+   "provider": "bedrock_converse",
+   "model": "us.openai.gpt-5.6-sol",
+   "input_per_mtok": 4.4,
+   "output_per_mtok": 22.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "bedrock_converse",
+   "model": "us.openai.gpt-5.6-terra",
+   "input_per_mtok": 2.2,
+   "output_per_mtok": 13.2,
+   "context_window": 1000000
+  },
+  {
+   "provider": "bedrock_converse",
    "model": "us.writer.palmyra-x4-v1:0",
    "input_per_mtok": 2.5,
    "output_per_mtok": 10.0,
@@ -4623,6 +5036,13 @@
    "input_per_mtok": 0.6,
    "output_per_mtok": 6.0,
    "context_window": 1000000
+  },
+  {
+   "provider": "bedrock_converse",
+   "model": "us.xai.grok-4.6",
+   "input_per_mtok": 2.2,
+   "output_per_mtok": 6.6,
+   "context_window": 500000
   },
   {
    "provider": "bedrock_converse",
@@ -4685,35 +5105,42 @@
    "model": "bedrock_mantle/openai.gpt-5.4",
    "input_per_mtok": 2.75,
    "output_per_mtok": 16.5,
-   "context_window": 272000
+   "context_window": 1050000
   },
   {
    "provider": "bedrock_mantle",
    "model": "bedrock_mantle/openai.gpt-5.5",
    "input_per_mtok": 5.5,
    "output_per_mtok": 33.0,
+   "context_window": 1050000
+  },
+  {
+   "provider": "bedrock_mantle",
+   "model": "bedrock_mantle/openai.gpt-5.6-cyber",
+   "input_per_mtok": 13.75,
+   "output_per_mtok": 82.5,
    "context_window": 272000
   },
   {
    "provider": "bedrock_mantle",
    "model": "bedrock_mantle/openai.gpt-5.6-luna",
-   "input_per_mtok": 1.1,
-   "output_per_mtok": 6.6,
-   "context_window": 272000
+   "input_per_mtok": 0.22,
+   "output_per_mtok": 1.32,
+   "context_window": 1050000
   },
   {
    "provider": "bedrock_mantle",
    "model": "bedrock_mantle/openai.gpt-5.6-sol",
    "input_per_mtok": 5.5,
    "output_per_mtok": 33.0,
-   "context_window": 272000
+   "context_window": 1050000
   },
   {
    "provider": "bedrock_mantle",
    "model": "bedrock_mantle/openai.gpt-5.6-terra",
-   "input_per_mtok": 2.75,
-   "output_per_mtok": 16.5,
-   "context_window": 272000
+   "input_per_mtok": 2.2,
+   "output_per_mtok": 13.2,
+   "context_window": 1050000
   },
   {
    "provider": "bedrock_mantle",
@@ -4745,9 +5172,58 @@
   },
   {
    "provider": "bedrock_mantle",
+   "model": "bedrock_mantle/us-gov-east-1/openai.gpt-5.4",
+   "input_per_mtok": 3.3,
+   "output_per_mtok": 19.8,
+   "context_window": 1050000
+  },
+  {
+   "provider": "bedrock_mantle",
+   "model": "bedrock_mantle/us-gov-west-1/openai.gpt-5.4",
+   "input_per_mtok": 3.3,
+   "output_per_mtok": 19.8,
+   "context_window": 1050000
+  },
+  {
+   "provider": "bedrock_mantle",
+   "model": "bedrock_mantle/us-gov-west-1/openai.gpt-5.6-luna",
+   "input_per_mtok": 0.264,
+   "output_per_mtok": 1.584,
+   "context_window": 1050000
+  },
+  {
+   "provider": "bedrock_mantle",
+   "model": "bedrock_mantle/us-gov-west-1/openai.gpt-5.6-terra",
+   "input_per_mtok": 2.64,
+   "output_per_mtok": 15.84,
+   "context_window": 1050000
+  },
+  {
+   "provider": "bedrock_mantle",
+   "model": "bedrock_mantle/us-gov-west-1/xai.grok-4.3",
+   "input_per_mtok": 1.5,
+   "output_per_mtok": 3.0,
+   "context_window": 131072
+  },
+  {
+   "provider": "bedrock_mantle",
    "model": "bedrock_mantle/xai.grok-4.3",
    "input_per_mtok": 1.25,
    "output_per_mtok": 2.5,
+   "context_window": 131072
+  },
+  {
+   "provider": "bedrock_mantle",
+   "model": "bedrock_mantle/xai.grok-4.6",
+   "input_per_mtok": 2.2,
+   "output_per_mtok": 6.6,
+   "context_window": 500000
+  },
+  {
+   "provider": "cerebras",
+   "model": "cerebras/gemma-4-31b",
+   "input_per_mtok": 0.99,
+   "output_per_mtok": 1.49,
    "context_window": 131072
   },
   {
@@ -5094,6 +5570,27 @@
    "context_window": 32000
   },
   {
+   "provider": "cognition",
+   "model": "cognition/swe-1.6",
+   "input_per_mtok": 0.5,
+   "output_per_mtok": 2.5,
+   "context_window": null
+  },
+  {
+   "provider": "cognition",
+   "model": "cognition/swe-1.7",
+   "input_per_mtok": 0.5,
+   "output_per_mtok": 2.5,
+   "context_window": null
+  },
+  {
+   "provider": "cognition",
+   "model": "cognition/swe-1.7-lightning",
+   "input_per_mtok": 2.5,
+   "output_per_mtok": 12.5,
+   "context_window": null
+  },
+  {
    "provider": "cohere",
    "model": "command",
    "input_per_mtok": 1.0,
@@ -5218,6 +5715,48 @@
    "input_per_mtok": 0.0145,
    "output_per_mtok": 0.07,
    "context_window": 131072
+  },
+  {
+   "provider": "dashscope",
+   "model": "dashscope/deepseek-v4-flash",
+   "input_per_mtok": 0.2,
+   "output_per_mtok": 0.4,
+   "context_window": 1000000
+  },
+  {
+   "provider": "dashscope",
+   "model": "dashscope/deepseek-v4-flash-0731",
+   "input_per_mtok": 0.2,
+   "output_per_mtok": 0.4,
+   "context_window": 1000000
+  },
+  {
+   "provider": "dashscope",
+   "model": "dashscope/deepseek-v4-pro",
+   "input_per_mtok": 2.4,
+   "output_per_mtok": 4.8,
+   "context_window": 1000000
+  },
+  {
+   "provider": "dashscope",
+   "model": "dashscope/glm-5.1",
+   "input_per_mtok": 1.4,
+   "output_per_mtok": 4.4,
+   "context_window": 202745
+  },
+  {
+   "provider": "dashscope",
+   "model": "dashscope/glm-5.2",
+   "input_per_mtok": 1.4,
+   "output_per_mtok": 4.4,
+   "context_window": 1048576
+  },
+  {
+   "provider": "dashscope",
+   "model": "dashscope/kimi-k2.7-code",
+   "input_per_mtok": 0.95,
+   "output_per_mtok": 4.0,
+   "context_window": 229376
   },
   {
    "provider": "dashscope",
@@ -5438,6 +5977,27 @@
   },
   {
    "provider": "dashscope",
+   "model": "dashscope/qwen3.7-max",
+   "input_per_mtok": 2.5,
+   "output_per_mtok": 7.5,
+   "context_window": 991808
+  },
+  {
+   "provider": "dashscope",
+   "model": "dashscope/qwen3.7-plus",
+   "input_per_mtok": null,
+   "output_per_mtok": null,
+   "context_window": 991808
+  },
+  {
+   "provider": "dashscope",
+   "model": "dashscope/qwen3.8-max",
+   "input_per_mtok": 2.0,
+   "output_per_mtok": 6.0,
+   "context_window": 991808
+  },
+  {
+   "provider": "dashscope",
    "model": "dashscope/qwq-plus",
    "input_per_mtok": 0.8,
    "output_per_mtok": 2.4,
@@ -5449,6 +6009,20 @@
    "input_per_mtok": 3.0,
    "output_per_mtok": 15.0,
    "context_window": 200000
+  },
+  {
+   "provider": "databricks",
+   "model": "databricks/databricks-claude-fable-5",
+   "input_per_mtok": 10.0001,
+   "output_per_mtok": 50.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "databricks",
+   "model": "databricks/databricks-claude-fable-5-1",
+   "input_per_mtok": 10.0001,
+   "output_per_mtok": 50.0,
+   "context_window": 1000000
   },
   {
    "provider": "databricks",
@@ -5480,6 +6054,34 @@
   },
   {
    "provider": "databricks",
+   "model": "databricks/databricks-claude-opus-4-6",
+   "input_per_mtok": 5.0,
+   "output_per_mtok": 25.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "databricks",
+   "model": "databricks/databricks-claude-opus-4-7",
+   "input_per_mtok": 5.0,
+   "output_per_mtok": 25.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "databricks",
+   "model": "databricks/databricks-claude-opus-4-8",
+   "input_per_mtok": 5.0,
+   "output_per_mtok": 25.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "databricks",
+   "model": "databricks/databricks-claude-opus-5",
+   "input_per_mtok": 5.0,
+   "output_per_mtok": 25.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "databricks",
    "model": "databricks/databricks-claude-sonnet-4",
    "input_per_mtok": 3.0,
    "output_per_mtok": 15.0,
@@ -5501,6 +6103,34 @@
   },
   {
    "provider": "databricks",
+   "model": "databricks/databricks-claude-sonnet-4-6",
+   "input_per_mtok": 3.0,
+   "output_per_mtok": 15.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "databricks",
+   "model": "databricks/databricks-claude-sonnet-5",
+   "input_per_mtok": 3.0,
+   "output_per_mtok": 15.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "databricks",
+   "model": "databricks/databricks-deepseek-v4-flash-0731",
+   "input_per_mtok": 0.14,
+   "output_per_mtok": 0.28,
+   "context_window": 1000000
+  },
+  {
+   "provider": "databricks",
+   "model": "databricks/databricks-deepseek-v4-pro-0813",
+   "input_per_mtok": 1.32,
+   "output_per_mtok": 3.96,
+   "context_window": 1000000
+  },
+  {
+   "provider": "databricks",
    "model": "databricks/databricks-gemini-2-5-flash",
    "input_per_mtok": 0.3,
    "output_per_mtok": 2.5,
@@ -5515,10 +6145,108 @@
   },
   {
    "provider": "databricks",
+   "model": "databricks/databricks-gemini-3-1-flash-image",
+   "input_per_mtok": null,
+   "output_per_mtok": null,
+   "context_window": 131072
+  },
+  {
+   "provider": "databricks",
+   "model": "databricks/databricks-gemini-3-1-flash-lite",
+   "input_per_mtok": 0.3125,
+   "output_per_mtok": 1.875,
+   "context_window": 1048576
+  },
+  {
+   "provider": "databricks",
+   "model": "databricks/databricks-gemini-3-1-pro",
+   "input_per_mtok": 2.5,
+   "output_per_mtok": 15.0,
+   "context_window": 1048576
+  },
+  {
+   "provider": "databricks",
+   "model": "databricks/databricks-gemini-3-5-flash",
+   "input_per_mtok": 1.875,
+   "output_per_mtok": 11.25,
+   "context_window": 1048576
+  },
+  {
+   "provider": "databricks",
+   "model": "databricks/databricks-gemini-3-5-flash-lite",
+   "input_per_mtok": 0.375,
+   "output_per_mtok": 3.125,
+   "context_window": 1048576
+  },
+  {
+   "provider": "databricks",
+   "model": "databricks/databricks-gemini-3-6-flash",
+   "input_per_mtok": 1.875,
+   "output_per_mtok": 9.375,
+   "context_window": 1048576
+  },
+  {
+   "provider": "databricks",
+   "model": "databricks/databricks-gemini-3-7-flash",
+   "input_per_mtok": null,
+   "output_per_mtok": null,
+   "context_window": 1048576
+  },
+  {
+   "provider": "databricks",
+   "model": "databricks/databricks-gemini-3-8-flash",
+   "input_per_mtok": null,
+   "output_per_mtok": null,
+   "context_window": 1048576
+  },
+  {
+   "provider": "databricks",
+   "model": "databricks/databricks-gemini-3-flash",
+   "input_per_mtok": 0.625,
+   "output_per_mtok": 3.75,
+   "context_window": 1048576
+  },
+  {
+   "provider": "databricks",
+   "model": "databricks/databricks-gemini-3-pro",
+   "input_per_mtok": 2.5,
+   "output_per_mtok": 15.0,
+   "context_window": 1048576
+  },
+  {
+   "provider": "databricks",
+   "model": "databricks/databricks-gemini-3-pro-image",
+   "input_per_mtok": null,
+   "output_per_mtok": null,
+   "context_window": 65536
+  },
+  {
+   "provider": "databricks",
    "model": "databricks/databricks-gemma-3-12b",
    "input_per_mtok": 0.15,
    "output_per_mtok": 0.5,
    "context_window": 128000
+  },
+  {
+   "provider": "databricks",
+   "model": "databricks/databricks-glm-5-2",
+   "input_per_mtok": 1.4,
+   "output_per_mtok": 4.4,
+   "context_window": 1000000
+  },
+  {
+   "provider": "databricks",
+   "model": "databricks/databricks-glm-5-3",
+   "input_per_mtok": 1.4,
+   "output_per_mtok": 4.4,
+   "context_window": 1048576
+  },
+  {
+   "provider": "databricks",
+   "model": "databricks/databricks-glm-5-3-flash",
+   "input_per_mtok": 0.15,
+   "output_per_mtok": 0.5,
+   "context_window": 1048576
   },
   {
    "provider": "databricks",
@@ -5533,6 +6261,97 @@
    "input_per_mtok": 1.25,
    "output_per_mtok": 10.0,
    "context_window": 272000
+  },
+  {
+   "provider": "databricks",
+   "model": "databricks/databricks-gpt-5-1-codex-max",
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 10.0,
+   "context_window": 272000
+  },
+  {
+   "provider": "databricks",
+   "model": "databricks/databricks-gpt-5-1-codex-mini",
+   "input_per_mtok": 0.25,
+   "output_per_mtok": 2.0,
+   "context_window": 272000
+  },
+  {
+   "provider": "databricks",
+   "model": "databricks/databricks-gpt-5-2",
+   "input_per_mtok": 1.75,
+   "output_per_mtok": 14.0,
+   "context_window": 272000
+  },
+  {
+   "provider": "databricks",
+   "model": "databricks/databricks-gpt-5-2-codex",
+   "input_per_mtok": 1.75,
+   "output_per_mtok": 14.0,
+   "context_window": 272000
+  },
+  {
+   "provider": "databricks",
+   "model": "databricks/databricks-gpt-5-3-codex",
+   "input_per_mtok": 1.75,
+   "output_per_mtok": 14.0,
+   "context_window": 272000
+  },
+  {
+   "provider": "databricks",
+   "model": "databricks/databricks-gpt-5-4",
+   "input_per_mtok": 2.5,
+   "output_per_mtok": 15.0,
+   "context_window": 922000
+  },
+  {
+   "provider": "databricks",
+   "model": "databricks/databricks-gpt-5-4-mini",
+   "input_per_mtok": 0.75,
+   "output_per_mtok": 4.5,
+   "context_window": 272000
+  },
+  {
+   "provider": "databricks",
+   "model": "databricks/databricks-gpt-5-4-nano",
+   "input_per_mtok": 0.2,
+   "output_per_mtok": 1.25,
+   "context_window": 272000
+  },
+  {
+   "provider": "databricks",
+   "model": "databricks/databricks-gpt-5-5",
+   "input_per_mtok": 5.0,
+   "output_per_mtok": 30.0,
+   "context_window": 922000
+  },
+  {
+   "provider": "databricks",
+   "model": "databricks/databricks-gpt-5-5-pro",
+   "input_per_mtok": 30.0,
+   "output_per_mtok": 180.0,
+   "context_window": 922000
+  },
+  {
+   "provider": "databricks",
+   "model": "databricks/databricks-gpt-5-6-luna",
+   "input_per_mtok": 1.0,
+   "output_per_mtok": 6.0,
+   "context_window": 922000
+  },
+  {
+   "provider": "databricks",
+   "model": "databricks/databricks-gpt-5-6-sol",
+   "input_per_mtok": 4.0,
+   "output_per_mtok": 20.0,
+   "context_window": 922000
+  },
+  {
+   "provider": "databricks",
+   "model": "databricks/databricks-gpt-5-6-terra",
+   "input_per_mtok": 2.5,
+   "output_per_mtok": 15.0,
+   "context_window": 922000
   },
   {
    "provider": "databricks",
@@ -5561,6 +6380,27 @@
    "input_per_mtok": 0.07,
    "output_per_mtok": 0.3,
    "context_window": 131072
+  },
+  {
+   "provider": "databricks",
+   "model": "databricks/databricks-grok-4-6",
+   "input_per_mtok": 2.5,
+   "output_per_mtok": 7.5,
+   "context_window": 500000
+  },
+  {
+   "provider": "databricks",
+   "model": "databricks/databricks-inkling",
+   "input_per_mtok": 1.0,
+   "output_per_mtok": 4.05,
+   "context_window": 1000000
+  },
+  {
+   "provider": "databricks",
+   "model": "databricks/databricks-kimi-k3",
+   "input_per_mtok": 3.0,
+   "output_per_mtok": 15.0,
+   "context_window": 1000000
   },
   {
    "provider": "databricks",
@@ -5626,11 +6466,74 @@
    "context_window": 8192
   },
   {
+   "provider": "databricks",
+   "model": "databricks/databricks-qwen3-next-80b-a3b-instruct",
+   "input_per_mtok": 0.15,
+   "output_per_mtok": 1.2,
+   "context_window": null
+  },
+  {
+   "provider": "databricks",
+   "model": "databricks/databricks-qwen35-122b-a10b",
+   "input_per_mtok": 0.22,
+   "output_per_mtok": 2.2,
+   "context_window": 262144
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/ByteDance/Seed-1.8",
+   "input_per_mtok": 0.25,
+   "output_per_mtok": 2.0,
+   "context_window": 256000
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/ByteDance/Seed-2.0-code",
+   "input_per_mtok": 0.5,
+   "output_per_mtok": 3.0,
+   "context_window": 256000
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/ByteDance/Seed-2.0-mini",
+   "input_per_mtok": 0.1,
+   "output_per_mtok": 0.4,
+   "context_window": 256000
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/ByteDance/Seed-2.0-pro",
+   "input_per_mtok": 0.5,
+   "output_per_mtok": 3.0,
+   "context_window": 256000
+  },
+  {
    "provider": "deepinfra",
    "model": "deepinfra/Gryphe/MythoMax-L2-13b",
-   "input_per_mtok": 0.08,
-   "output_per_mtok": 0.09,
+   "input_per_mtok": 0.4,
+   "output_per_mtok": 0.4,
    "context_window": 4096
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/MiniMaxAI/MiniMax-M2.7",
+   "input_per_mtok": 0.25,
+   "output_per_mtok": 1.0,
+   "context_window": 196608
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/MiniMaxAI/MiniMax-M2.7-Turbo",
+   "input_per_mtok": 0.38,
+   "output_per_mtok": 1.7,
+   "context_window": 196608
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/MiniMaxAI/MiniMax-M3",
+   "input_per_mtok": 0.28,
+   "output_per_mtok": 1.1,
+   "context_window": 524288
   },
   {
    "provider": "deepinfra",
@@ -5642,8 +6545,8 @@
   {
    "provider": "deepinfra",
    "model": "deepinfra/NousResearch/Hermes-3-Llama-3.1-70B",
-   "input_per_mtok": 0.3,
-   "output_per_mtok": 0.3,
+   "input_per_mtok": 0.7,
+   "output_per_mtok": 0.7,
    "context_window": 131072
   },
   {
@@ -5656,8 +6559,8 @@
   {
    "provider": "deepinfra",
    "model": "deepinfra/Qwen/Qwen2.5-72B-Instruct",
-   "input_per_mtok": 0.12,
-   "output_per_mtok": 0.39,
+   "input_per_mtok": 0.36,
+   "output_per_mtok": 0.4,
    "context_window": 32768
   },
   {
@@ -5677,7 +6580,7 @@
   {
    "provider": "deepinfra",
    "model": "deepinfra/Qwen/Qwen3-14B",
-   "input_per_mtok": 0.06,
+   "input_per_mtok": 0.12,
    "output_per_mtok": 0.24,
    "context_window": 40960
   },
@@ -5692,7 +6595,7 @@
    "provider": "deepinfra",
    "model": "deepinfra/Qwen/Qwen3-235B-A22B-Instruct-2507",
    "input_per_mtok": 0.09,
-   "output_per_mtok": 0.6,
+   "output_per_mtok": 0.55,
    "context_window": 262144
   },
   {
@@ -5705,14 +6608,14 @@
   {
    "provider": "deepinfra",
    "model": "deepinfra/Qwen/Qwen3-30B-A3B",
-   "input_per_mtok": 0.08,
-   "output_per_mtok": 0.29,
+   "input_per_mtok": 0.12,
+   "output_per_mtok": 0.5,
    "context_window": 40960
   },
   {
    "provider": "deepinfra",
    "model": "deepinfra/Qwen/Qwen3-32B",
-   "input_per_mtok": 0.1,
+   "input_per_mtok": 0.08,
    "output_per_mtok": 0.28,
    "context_window": 40960
   },
@@ -5726,15 +6629,29 @@
   {
    "provider": "deepinfra",
    "model": "deepinfra/Qwen/Qwen3-Coder-480B-A35B-Instruct-Turbo",
-   "input_per_mtok": 0.29,
-   "output_per_mtok": 1.2,
+   "input_per_mtok": 0.3,
+   "output_per_mtok": 1.0,
    "context_window": 262144
   },
   {
    "provider": "deepinfra",
+   "model": "deepinfra/Qwen/Qwen3-Max",
+   "input_per_mtok": 1.2,
+   "output_per_mtok": 6.0,
+   "context_window": 256000
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/Qwen/Qwen3-Max-Thinking",
+   "input_per_mtok": 1.2,
+   "output_per_mtok": 6.0,
+   "context_window": 256000
+  },
+  {
+   "provider": "deepinfra",
    "model": "deepinfra/Qwen/Qwen3-Next-80B-A3B-Instruct",
-   "input_per_mtok": 0.14,
-   "output_per_mtok": 1.4,
+   "input_per_mtok": 0.09,
+   "output_per_mtok": 1.1,
    "context_window": 262144
   },
   {
@@ -5746,6 +6663,97 @@
   },
   {
    "provider": "deepinfra",
+   "model": "deepinfra/Qwen/Qwen3-VL-235B-A22B-Instruct",
+   "input_per_mtok": 0.2,
+   "output_per_mtok": 0.88,
+   "context_window": 262144
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/Qwen/Qwen3-VL-30B-A3B-Instruct",
+   "input_per_mtok": 0.15,
+   "output_per_mtok": 0.6,
+   "context_window": 262144
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/Qwen/Qwen3.5-122B-A10B",
+   "input_per_mtok": 0.29,
+   "output_per_mtok": 2.4,
+   "context_window": 262144
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/Qwen/Qwen3.5-27B",
+   "input_per_mtok": 0.26,
+   "output_per_mtok": 2.6,
+   "context_window": 262144
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/Qwen/Qwen3.5-35B-A3B",
+   "input_per_mtok": 0.14,
+   "output_per_mtok": 1.0,
+   "context_window": 262144
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/Qwen/Qwen3.5-397B-A17B",
+   "input_per_mtok": 0.45,
+   "output_per_mtok": 3.0,
+   "context_window": 262144
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/Qwen/Qwen3.5-9B",
+   "input_per_mtok": 0.1,
+   "output_per_mtok": 0.15,
+   "context_window": 262144
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/Qwen/Qwen3.6-27B",
+   "input_per_mtok": 0.32,
+   "output_per_mtok": 3.2,
+   "context_window": 262144
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/Qwen/Qwen3.6-35B-A3B",
+   "input_per_mtok": 0.1,
+   "output_per_mtok": 0.95,
+   "context_window": 262144
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/Qwen/Qwen3.7-Max",
+   "input_per_mtok": 2.5,
+   "output_per_mtok": 7.5,
+   "context_window": 256000
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/Qwen/Qwen3.8-2.4T-A95B",
+   "input_per_mtok": 2.0,
+   "output_per_mtok": 6.0,
+   "context_window": 262144
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/Qwen/Qwen3.8-27B",
+   "input_per_mtok": 0.4,
+   "output_per_mtok": 3.0,
+   "context_window": 262144
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/Qwen/Qwen3.8-Max",
+   "input_per_mtok": 1.65,
+   "output_per_mtok": 4.951,
+   "context_window": 256000
+  },
+  {
+   "provider": "deepinfra",
    "model": "deepinfra/Sao10K/L3-8B-Lunaris-v1-Turbo",
    "input_per_mtok": 0.04,
    "output_per_mtok": 0.05,
@@ -5754,8 +6762,8 @@
   {
    "provider": "deepinfra",
    "model": "deepinfra/Sao10K/L3.1-70B-Euryale-v2.2",
-   "input_per_mtok": 0.65,
-   "output_per_mtok": 0.75,
+   "input_per_mtok": 0.85,
+   "output_per_mtok": 0.85,
    "context_window": 131072
   },
   {
@@ -5764,6 +6772,20 @@
    "input_per_mtok": 0.65,
    "output_per_mtok": 0.75,
    "context_window": 131072
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/XiaomiMiMo/MiMo-V2.5",
+   "input_per_mtok": 0.4,
+   "output_per_mtok": 2.0,
+   "context_window": 262144
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/XiaomiMiMo/MiMo-V2.5-Pro",
+   "input_per_mtok": 1.0,
+   "output_per_mtok": 3.0,
+   "context_window": 1048576
   },
   {
    "provider": "deepinfra",
@@ -5792,6 +6814,55 @@
    "input_per_mtok": 3.3,
    "output_per_mtok": 16.5,
    "context_window": 200000
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/anthropic/claude-fable-5",
+   "input_per_mtok": 10.0,
+   "output_per_mtok": 50.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/anthropic/claude-haiku-4-5",
+   "input_per_mtok": 1.0,
+   "output_per_mtok": 5.0,
+   "context_window": 200000
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/anthropic/claude-opus-4-7",
+   "input_per_mtok": 5.0,
+   "output_per_mtok": 25.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/anthropic/claude-opus-4-8",
+   "input_per_mtok": 5.0,
+   "output_per_mtok": 25.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/anthropic/claude-opus-5",
+   "input_per_mtok": 5.0,
+   "output_per_mtok": 25.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/anthropic/claude-sonnet-4-6",
+   "input_per_mtok": 3.0,
+   "output_per_mtok": 15.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/anthropic/claude-sonnet-5",
+   "input_per_mtok": 2.0,
+   "output_per_mtok": 10.0,
+   "context_window": 1000000
   },
   {
    "provider": "deepinfra",
@@ -5838,22 +6909,22 @@
   {
    "provider": "deepinfra",
    "model": "deepinfra/deepseek-ai/DeepSeek-V3",
-   "input_per_mtok": 0.38,
+   "input_per_mtok": 0.32,
    "output_per_mtok": 0.89,
    "context_window": 163840
   },
   {
    "provider": "deepinfra",
    "model": "deepinfra/deepseek-ai/DeepSeek-V3-0324",
-   "input_per_mtok": 0.25,
-   "output_per_mtok": 0.88,
+   "input_per_mtok": 0.24,
+   "output_per_mtok": 0.9,
    "context_window": 163840
   },
   {
    "provider": "deepinfra",
    "model": "deepinfra/deepseek-ai/DeepSeek-V3.1",
-   "input_per_mtok": 0.27,
-   "output_per_mtok": 1.0,
+   "input_per_mtok": 0.25,
+   "output_per_mtok": 0.95,
    "context_window": 163840
   },
   {
@@ -5862,6 +6933,41 @@
    "input_per_mtok": 0.27,
    "output_per_mtok": 1.0,
    "context_window": 163840
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/deepseek-ai/DeepSeek-V3.2",
+   "input_per_mtok": 0.26,
+   "output_per_mtok": 0.38,
+   "context_window": 163840
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/deepseek-ai/DeepSeek-V4-Flash",
+   "input_per_mtok": 0.09,
+   "output_per_mtok": 0.18,
+   "context_window": 1048576
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/deepseek-ai/DeepSeek-V4-Flash-0731",
+   "input_per_mtok": 0.08,
+   "output_per_mtok": 0.18,
+   "context_window": 1048576
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/deepseek-ai/DeepSeek-V4-Pro",
+   "input_per_mtok": 1.3,
+   "output_per_mtok": 2.6,
+   "context_window": 1048576
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/deepseek-ai/DeepSeek-V4-Pro-0813",
+   "input_per_mtok": 1.3,
+   "output_per_mtok": 2.6,
+   "context_window": 1048576
   },
   {
    "provider": "deepinfra",
@@ -5886,23 +6992,93 @@
   },
   {
    "provider": "deepinfra",
+   "model": "deepinfra/google/gemini-3.1-flash-lite",
+   "input_per_mtok": 0.25,
+   "output_per_mtok": 1.5,
+   "context_window": 1000000
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/google/gemini-3.1-pro",
+   "input_per_mtok": 2.0,
+   "output_per_mtok": 12.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/google/gemini-3.5-flash",
+   "input_per_mtok": 1.5,
+   "output_per_mtok": 9.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/google/gemini-3.7-flash",
+   "input_per_mtok": 0.75,
+   "output_per_mtok": 3.75,
+   "context_window": 1000000
+  },
+  {
+   "provider": "deepinfra",
    "model": "deepinfra/google/gemma-3-12b-it",
    "input_per_mtok": 0.05,
-   "output_per_mtok": 0.1,
+   "output_per_mtok": 0.15,
    "context_window": 131072
   },
   {
    "provider": "deepinfra",
    "model": "deepinfra/google/gemma-3-27b-it",
-   "input_per_mtok": 0.09,
+   "input_per_mtok": 0.08,
    "output_per_mtok": 0.16,
    "context_window": 131072
   },
   {
    "provider": "deepinfra",
    "model": "deepinfra/google/gemma-3-4b-it",
-   "input_per_mtok": 0.04,
-   "output_per_mtok": 0.08,
+   "input_per_mtok": 0.05,
+   "output_per_mtok": 0.1,
+   "context_window": 131072
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/google/gemma-4-26B-A4B-it",
+   "input_per_mtok": 0.07,
+   "output_per_mtok": 0.34,
+   "context_window": 262144
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/google/gemma-4-31B-it",
+   "input_per_mtok": 0.13,
+   "output_per_mtok": 0.38,
+   "context_window": 262144
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/google/gemma-4-31B-it-Ultra",
+   "input_per_mtok": 0.27,
+   "output_per_mtok": 0.76,
+   "context_window": 131072
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/google/gemma-4-31B-it-turbo",
+   "input_per_mtok": 0.09,
+   "output_per_mtok": 0.34,
+   "context_window": 262144
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/google/gemma-4-E4B-it",
+   "input_per_mtok": 0.02,
+   "output_per_mtok": 0.1,
+   "context_window": 131072
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/inclusionAI/Ling-3.0-flash",
+   "input_per_mtok": 0.06,
+   "output_per_mtok": 0.18,
    "context_window": 131072
   },
   {
@@ -5929,21 +7105,21 @@
   {
    "provider": "deepinfra",
    "model": "deepinfra/meta-llama/Llama-3.3-70B-Instruct-Turbo",
-   "input_per_mtok": 0.13,
-   "output_per_mtok": 0.39,
+   "input_per_mtok": 0.1,
+   "output_per_mtok": 0.32,
    "context_window": 131072
   },
   {
    "provider": "deepinfra",
    "model": "deepinfra/meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
-   "input_per_mtok": 0.15,
-   "output_per_mtok": 0.6,
+   "input_per_mtok": 0.2,
+   "output_per_mtok": 0.8,
    "context_window": 1048576
   },
   {
    "provider": "deepinfra",
    "model": "deepinfra/meta-llama/Llama-4-Scout-17B-16E-Instruct",
-   "input_per_mtok": 0.08,
+   "input_per_mtok": 0.1,
    "output_per_mtok": 0.3,
    "context_window": 327680
   },
@@ -5978,8 +7154,8 @@
   {
    "provider": "deepinfra",
    "model": "deepinfra/meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
-   "input_per_mtok": 0.1,
-   "output_per_mtok": 0.28,
+   "input_per_mtok": 0.4,
+   "output_per_mtok": 0.4,
    "context_window": 131072
   },
   {
@@ -5993,7 +7169,14 @@
    "provider": "deepinfra",
    "model": "deepinfra/meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
    "input_per_mtok": 0.02,
-   "output_per_mtok": 0.03,
+   "output_per_mtok": 0.04,
+   "context_window": 131072
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/meta-models/Muse-Glimmer-30B",
+   "input_per_mtok": 0.3,
+   "output_per_mtok": 1.2,
    "context_window": 131072
   },
   {
@@ -6013,8 +7196,8 @@
   {
    "provider": "deepinfra",
    "model": "deepinfra/mistralai/Mistral-Nemo-Instruct-2407",
-   "input_per_mtok": 0.02,
-   "output_per_mtok": 0.04,
+   "input_per_mtok": 0.019,
+   "output_per_mtok": 0.03,
    "context_window": 131072
   },
   {
@@ -6054,6 +7237,34 @@
   },
   {
    "provider": "deepinfra",
+   "model": "deepinfra/moonshotai/Kimi-K2.5",
+   "input_per_mtok": 0.45,
+   "output_per_mtok": 2.25,
+   "context_window": 262144
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/moonshotai/Kimi-K2.6",
+   "input_per_mtok": 0.75,
+   "output_per_mtok": 3.5,
+   "context_window": 262144
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/moonshotai/Kimi-K2.7-Code",
+   "input_per_mtok": 0.68,
+   "output_per_mtok": 3.4,
+   "context_window": 262144
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/moonshotai/Kimi-K3",
+   "input_per_mtok": 2.85,
+   "output_per_mtok": 14.25,
+   "context_window": 1048576
+  },
+  {
+   "provider": "deepinfra",
    "model": "deepinfra/nvidia/Llama-3.1-Nemotron-70B-Instruct",
    "input_per_mtok": 0.6,
    "output_per_mtok": 0.6,
@@ -6068,6 +7279,27 @@
   },
   {
    "provider": "deepinfra",
+   "model": "deepinfra/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B",
+   "input_per_mtok": 0.085,
+   "output_per_mtok": 0.4,
+   "context_window": 262144
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B",
+   "input_per_mtok": 0.5,
+   "output_per_mtok": 2.2,
+   "context_window": 262144
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/nvidia/NVIDIA-Nemotron-3.5-Lightning",
+   "input_per_mtok": 0.08,
+   "output_per_mtok": 0.2,
+   "context_window": 262144
+  },
+  {
+   "provider": "deepinfra",
    "model": "deepinfra/nvidia/NVIDIA-Nemotron-Nano-9B-v2",
    "input_per_mtok": 0.04,
    "output_per_mtok": 0.16,
@@ -6075,17 +7307,73 @@
   },
   {
    "provider": "deepinfra",
-   "model": "deepinfra/openai/gpt-oss-120b",
+   "model": "deepinfra/nvidia/Nemotron-3-Nano-30B-A3B",
    "input_per_mtok": 0.05,
-   "output_per_mtok": 0.45,
+   "output_per_mtok": 0.2,
+   "context_window": 262144
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/nvidia/Nemotron-Content-Safety-3.5",
+   "input_per_mtok": 0.2,
+   "output_per_mtok": 0.2,
+   "context_window": 131072
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/openai/gpt-oss-120b",
+   "input_per_mtok": 0.037,
+   "output_per_mtok": 0.17,
+   "context_window": 131072
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/openai/gpt-oss-120b-Turbo",
+   "input_per_mtok": 0.15,
+   "output_per_mtok": 0.6,
+   "context_window": 131072
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/openai/gpt-oss-120b-Ultra",
+   "input_per_mtok": 0.2,
+   "output_per_mtok": 0.95,
    "context_window": 131072
   },
   {
    "provider": "deepinfra",
    "model": "deepinfra/openai/gpt-oss-20b",
-   "input_per_mtok": 0.04,
-   "output_per_mtok": 0.15,
+   "input_per_mtok": 0.03,
+   "output_per_mtok": 0.14,
    "context_window": 131072
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/stepfun-ai/Step-3.7-Flash",
+   "input_per_mtok": 0.2,
+   "output_per_mtok": 1.15,
+   "context_window": 262144
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/tencent/Hy3",
+   "input_per_mtok": 0.14,
+   "output_per_mtok": 0.58,
+   "context_window": 262144
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/thinkingmachines/Inkling",
+   "input_per_mtok": 0.95,
+   "output_per_mtok": 4.05,
+   "context_window": 524288
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/thinkingmachines/Inkling-Small",
+   "input_per_mtok": 0.45,
+   "output_per_mtok": 1.2,
+   "context_window": 524288
   },
   {
    "provider": "deepinfra",
@@ -6093,6 +7381,48 @@
    "input_per_mtok": 0.4,
    "output_per_mtok": 1.6,
    "context_window": 131072
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/zai-org/GLM-4.6",
+   "input_per_mtok": 0.5,
+   "output_per_mtok": 2.0,
+   "context_window": 202752
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/zai-org/GLM-4.7",
+   "input_per_mtok": 0.4,
+   "output_per_mtok": 1.75,
+   "context_window": 202752
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/zai-org/GLM-4.7-Flash",
+   "input_per_mtok": 0.06,
+   "output_per_mtok": 0.4,
+   "context_window": 202752
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/zai-org/GLM-5",
+   "input_per_mtok": 0.6,
+   "output_per_mtok": 2.08,
+   "context_window": 202752
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/zai-org/GLM-5.1",
+   "input_per_mtok": 1.05,
+   "output_per_mtok": 3.5,
+   "context_window": 202752
+  },
+  {
+   "provider": "deepinfra",
+   "model": "deepinfra/zai-org/GLM-5.2",
+   "input_per_mtok": 0.75,
+   "output_per_mtok": 2.4,
+   "context_window": 1048576
   },
   {
    "provider": "deepseek",
@@ -6111,15 +7441,22 @@
   {
    "provider": "deepseek",
    "model": "deepseek-v4-flash",
-   "input_per_mtok": 0.14,
-   "output_per_mtok": 0.28,
+   "input_per_mtok": 0.44,
+   "output_per_mtok": 1.32,
+   "context_window": 1000000
+  },
+  {
+   "provider": "deepseek",
+   "model": "deepseek-v4-flash-vision-exp",
+   "input_per_mtok": 0.44,
+   "output_per_mtok": 1.32,
    "context_window": 1000000
   },
   {
    "provider": "deepseek",
    "model": "deepseek-v4-pro",
-   "input_per_mtok": 0.435,
-   "output_per_mtok": 0.87,
+   "input_per_mtok": 1.32,
+   "output_per_mtok": 3.96,
    "context_window": 1000000
   },
   {
@@ -6167,15 +7504,22 @@
   {
    "provider": "deepseek",
    "model": "deepseek/deepseek-v4-flash",
-   "input_per_mtok": 0.14,
-   "output_per_mtok": 0.28,
+   "input_per_mtok": 0.44,
+   "output_per_mtok": 1.32,
+   "context_window": 1000000
+  },
+  {
+   "provider": "deepseek",
+   "model": "deepseek/deepseek-v4-flash-vision-exp",
+   "input_per_mtok": 0.44,
+   "output_per_mtok": 1.32,
    "context_window": 1000000
   },
   {
    "provider": "deepseek",
    "model": "deepseek/deepseek-v4-pro",
-   "input_per_mtok": 0.435,
-   "output_per_mtok": 0.87,
+   "input_per_mtok": 1.32,
+   "output_per_mtok": 3.96,
    "context_window": 1000000
   },
   {
@@ -6544,9 +7888,30 @@
   },
   {
    "provider": "fireworks_ai",
+   "model": "fireworks_ai/accounts/fireworks/models/deepseek-v4-flash-0731",
+   "input_per_mtok": 0.22,
+   "output_per_mtok": 0.66,
+   "context_window": 1048576
+  },
+  {
+   "provider": "fireworks_ai",
+   "model": "fireworks_ai/accounts/fireworks/models/deepseek-v4-flash-vision-exp",
+   "input_per_mtok": 0.22,
+   "output_per_mtok": 0.66,
+   "context_window": 1048576
+  },
+  {
+   "provider": "fireworks_ai",
    "model": "fireworks_ai/accounts/fireworks/models/deepseek-v4-pro",
    "input_per_mtok": 1.74,
    "output_per_mtok": 3.48,
+   "context_window": 1048576
+  },
+  {
+   "provider": "fireworks_ai",
+   "model": "fireworks_ai/accounts/fireworks/models/deepseek-v4-pro-0813",
+   "input_per_mtok": 1.32,
+   "output_per_mtok": 3.96,
    "context_window": 1048576
   },
   {
@@ -6740,6 +8105,20 @@
   },
   {
    "provider": "fireworks_ai",
+   "model": "fireworks_ai/accounts/fireworks/models/glm-5p3",
+   "input_per_mtok": 1.4,
+   "output_per_mtok": 4.4,
+   "context_window": 1048576
+  },
+  {
+   "provider": "fireworks_ai",
+   "model": "fireworks_ai/accounts/fireworks/models/glm-5p3-flash",
+   "input_per_mtok": 0.15,
+   "output_per_mtok": 0.5,
+   "context_window": 1048576
+  },
+  {
+   "provider": "fireworks_ai",
    "model": "fireworks_ai/accounts/fireworks/models/gpt-oss-120b",
    "input_per_mtok": 0.15,
    "output_per_mtok": 0.6,
@@ -6772,6 +8151,13 @@
    "input_per_mtok": 0.2,
    "output_per_mtok": 0.2,
    "context_window": 32768
+  },
+  {
+   "provider": "fireworks_ai",
+   "model": "fireworks_ai/accounts/fireworks/models/inkling",
+   "input_per_mtok": 1.0,
+   "output_per_mtok": 4.05,
+   "context_window": 1048576
   },
   {
    "provider": "fireworks_ai",
@@ -6856,6 +8242,13 @@
    "input_per_mtok": 0.95,
    "output_per_mtok": 4.0,
    "context_window": 262144
+  },
+  {
+   "provider": "fireworks_ai",
+   "model": "fireworks_ai/accounts/fireworks/models/kimi-k3",
+   "input_per_mtok": 3.0,
+   "output_per_mtok": 15.0,
+   "context_window": 1048576
   },
   {
    "provider": "fireworks_ai",
@@ -7230,10 +8623,31 @@
   },
   {
    "provider": "fireworks_ai",
+   "model": "fireworks_ai/accounts/fireworks/models/muse-glimmer-30b",
+   "input_per_mtok": 0.35,
+   "output_per_mtok": 1.5,
+   "context_window": 131072
+  },
+  {
+   "provider": "fireworks_ai",
    "model": "fireworks_ai/accounts/fireworks/models/mythomax-l2-13b",
    "input_per_mtok": 0.2,
    "output_per_mtok": 0.2,
    "context_window": 4096
+  },
+  {
+   "provider": "fireworks_ai",
+   "model": "fireworks_ai/accounts/fireworks/models/nemotron-3-ultra-nvfp4",
+   "input_per_mtok": 0.6,
+   "output_per_mtok": 2.4,
+   "context_window": 262144
+  },
+  {
+   "provider": "fireworks_ai",
+   "model": "fireworks_ai/accounts/fireworks/models/nemotron-lightning-3p5-30b-a3b",
+   "input_per_mtok": 0.05,
+   "output_per_mtok": 0.2,
+   "context_window": 262144
   },
   {
    "provider": "fireworks_ai",
@@ -7832,6 +9246,13 @@
   },
   {
    "provider": "fireworks_ai",
+   "model": "fireworks_ai/accounts/fireworks/models/qwen3p8-max",
+   "input_per_mtok": 2.0,
+   "output_per_mtok": 6.0,
+   "context_window": 262144
+  },
+  {
+   "provider": "fireworks_ai",
    "model": "fireworks_ai/accounts/fireworks/models/qwq-32b",
    "input_per_mtok": 0.9,
    "output_per_mtok": 0.9,
@@ -7951,6 +9372,20 @@
   },
   {
    "provider": "fireworks_ai",
+   "model": "fireworks_ai/accounts/fireworks/routers/glm-5p2-fast",
+   "input_per_mtok": 2.1,
+   "output_per_mtok": 6.6,
+   "context_window": 1048576
+  },
+  {
+   "provider": "fireworks_ai",
+   "model": "fireworks_ai/accounts/fireworks/routers/glm-5p2-fast-us",
+   "input_per_mtok": 2.1,
+   "output_per_mtok": 6.6,
+   "context_window": 1048576
+  },
+  {
+   "provider": "fireworks_ai",
    "model": "fireworks_ai/accounts/fireworks/routers/kimi-k2p6-fast",
    "input_per_mtok": 2.0,
    "output_per_mtok": 8.0,
@@ -7965,9 +9400,37 @@
   },
   {
    "provider": "fireworks_ai",
+   "model": "fireworks_ai/accounts/fireworks/routers/kimi-k3-fast",
+   "input_per_mtok": 4.5,
+   "output_per_mtok": 22.5,
+   "context_window": 1048576
+  },
+  {
+   "provider": "fireworks_ai",
+   "model": "fireworks_ai/accounts/fireworks/routers/kimi-k3-us",
+   "input_per_mtok": 3.3,
+   "output_per_mtok": 16.5,
+   "context_window": 1048576
+  },
+  {
+   "provider": "fireworks_ai",
    "model": "fireworks_ai/deepseek-v4-flash",
    "input_per_mtok": 0.14,
    "output_per_mtok": 0.28,
+   "context_window": 1048576
+  },
+  {
+   "provider": "fireworks_ai",
+   "model": "fireworks_ai/deepseek-v4-flash-0731",
+   "input_per_mtok": 0.22,
+   "output_per_mtok": 0.66,
+   "context_window": 1048576
+  },
+  {
+   "provider": "fireworks_ai",
+   "model": "fireworks_ai/deepseek-v4-flash-vision-exp",
+   "input_per_mtok": 0.22,
+   "output_per_mtok": 0.66,
    "context_window": 1048576
   },
   {
@@ -8003,6 +9466,20 @@
    "model": "fireworks_ai/glm-5p2",
    "input_per_mtok": 1.4,
    "output_per_mtok": 4.4,
+   "context_window": 1048576
+  },
+  {
+   "provider": "fireworks_ai",
+   "model": "fireworks_ai/glm-5p2-fast",
+   "input_per_mtok": 2.1,
+   "output_per_mtok": 6.6,
+   "context_window": 1048576
+  },
+  {
+   "provider": "fireworks_ai",
+   "model": "fireworks_ai/glm-5p2-fast-us",
+   "input_per_mtok": 2.1,
+   "output_per_mtok": 6.6,
    "context_window": 1048576
   },
   {
@@ -8056,6 +9533,27 @@
   },
   {
    "provider": "fireworks_ai",
+   "model": "fireworks_ai/kimi-k3",
+   "input_per_mtok": 3.0,
+   "output_per_mtok": 15.0,
+   "context_window": 1048576
+  },
+  {
+   "provider": "fireworks_ai",
+   "model": "fireworks_ai/kimi-k3-fast",
+   "input_per_mtok": 4.5,
+   "output_per_mtok": 22.5,
+   "context_window": 1048576
+  },
+  {
+   "provider": "fireworks_ai",
+   "model": "fireworks_ai/kimi-k3-us",
+   "input_per_mtok": 3.3,
+   "output_per_mtok": 16.5,
+   "context_window": 1048576
+  },
+  {
+   "provider": "fireworks_ai",
    "model": "fireworks_ai/minimax-m2p1",
    "input_per_mtok": 0.3,
    "output_per_mtok": 1.2,
@@ -8077,9 +9575,37 @@
   },
   {
    "provider": "fireworks_ai",
+   "model": "fireworks_ai/muse-glimmer-30b",
+   "input_per_mtok": 0.35,
+   "output_per_mtok": 1.5,
+   "context_window": 131072
+  },
+  {
+   "provider": "fireworks_ai",
+   "model": "fireworks_ai/nemotron-3-ultra-nvfp4",
+   "input_per_mtok": 0.6,
+   "output_per_mtok": 2.4,
+   "context_window": 262144
+  },
+  {
+   "provider": "fireworks_ai",
+   "model": "fireworks_ai/nemotron-lightning-3p5-30b-a3b",
+   "input_per_mtok": 0.05,
+   "output_per_mtok": 0.2,
+   "context_window": 262144
+  },
+  {
+   "provider": "fireworks_ai",
    "model": "fireworks_ai/qwen3p7-plus",
    "input_per_mtok": 0.4,
    "output_per_mtok": 1.6,
+   "context_window": 262144
+  },
+  {
+   "provider": "fireworks_ai",
+   "model": "fireworks_ai/qwen3p8-max",
+   "input_per_mtok": 2.0,
+   "output_per_mtok": 6.0,
    "context_window": 262144
   },
   {
@@ -8097,32 +9623,18 @@
    "context_window": 8192
   },
   {
-   "provider": "gemini",
-   "model": "gemini-2.5-flash-native-audio-latest",
-   "input_per_mtok": 0.3,
-   "output_per_mtok": 2.5,
+   "provider": "friendliai",
+   "model": "friendliai/zai-org/GLM-5.3",
+   "input_per_mtok": 1.26,
+   "output_per_mtok": 3.96,
    "context_window": 1048576
   },
   {
-   "provider": "gemini",
-   "model": "gemini-2.5-flash-native-audio-preview-09-2025",
-   "input_per_mtok": 0.3,
-   "output_per_mtok": 2.5,
+   "provider": "friendliai",
+   "model": "friendliai/zai-org/GLM-5.3-Flash",
+   "input_per_mtok": 0.15,
+   "output_per_mtok": 0.5,
    "context_window": 1048576
-  },
-  {
-   "provider": "gemini",
-   "model": "gemini-2.5-flash-native-audio-preview-12-2025",
-   "input_per_mtok": 0.3,
-   "output_per_mtok": 2.5,
-   "context_window": 1048576
-  },
-  {
-   "provider": "gemini",
-   "model": "gemini-3.1-flash-live-preview",
-   "input_per_mtok": 0.75,
-   "output_per_mtok": 4.5,
-   "context_window": 131072
   },
   {
    "provider": "gemini",
@@ -8217,27 +9729,6 @@
   },
   {
    "provider": "gemini",
-   "model": "gemini/gemini-2.5-flash-native-audio-latest",
-   "input_per_mtok": 0.3,
-   "output_per_mtok": 2.5,
-   "context_window": 1048576
-  },
-  {
-   "provider": "gemini",
-   "model": "gemini/gemini-2.5-flash-native-audio-preview-09-2025",
-   "input_per_mtok": 0.3,
-   "output_per_mtok": 2.5,
-   "context_window": 1048576
-  },
-  {
-   "provider": "gemini",
-   "model": "gemini/gemini-2.5-flash-native-audio-preview-12-2025",
-   "input_per_mtok": 0.3,
-   "output_per_mtok": 2.5,
-   "context_window": 1048576
-  },
-  {
-   "provider": "gemini",
    "model": "gemini/gemini-2.5-flash-preview-09-2025",
    "input_per_mtok": 0.3,
    "output_per_mtok": 2.5,
@@ -8253,8 +9744,8 @@
   {
    "provider": "gemini",
    "model": "gemini/gemini-2.5-pro-preview-tts",
-   "input_per_mtok": 1.25,
-   "output_per_mtok": 10.0,
+   "input_per_mtok": 1.0,
+   "output_per_mtok": 20.0,
    "context_window": 1048576
   },
   {
@@ -8287,13 +9778,6 @@
   },
   {
    "provider": "gemini",
-   "model": "gemini/gemini-3.1-flash-live-preview",
-   "input_per_mtok": 0.75,
-   "output_per_mtok": 4.5,
-   "context_window": 131072
-  },
-  {
-   "provider": "gemini",
    "model": "gemini/gemini-3.1-pro-preview",
    "input_per_mtok": 2.0,
    "output_per_mtok": 12.0,
@@ -8323,8 +9807,22 @@
   {
    "provider": "gemini",
    "model": "gemini/gemini-3.6-flash",
-   "input_per_mtok": 1.5,
-   "output_per_mtok": 7.5,
+   "input_per_mtok": 0.75,
+   "output_per_mtok": 3.75,
+   "context_window": 1048576
+  },
+  {
+   "provider": "gemini",
+   "model": "gemini/gemini-3.7-flash",
+   "input_per_mtok": 0.75,
+   "output_per_mtok": 3.75,
+   "context_window": 1048576
+  },
+  {
+   "provider": "gemini",
+   "model": "gemini/gemini-3.8-flash",
+   "input_per_mtok": 0.75,
+   "output_per_mtok": 3.75,
    "context_window": 1048576
   },
   {
@@ -8371,10 +9869,17 @@
   },
   {
    "provider": "gemini",
+   "model": "gemini/gemini-omni-1.1-flash",
+   "input_per_mtok": 1.5,
+   "output_per_mtok": 9.0,
+   "context_window": 131072
+  },
+  {
+   "provider": "gemini",
    "model": "gemini/gemini-omni-flash-preview",
    "input_per_mtok": 1.5,
    "output_per_mtok": 9.0,
-   "context_window": 1048576
+   "context_window": 131072
   },
   {
    "provider": "gemini",
@@ -8392,10 +9897,45 @@
   },
   {
    "provider": "gemini",
+   "model": "gemini/gemini-robotics-er-1.6-preview",
+   "input_per_mtok": 1.0,
+   "output_per_mtok": 5.0,
+   "context_window": 131072
+  },
+  {
+   "provider": "gemini",
+   "model": "gemini/gemini-robotics-er-2-preview",
+   "input_per_mtok": 2.0,
+   "output_per_mtok": 10.0,
+   "context_window": 131072
+  },
+  {
+   "provider": "gemini",
+   "model": "gemini/gemini-robotics-er-2-streaming-preview",
+   "input_per_mtok": 2.0,
+   "output_per_mtok": 10.0,
+   "context_window": null
+  },
+  {
+   "provider": "gemini",
    "model": "gemini/gemma-3-27b-it",
    "input_per_mtok": 0.0,
    "output_per_mtok": 0.0,
    "context_window": 131072
+  },
+  {
+   "provider": "gemini",
+   "model": "gemini/gemma-4-26b-a4b-it",
+   "input_per_mtok": 0.0,
+   "output_per_mtok": 0.0,
+   "context_window": 262144
+  },
+  {
+   "provider": "gemini",
+   "model": "gemini/gemma-4-31b-it",
+   "input_per_mtok": 0.0,
+   "output_per_mtok": 0.0,
+   "context_window": 262144
   },
   {
    "provider": "gemini",
@@ -8419,8 +9959,22 @@
    "context_window": 131072
   },
   {
+   "provider": "gemini",
+   "model": "gemini/lyria-3.5-clip-preview",
+   "input_per_mtok": 0.0,
+   "output_per_mtok": 0.0,
+   "context_window": 131072
+  },
+  {
+   "provider": "gemini",
+   "model": "gemini/lyria-3.5-pro-preview",
+   "input_per_mtok": 0.0,
+   "output_per_mtok": 0.0,
+   "context_window": 131072
+  },
+  {
    "provider": "gigachat",
-   "model": "gigachat/GigaChat-2-Lite",
+   "model": "gigachat/GigaChat-2",
    "input_per_mtok": 0.0,
    "output_per_mtok": 0.0,
    "context_window": 128000
@@ -8871,14 +10425,14 @@
    "model": "groq/llama-3.1-8b-instant",
    "input_per_mtok": 0.05,
    "output_per_mtok": 0.08,
-   "context_window": 128000
+   "context_window": 131072
   },
   {
    "provider": "groq",
    "model": "groq/llama-3.3-70b-versatile",
    "input_per_mtok": 0.59,
    "output_per_mtok": 0.79,
-   "context_window": 128000
+   "context_window": 131072
   },
   {
    "provider": "groq",
@@ -8900,6 +10454,20 @@
    "input_per_mtok": 0.2,
    "output_per_mtok": 0.2,
    "context_window": 8192
+  },
+  {
+   "provider": "groq",
+   "model": "groq/meta-llama/llama-prompt-guard-2-22m",
+   "input_per_mtok": 0.03,
+   "output_per_mtok": 0.03,
+   "context_window": 512
+  },
+  {
+   "provider": "groq",
+   "model": "groq/meta-llama/llama-prompt-guard-2-86m",
+   "input_per_mtok": 0.04,
+   "output_per_mtok": 0.04,
+   "context_window": 512
   },
   {
    "provider": "groq",
@@ -8935,6 +10503,20 @@
    "input_per_mtok": 0.29,
    "output_per_mtok": 0.59,
    "context_window": 131000
+  },
+  {
+   "provider": "groq",
+   "model": "groq/qwen/qwen3.6-27b",
+   "input_per_mtok": 0.6,
+   "output_per_mtok": 3.0,
+   "context_window": 131072
+  },
+  {
+   "provider": "groq",
+   "model": "groq/qwen/qwen3.8-27b",
+   "input_per_mtok": 0.8,
+   "output_per_mtok": 4.0,
+   "context_window": 131042
   },
   {
    "provider": "heroku",
@@ -9441,6 +11023,34 @@
    "context_window": 1048576
   },
   {
+   "provider": "meta",
+   "model": "meta/muse-spark-1.2",
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 4.25,
+   "context_window": 1048576
+  },
+  {
+   "provider": "meta",
+   "model": "meta/muse-spark-1.2-contributor",
+   "input_per_mtok": 0.1,
+   "output_per_mtok": 0.2,
+   "context_window": 1048576
+  },
+  {
+   "provider": "meta",
+   "model": "meta/muse-spark-1.3",
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 4.25,
+   "context_window": 1048576
+  },
+  {
+   "provider": "meta",
+   "model": "meta/muse-spark-1.3-contributor",
+   "input_per_mtok": 0.1,
+   "output_per_mtok": 0.2,
+   "context_window": 1048576
+  },
+  {
    "provider": "meta_llama",
    "model": "meta_llama/Llama-3.3-70B-Instruct",
    "input_per_mtok": null,
@@ -9522,14 +11132,14 @@
    "model": "mistral/codestral-2508",
    "input_per_mtok": 0.3,
    "output_per_mtok": 0.9,
-   "context_window": 256000
+   "context_window": 128000
   },
   {
    "provider": "mistral",
    "model": "mistral/codestral-latest",
-   "input_per_mtok": 1.0,
-   "output_per_mtok": 3.0,
-   "context_window": 32000
+   "input_per_mtok": 0.3,
+   "output_per_mtok": 0.9,
+   "context_window": 128000
   },
   {
    "provider": "mistral",
@@ -9589,10 +11199,31 @@
   },
   {
    "provider": "mistral",
+   "model": "mistral/glm-5-2",
+   "input_per_mtok": 1.4,
+   "output_per_mtok": 4.4,
+   "context_window": 1048576
+  },
+  {
+   "provider": "mistral",
    "model": "mistral/labs-devstral-small-2512",
    "input_per_mtok": 0.1,
    "output_per_mtok": 0.3,
    "context_window": 256000
+  },
+  {
+   "provider": "mistral",
+   "model": "mistral/labs-leanstral-1-5",
+   "input_per_mtok": 0.0,
+   "output_per_mtok": 0.0,
+   "context_window": 262144
+  },
+  {
+   "provider": "mistral",
+   "model": "mistral/labs-leanstral-1-5-1",
+   "input_per_mtok": 0.0,
+   "output_per_mtok": 0.0,
+   "context_window": 262144
   },
   {
    "provider": "mistral",
@@ -9618,9 +11249,9 @@
   {
    "provider": "mistral",
    "model": "mistral/magistral-medium-latest",
-   "input_per_mtok": 2.0,
-   "output_per_mtok": 5.0,
-   "context_window": 40000
+   "input_per_mtok": 1.5,
+   "output_per_mtok": 7.5,
+   "context_window": 262144
   },
   {
    "provider": "mistral",
@@ -9639,9 +11270,23 @@
   {
    "provider": "mistral",
    "model": "mistral/magistral-small-latest",
-   "input_per_mtok": 0.5,
-   "output_per_mtok": 1.5,
-   "context_window": 40000
+   "input_per_mtok": 0.15,
+   "output_per_mtok": 0.6,
+   "context_window": 262144
+  },
+  {
+   "provider": "mistral",
+   "model": "mistral/ministral-14b-2512",
+   "input_per_mtok": 0.2,
+   "output_per_mtok": 0.2,
+   "context_window": 262144
+  },
+  {
+   "provider": "mistral",
+   "model": "mistral/ministral-14b-latest",
+   "input_per_mtok": 0.2,
+   "output_per_mtok": 0.2,
+   "context_window": 262144
   },
   {
    "provider": "mistral",
@@ -9666,6 +11311,20 @@
   },
   {
    "provider": "mistral",
+   "model": "mistral/ministral-3b-2512",
+   "input_per_mtok": 0.1,
+   "output_per_mtok": 0.1,
+   "context_window": 131072
+  },
+  {
+   "provider": "mistral",
+   "model": "mistral/ministral-3b-latest",
+   "input_per_mtok": 0.1,
+   "output_per_mtok": 0.1,
+   "context_window": 131072
+  },
+  {
+   "provider": "mistral",
    "model": "mistral/ministral-8b-2512",
    "input_per_mtok": 0.15,
    "output_per_mtok": 0.15,
@@ -9677,6 +11336,27 @@
    "input_per_mtok": 0.15,
    "output_per_mtok": 0.15,
    "context_window": 262144
+  },
+  {
+   "provider": "mistral",
+   "model": "mistral/mistral-code-agent-latest",
+   "input_per_mtok": 0.4,
+   "output_per_mtok": 2.0,
+   "context_window": 256000
+  },
+  {
+   "provider": "mistral",
+   "model": "mistral/mistral-code-fim-latest",
+   "input_per_mtok": 0.3,
+   "output_per_mtok": 0.9,
+   "context_window": 128000
+  },
+  {
+   "provider": "mistral",
+   "model": "mistral/mistral-code-latest",
+   "input_per_mtok": 0.3,
+   "output_per_mtok": 0.9,
+   "context_window": 128000
   },
   {
    "provider": "mistral",
@@ -9723,9 +11403,9 @@
   {
    "provider": "mistral",
    "model": "mistral/mistral-medium",
-   "input_per_mtok": 2.7,
-   "output_per_mtok": 8.1,
-   "context_window": 32000
+   "input_per_mtok": 1.5,
+   "output_per_mtok": 7.5,
+   "context_window": 262144
   },
   {
    "provider": "mistral",
@@ -9757,6 +11437,13 @@
   },
   {
    "provider": "mistral",
+   "model": "mistral/mistral-medium-3",
+   "input_per_mtok": 1.5,
+   "output_per_mtok": 7.5,
+   "context_window": 262144
+  },
+  {
+   "provider": "mistral",
    "model": "mistral/mistral-medium-3-1-2508",
    "input_per_mtok": 0.4,
    "output_per_mtok": 2.0,
@@ -9765,6 +11452,13 @@
   {
    "provider": "mistral",
    "model": "mistral/mistral-medium-3-5",
+   "input_per_mtok": 1.5,
+   "output_per_mtok": 7.5,
+   "context_window": 262144
+  },
+  {
+   "provider": "mistral",
+   "model": "mistral/mistral-medium-3.5",
    "input_per_mtok": 1.5,
    "output_per_mtok": 7.5,
    "context_window": 262144
@@ -9785,6 +11479,13 @@
   },
   {
    "provider": "mistral",
+   "model": "mistral/mistral-small-2603",
+   "input_per_mtok": 0.15,
+   "output_per_mtok": 0.6,
+   "context_window": 262144
+  },
+  {
+   "provider": "mistral",
    "model": "mistral/mistral-small-3-2-2506",
    "input_per_mtok": 0.06,
    "output_per_mtok": 0.18,
@@ -9793,9 +11494,9 @@
   {
    "provider": "mistral",
    "model": "mistral/mistral-small-latest",
-   "input_per_mtok": 0.06,
-   "output_per_mtok": 0.18,
-   "context_window": 131072
+   "input_per_mtok": 0.15,
+   "output_per_mtok": 0.6,
+   "context_window": 262144
   },
   {
    "provider": "mistral",
@@ -9803,6 +11504,27 @@
    "input_per_mtok": 0.25,
    "output_per_mtok": 0.25,
    "context_window": 32000
+  },
+  {
+   "provider": "mistral",
+   "model": "mistral/mistral-vibe-cli-fast",
+   "input_per_mtok": 0.15,
+   "output_per_mtok": 0.6,
+   "context_window": 262144
+  },
+  {
+   "provider": "mistral",
+   "model": "mistral/mistral-vibe-cli-latest",
+   "input_per_mtok": 1.5,
+   "output_per_mtok": 7.5,
+   "context_window": 262144
+  },
+  {
+   "provider": "mistral",
+   "model": "mistral/mistral-vibe-cli-with-tools",
+   "input_per_mtok": 1.5,
+   "output_per_mtok": 7.5,
+   "context_window": 262144
   },
   {
    "provider": "mistral",
@@ -9868,6 +11590,27 @@
    "context_window": 128000
   },
   {
+   "provider": "mistral",
+   "model": "mistral/voxtral-small-2507",
+   "input_per_mtok": 0.1,
+   "output_per_mtok": 0.4,
+   "context_window": 32768
+  },
+  {
+   "provider": "mistral",
+   "model": "mistral/voxtral-small-latest",
+   "input_per_mtok": 0.1,
+   "output_per_mtok": 0.4,
+   "context_window": 32768
+  },
+  {
+   "provider": "mistral",
+   "model": "mistral/zai-glm-5-2",
+   "input_per_mtok": 1.4,
+   "output_per_mtok": 4.4,
+   "context_window": 1048576
+  },
+  {
    "provider": "moonshot",
    "model": "moonshot/kimi-k2-0711-preview",
    "input_per_mtok": 0.6,
@@ -9915,6 +11658,20 @@
    "input_per_mtok": 0.95,
    "output_per_mtok": 4.0,
    "context_window": 262144
+  },
+  {
+   "provider": "moonshot",
+   "model": "moonshot/kimi-k2.7-code",
+   "input_per_mtok": 0.95,
+   "output_per_mtok": 4.0,
+   "context_window": 262144
+  },
+  {
+   "provider": "moonshot",
+   "model": "moonshot/kimi-k3",
+   "input_per_mtok": 3.0,
+   "output_per_mtok": 15.0,
+   "context_window": 1048576
   },
   {
    "provider": "moonshot",
@@ -10037,10 +11794,38 @@
   },
   {
    "provider": "nebius",
+   "model": "nebius/MiniMaxAI/MiniMax-M2.5",
+   "input_per_mtok": 0.3,
+   "output_per_mtok": 1.2,
+   "context_window": 196608
+  },
+  {
+   "provider": "nebius",
+   "model": "nebius/MiniMaxAI/MiniMax-M3",
+   "input_per_mtok": 0.3,
+   "output_per_mtok": 1.2,
+   "context_window": 1048576
+  },
+  {
+   "provider": "nebius",
    "model": "nebius/NousResearch/Hermes-3-Llama-3.1-405B",
    "input_per_mtok": 1.0,
    "output_per_mtok": 3.0,
    "context_window": 128000
+  },
+  {
+   "provider": "nebius",
+   "model": "nebius/NousResearch/Hermes-4-405B",
+   "input_per_mtok": 1.0,
+   "output_per_mtok": 3.0,
+   "context_window": 131072
+  },
+  {
+   "provider": "nebius",
+   "model": "nebius/NousResearch/Hermes-4-70B",
+   "input_per_mtok": 0.13,
+   "output_per_mtok": 0.4,
+   "context_window": 131072
   },
   {
    "provider": "nebius",
@@ -10087,9 +11872,9 @@
   {
    "provider": "nebius",
    "model": "nebius/Qwen/Qwen2.5-VL-72B-Instruct",
-   "input_per_mtok": 0.13,
-   "output_per_mtok": 0.4,
-   "context_window": 131072
+   "input_per_mtok": 0.25,
+   "output_per_mtok": 0.75,
+   "context_window": 32000
   },
   {
    "provider": "nebius",
@@ -10107,6 +11892,13 @@
   },
   {
    "provider": "nebius",
+   "model": "nebius/Qwen/Qwen3-235B-A22B-Instruct-2507",
+   "input_per_mtok": 0.2,
+   "output_per_mtok": 0.6,
+   "context_window": 262144
+  },
+  {
+   "provider": "nebius",
    "model": "nebius/Qwen/Qwen3-30B-A3B",
    "input_per_mtok": 0.1,
    "output_per_mtok": 0.3,
@@ -10114,10 +11906,17 @@
   },
   {
    "provider": "nebius",
+   "model": "nebius/Qwen/Qwen3-30B-A3B-Instruct-2507",
+   "input_per_mtok": 0.1,
+   "output_per_mtok": 0.3,
+   "context_window": 262144
+  },
+  {
+   "provider": "nebius",
    "model": "nebius/Qwen/Qwen3-32B",
    "input_per_mtok": 0.1,
    "output_per_mtok": 0.3,
-   "context_window": 32768
+   "context_window": 40960
   },
   {
    "provider": "nebius",
@@ -10125,6 +11924,20 @@
    "input_per_mtok": 0.08,
    "output_per_mtok": 0.24,
    "context_window": 32768
+  },
+  {
+   "provider": "nebius",
+   "model": "nebius/Qwen/Qwen3-Next-80B-A3B-Thinking",
+   "input_per_mtok": 0.15,
+   "output_per_mtok": 1.2,
+   "context_window": 128000
+  },
+  {
+   "provider": "nebius",
+   "model": "nebius/Qwen/Qwen3.5-397B-A17B",
+   "input_per_mtok": 0.6,
+   "output_per_mtok": 3.6,
+   "context_window": 262144
   },
   {
    "provider": "nebius",
@@ -10163,17 +11976,38 @@
   },
   {
    "provider": "nebius",
+   "model": "nebius/deepseek-ai/DeepSeek-V4-Flash",
+   "input_per_mtok": 0.14,
+   "output_per_mtok": 0.28,
+   "context_window": 1048576
+  },
+  {
+   "provider": "nebius",
+   "model": "nebius/deepseek-ai/DeepSeek-V4-Flash-0731",
+   "input_per_mtok": 0.14,
+   "output_per_mtok": 0.28,
+   "context_window": 1024000
+  },
+  {
+   "provider": "nebius",
+   "model": "nebius/deepseek-ai/DeepSeek-V4-Pro",
+   "input_per_mtok": 1.75,
+   "output_per_mtok": 3.5,
+   "context_window": 1048576
+  },
+  {
+   "provider": "nebius",
    "model": "nebius/google/gemma-3-27b-it",
-   "input_per_mtok": 0.06,
-   "output_per_mtok": 0.2,
-   "context_window": 128000
+   "input_per_mtok": 0.1,
+   "output_per_mtok": 0.3,
+   "context_window": 110000
   },
   {
    "provider": "nebius",
    "model": "nebius/meta-llama/Llama-3.3-70B-Instruct",
    "input_per_mtok": 0.13,
    "output_per_mtok": 0.4,
-   "context_window": 128000
+   "context_window": 131072
   },
   {
    "provider": "nebius",
@@ -10212,6 +12046,34 @@
   },
   {
    "provider": "nebius",
+   "model": "nebius/moonshotai/Kimi-K2.6",
+   "input_per_mtok": 0.95,
+   "output_per_mtok": 4.0,
+   "context_window": 262144
+  },
+  {
+   "provider": "nebius",
+   "model": "nebius/moonshotai/Kimi-K2.7-Code",
+   "input_per_mtok": 0.95,
+   "output_per_mtok": 4.0,
+   "context_window": 262144
+  },
+  {
+   "provider": "nebius",
+   "model": "nebius/moonshotai/Kimi-K3",
+   "input_per_mtok": 3.0,
+   "output_per_mtok": 15.0,
+   "context_window": 1024000
+  },
+  {
+   "provider": "nebius",
+   "model": "nebius/nvidia/Cosmos3-Super-Reasoner",
+   "input_per_mtok": 0.1,
+   "output_per_mtok": 0.3,
+   "context_window": 262144
+  },
+  {
+   "provider": "nebius",
    "model": "nebius/nvidia/Llama-3.1-Nemotron-Ultra-253B-v1",
    "input_per_mtok": 0.6,
    "output_per_mtok": 1.8,
@@ -10223,6 +12085,83 @@
    "input_per_mtok": 0.1,
    "output_per_mtok": 0.4,
    "context_window": 131072
+  },
+  {
+   "provider": "nebius",
+   "model": "nebius/nvidia/Llama-3_1-Nemotron-Ultra-253B-v1",
+   "input_per_mtok": 0.6,
+   "output_per_mtok": 1.8,
+   "context_window": 131072
+  },
+  {
+   "provider": "nebius",
+   "model": "nebius/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+   "input_per_mtok": 0.06,
+   "output_per_mtok": 0.24,
+   "context_window": 262144
+  },
+  {
+   "provider": "nebius",
+   "model": "nebius/nvidia/Nemotron-3-Nano-Omni",
+   "input_per_mtok": 0.06,
+   "output_per_mtok": 0.24,
+   "context_window": 262144
+  },
+  {
+   "provider": "nebius",
+   "model": "nebius/nvidia/Nemotron-3-Ultra-550b-a55b",
+   "input_per_mtok": 1.0,
+   "output_per_mtok": 3.0,
+   "context_window": 1048576
+  },
+  {
+   "provider": "nebius",
+   "model": "nebius/nvidia/Nemotron-3_5-Lightning",
+   "input_per_mtok": 0.06,
+   "output_per_mtok": 0.24,
+   "context_window": 1048576
+  },
+  {
+   "provider": "nebius",
+   "model": "nebius/nvidia/nemotron-3-super-120b-a12b",
+   "input_per_mtok": 0.3,
+   "output_per_mtok": 0.9,
+   "context_window": 262144
+  },
+  {
+   "provider": "nebius",
+   "model": "nebius/openai/gpt-oss-120b",
+   "input_per_mtok": 0.15,
+   "output_per_mtok": 0.6,
+   "context_window": 131072
+  },
+  {
+   "provider": "nebius",
+   "model": "nebius/openbmb/MiniCPM-V-4_5",
+   "input_per_mtok": 0.658,
+   "output_per_mtok": 1.11,
+   "context_window": 32000
+  },
+  {
+   "provider": "nebius",
+   "model": "nebius/zai-org/GLM-5.1",
+   "input_per_mtok": 1.4,
+   "output_per_mtok": 4.4,
+   "context_window": 202752
+  },
+  {
+   "provider": "nebius",
+   "model": "nebius/zai-org/GLM-5.2",
+   "input_per_mtok": 1.4,
+   "output_per_mtok": 4.4,
+   "context_window": 1048576
+  },
+  {
+   "provider": "nebius",
+   "model": "nebius/zai-org/GLM-5.3-Flash",
+   "input_per_mtok": 0.15,
+   "output_per_mtok": 0.5,
+   "context_window": 1024000
   },
   {
    "provider": "nlp_cloud",
@@ -10250,6 +12189,13 @@
    "model": "novita/baichuan/baichuan-m2-32b",
    "input_per_mtok": 0.07,
    "output_per_mtok": 0.07,
+   "context_window": 131072
+  },
+  {
+   "provider": "novita",
+   "model": "novita/baidu/cobuddy",
+   "input_per_mtok": 0.28,
+   "output_per_mtok": 1.13,
    "context_window": 131072
   },
   {
@@ -10303,10 +12249,24 @@
   },
   {
    "provider": "novita",
+   "model": "novita/deepseek/deepseek-ocr-2",
+   "input_per_mtok": 0.03,
+   "output_per_mtok": 0.03,
+   "context_window": 8192
+  },
+  {
+   "provider": "novita",
    "model": "novita/deepseek/deepseek-prover-v2-671b",
    "input_per_mtok": 0.7,
    "output_per_mtok": 2.5,
    "context_window": 160000
+  },
+  {
+   "provider": "novita",
+   "model": "novita/deepseek/deepseek-r1",
+   "input_per_mtok": 4.0,
+   "output_per_mtok": 4.0,
+   "context_window": 64000
   },
   {
    "provider": "novita",
@@ -10348,6 +12308,13 @@
    "model": "novita/deepseek/deepseek-r1-turbo",
    "input_per_mtok": 0.7,
    "output_per_mtok": 2.5,
+   "context_window": 64000
+  },
+  {
+   "provider": "novita",
+   "model": "novita/deepseek/deepseek-r1/community",
+   "input_per_mtok": 4.0,
+   "output_per_mtok": 4.0,
    "context_window": 64000
   },
   {
@@ -10394,6 +12361,55 @@
   },
   {
    "provider": "novita",
+   "model": "novita/deepseek/deepseek-v3/community",
+   "input_per_mtok": 0.89,
+   "output_per_mtok": 0.89,
+   "context_window": 64000
+  },
+  {
+   "provider": "novita",
+   "model": "novita/deepseek/deepseek-v4-flash",
+   "input_per_mtok": 0.14,
+   "output_per_mtok": 0.28,
+   "context_window": 1048576
+  },
+  {
+   "provider": "novita",
+   "model": "novita/deepseek/deepseek-v4-flash-0731",
+   "input_per_mtok": 0.44,
+   "output_per_mtok": 1.32,
+   "context_window": 1048576
+  },
+  {
+   "provider": "novita",
+   "model": "novita/deepseek/deepseek-v4-flash-vision-exp",
+   "input_per_mtok": 0.44,
+   "output_per_mtok": 1.32,
+   "context_window": 1048576
+  },
+  {
+   "provider": "novita",
+   "model": "novita/deepseek/deepseek-v4-pro",
+   "input_per_mtok": 1.6,
+   "output_per_mtok": 3.2,
+   "context_window": 1048576
+  },
+  {
+   "provider": "novita",
+   "model": "novita/deepseek/deepseek-v4-pro-0813",
+   "input_per_mtok": 1.32,
+   "output_per_mtok": 3.96,
+   "context_window": 1048576
+  },
+  {
+   "provider": "novita",
+   "model": "novita/deepseek/deepseek_v3",
+   "input_per_mtok": 0.89,
+   "output_per_mtok": 0.89,
+   "context_window": 64000
+  },
+  {
+   "provider": "novita",
    "model": "novita/google/gemma-3-12b-it",
    "input_per_mtok": 0.05,
    "output_per_mtok": 0.1,
@@ -10408,10 +12424,38 @@
   },
   {
    "provider": "novita",
+   "model": "novita/google/gemma-4-26b-a4b-it",
+   "input_per_mtok": 0.13,
+   "output_per_mtok": 0.4,
+   "context_window": 262144
+  },
+  {
+   "provider": "novita",
+   "model": "novita/google/gemma-4-31b-it",
+   "input_per_mtok": 0.14,
+   "output_per_mtok": 0.4,
+   "context_window": 262144
+  },
+  {
+   "provider": "novita",
    "model": "novita/gryphe/mythomax-l2-13b",
    "input_per_mtok": 0.09,
    "output_per_mtok": 0.09,
    "context_window": 4096
+  },
+  {
+   "provider": "novita",
+   "model": "novita/inclusionai/ling-3.0-flash",
+   "input_per_mtok": 0.06,
+   "output_per_mtok": 0.18,
+   "context_window": 262144
+  },
+  {
+   "provider": "novita",
+   "model": "novita/inclusionai/ling-3.0-flash-fast",
+   "input_per_mtok": 0.06,
+   "output_per_mtok": 0.18,
+   "context_window": 262144
   },
   {
    "provider": "novita",
@@ -10443,6 +12487,13 @@
   },
   {
    "provider": "novita",
+   "model": "novita/meta-llama/llama-3.2-1b-instruct",
+   "input_per_mtok": 0.02,
+   "output_per_mtok": 0.02,
+   "context_window": 131000
+  },
+  {
+   "provider": "novita",
    "model": "novita/meta-llama/llama-3.2-3b-instruct",
    "input_per_mtok": 0.03,
    "output_per_mtok": 0.05,
@@ -10453,7 +12504,7 @@
    "model": "novita/meta-llama/llama-3.3-70b-instruct",
    "input_per_mtok": 0.135,
    "output_per_mtok": 0.4,
-   "context_window": 131072
+   "context_window": 12288
   },
   {
    "provider": "novita",
@@ -10478,6 +12529,20 @@
   },
   {
    "provider": "novita",
+   "model": "novita/mindai/macaron-v1-tall",
+   "input_per_mtok": 0.45,
+   "output_per_mtok": 2.6,
+   "context_window": 262144
+  },
+  {
+   "provider": "novita",
+   "model": "novita/mindai/macaron-v1-venti",
+   "input_per_mtok": 1.5,
+   "output_per_mtok": 4.5,
+   "context_window": 1048576
+  },
+  {
+   "provider": "novita",
    "model": "novita/minimax/minimax-m2",
    "input_per_mtok": 0.3,
    "output_per_mtok": 1.2,
@@ -10489,6 +12554,41 @@
    "input_per_mtok": 0.3,
    "output_per_mtok": 1.2,
    "context_window": 204800
+  },
+  {
+   "provider": "novita",
+   "model": "novita/minimax/minimax-m2.5",
+   "input_per_mtok": 0.3,
+   "output_per_mtok": 1.2,
+   "context_window": 204800
+  },
+  {
+   "provider": "novita",
+   "model": "novita/minimax/minimax-m2.5-highspeed",
+   "input_per_mtok": 0.6,
+   "output_per_mtok": 2.4,
+   "context_window": 204800
+  },
+  {
+   "provider": "novita",
+   "model": "novita/minimax/minimax-m2.7",
+   "input_per_mtok": 0.3,
+   "output_per_mtok": 1.2,
+   "context_window": 204800
+  },
+  {
+   "provider": "novita",
+   "model": "novita/minimax/minimax-m2.7-highspeed",
+   "input_per_mtok": 0.6,
+   "output_per_mtok": 2.4,
+   "context_window": 204800
+  },
+  {
+   "provider": "novita",
+   "model": "novita/minimax/minimax-m3",
+   "input_per_mtok": 0.3,
+   "output_per_mtok": 1.2,
+   "context_window": 1000000
   },
   {
    "provider": "novita",
@@ -10527,10 +12627,45 @@
   },
   {
    "provider": "novita",
+   "model": "novita/moonshotai/kimi-k2.5",
+   "input_per_mtok": 0.6,
+   "output_per_mtok": 3.0,
+   "context_window": 262144
+  },
+  {
+   "provider": "novita",
+   "model": "novita/moonshotai/kimi-k2.6",
+   "input_per_mtok": 0.8,
+   "output_per_mtok": 3.4,
+   "context_window": 262144
+  },
+  {
+   "provider": "novita",
+   "model": "novita/moonshotai/kimi-k2.7-code",
+   "input_per_mtok": 0.95,
+   "output_per_mtok": 4.0,
+   "context_window": 262144
+  },
+  {
+   "provider": "novita",
+   "model": "novita/moonshotai/kimi-k3",
+   "input_per_mtok": 3.0,
+   "output_per_mtok": 15.0,
+   "context_window": 1048576
+  },
+  {
+   "provider": "novita",
    "model": "novita/nousresearch/hermes-2-pro-llama-3-8b",
    "input_per_mtok": 0.14,
    "output_per_mtok": 0.14,
    "context_window": 8192
+  },
+  {
+   "provider": "novita",
+   "model": "novita/nvidia/nemotron-3-nano-30b-a3b",
+   "input_per_mtok": 0.05,
+   "output_per_mtok": 0.2,
+   "context_window": 262144
   },
   {
    "provider": "novita",
@@ -10640,8 +12775,15 @@
   {
    "provider": "novita",
    "model": "novita/qwen/qwen3-coder-480b-a35b-instruct",
-   "input_per_mtok": 0.3,
-   "output_per_mtok": 1.3,
+   "input_per_mtok": 0.38,
+   "output_per_mtok": 1.55,
+   "context_window": 262144
+  },
+  {
+   "provider": "novita",
+   "model": "novita/qwen/qwen3-coder-next",
+   "input_per_mtok": 0.2,
+   "output_per_mtok": 1.5,
    "context_window": 262144
   },
   {
@@ -10716,6 +12858,62 @@
   },
   {
    "provider": "novita",
+   "model": "novita/qwen/qwen3.5-122b-a10b",
+   "input_per_mtok": 0.4,
+   "output_per_mtok": 3.2,
+   "context_window": 262144
+  },
+  {
+   "provider": "novita",
+   "model": "novita/qwen/qwen3.5-27b",
+   "input_per_mtok": 0.3,
+   "output_per_mtok": 2.4,
+   "context_window": 262144
+  },
+  {
+   "provider": "novita",
+   "model": "novita/qwen/qwen3.5-35b-a3b",
+   "input_per_mtok": 0.25,
+   "output_per_mtok": 2.0,
+   "context_window": 262144
+  },
+  {
+   "provider": "novita",
+   "model": "novita/qwen/qwen3.5-397b-a17b",
+   "input_per_mtok": 0.6,
+   "output_per_mtok": 3.6,
+   "context_window": 262144
+  },
+  {
+   "provider": "novita",
+   "model": "novita/qwen/qwen3.6-27b",
+   "input_per_mtok": 0.6,
+   "output_per_mtok": 3.6,
+   "context_window": 262144
+  },
+  {
+   "provider": "novita",
+   "model": "novita/qwen/qwen3.6-35b-a3b",
+   "input_per_mtok": 0.248,
+   "output_per_mtok": 1.485,
+   "context_window": 262144
+  },
+  {
+   "provider": "novita",
+   "model": "novita/qwen/qwen3.7-max",
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 3.75,
+   "context_window": 1000000
+  },
+  {
+   "provider": "novita",
+   "model": "novita/qwen/qwen3.8-max",
+   "input_per_mtok": 2.0,
+   "output_per_mtok": 6.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "novita",
    "model": "novita/sao10k/l3-70b-euryale-v2.1",
    "input_per_mtok": 1.48,
    "output_per_mtok": 1.48,
@@ -10744,10 +12942,45 @@
   },
   {
    "provider": "novita",
-   "model": "novita/xiaomimimo/mimo-v2-flash",
-   "input_per_mtok": 0.1,
-   "output_per_mtok": 0.3,
+   "model": "novita/stepfun/step-3.7-flash",
+   "input_per_mtok": 0.2,
+   "output_per_mtok": 1.15,
    "context_window": 262144
+  },
+  {
+   "provider": "novita",
+   "model": "novita/tencent/hy3",
+   "input_per_mtok": 0.14,
+   "output_per_mtok": 0.58,
+   "context_window": 262144
+  },
+  {
+   "provider": "novita",
+   "model": "novita/thudm/glm-4-32b-0414",
+   "input_per_mtok": 0.55,
+   "output_per_mtok": 1.66,
+   "context_window": 32000
+  },
+  {
+   "provider": "novita",
+   "model": "novita/xiaomimimo/mimo-v2-flash",
+   "input_per_mtok": 0.11,
+   "output_per_mtok": 0.33,
+   "context_window": 262144
+  },
+  {
+   "provider": "novita",
+   "model": "novita/xiaomimimo/mimo-v2.5",
+   "input_per_mtok": 0.168,
+   "output_per_mtok": 0.336,
+   "context_window": 1048576
+  },
+  {
+   "provider": "novita",
+   "model": "novita/xiaomimimo/mimo-v2.5-pro",
+   "input_per_mtok": 0.522,
+   "output_per_mtok": 1.044,
+   "context_window": 1048576
   },
   {
    "provider": "novita",
@@ -10796,6 +13029,62 @@
    "model": "novita/zai-org/glm-4.7",
    "input_per_mtok": 0.6,
    "output_per_mtok": 2.2,
+   "context_window": 204800
+  },
+  {
+   "provider": "novita",
+   "model": "novita/zai-org/glm-4.7-flash",
+   "input_per_mtok": 0.07,
+   "output_per_mtok": 0.4,
+   "context_window": 200000
+  },
+  {
+   "provider": "novita",
+   "model": "novita/zai-org/glm-4.7-h",
+   "input_per_mtok": 0.6,
+   "output_per_mtok": 2.2,
+   "context_window": 204800
+  },
+  {
+   "provider": "novita",
+   "model": "novita/zai-org/glm-5",
+   "input_per_mtok": 1.0,
+   "output_per_mtok": 3.2,
+   "context_window": 202800
+  },
+  {
+   "provider": "novita",
+   "model": "novita/zai-org/glm-5-turbo",
+   "input_per_mtok": 1.2,
+   "output_per_mtok": 4.0,
+   "context_window": 202800
+  },
+  {
+   "provider": "novita",
+   "model": "novita/zai-org/glm-5.1",
+   "input_per_mtok": 1.38,
+   "output_per_mtok": 4.4,
+   "context_window": 204800
+  },
+  {
+   "provider": "novita",
+   "model": "novita/zai-org/glm-5.2",
+   "input_per_mtok": 1.4,
+   "output_per_mtok": 4.4,
+   "context_window": 1048576
+  },
+  {
+   "provider": "novita",
+   "model": "novita/zai-org/glm-5.3",
+   "input_per_mtok": 1.4,
+   "output_per_mtok": 4.4,
+   "context_window": 1048576
+  },
+  {
+   "provider": "novita",
+   "model": "novita/zai-org/glm-5v-turbo",
+   "input_per_mtok": 1.2,
+   "output_per_mtok": 4.0,
    "context_window": 204800
   },
   {
@@ -11346,6 +13635,13 @@
   },
   {
    "provider": "openai",
+   "model": "chat-latest",
+   "input_per_mtok": 5.0,
+   "output_per_mtok": 30.0,
+   "context_window": 400000
+  },
+  {
+   "provider": "openai",
    "model": "chatgpt-4o-latest",
    "input_per_mtok": 5.0,
    "output_per_mtok": 15.0,
@@ -11357,6 +13653,20 @@
    "input_per_mtok": 1.5,
    "output_per_mtok": 6.0,
    "context_window": 200000
+  },
+  {
+   "provider": "openai",
+   "model": "daybreak-blue-latest",
+   "input_per_mtok": 4.0,
+   "output_per_mtok": 20.0,
+   "context_window": 1050000
+  },
+  {
+   "provider": "openai",
+   "model": "daybreak-red-latest",
+   "input_per_mtok": 12.5,
+   "output_per_mtok": 75.0,
+   "context_window": 400000
   },
   {
    "provider": "openai",
@@ -11881,28 +14191,28 @@
    "model": "gpt-5.4-mini",
    "input_per_mtok": 0.75,
    "output_per_mtok": 4.5,
-   "context_window": 1050000
+   "context_window": 272000
   },
   {
    "provider": "openai",
    "model": "gpt-5.4-mini-2026-03-17",
    "input_per_mtok": 0.75,
    "output_per_mtok": 4.5,
-   "context_window": 1050000
+   "context_window": 272000
   },
   {
    "provider": "openai",
    "model": "gpt-5.4-nano",
    "input_per_mtok": 0.2,
    "output_per_mtok": 1.25,
-   "context_window": 1050000
+   "context_window": 272000
   },
   {
    "provider": "openai",
    "model": "gpt-5.4-nano-2026-03-17",
    "input_per_mtok": 0.2,
    "output_per_mtok": 1.25,
-   "context_window": 1050000
+   "context_window": 272000
   },
   {
    "provider": "openai",
@@ -11949,30 +14259,44 @@
   {
    "provider": "openai",
    "model": "gpt-5.6",
-   "input_per_mtok": 5.0,
-   "output_per_mtok": 30.0,
-   "context_window": 1050000
+   "input_per_mtok": 4.0,
+   "output_per_mtok": 20.0,
+   "context_window": 922000
+  },
+  {
+   "provider": "openai",
+   "model": "gpt-5.6-cyber",
+   "input_per_mtok": 12.5,
+   "output_per_mtok": 75.0,
+   "context_window": 400000
   },
   {
    "provider": "openai",
    "model": "gpt-5.6-luna",
-   "input_per_mtok": 1.0,
-   "output_per_mtok": 6.0,
-   "context_window": 1050000
+   "input_per_mtok": 0.2,
+   "output_per_mtok": 1.2,
+   "context_window": 922000
   },
   {
    "provider": "openai",
    "model": "gpt-5.6-sol",
-   "input_per_mtok": 5.0,
-   "output_per_mtok": 30.0,
-   "context_window": 1050000
+   "input_per_mtok": 4.0,
+   "output_per_mtok": 20.0,
+   "context_window": 922000
   },
   {
    "provider": "openai",
    "model": "gpt-5.6-terra",
-   "input_per_mtok": 2.5,
-   "output_per_mtok": 15.0,
-   "context_window": 1050000
+   "input_per_mtok": 2.0,
+   "output_per_mtok": 12.0,
+   "context_window": 922000
+  },
+  {
+   "provider": "openai",
+   "model": "gpt-6-astra",
+   "input_per_mtok": 10.0,
+   "output_per_mtok": 50.0,
+   "context_window": 922000
   },
   {
    "provider": "openai",
@@ -12015,6 +14339,20 @@
    "input_per_mtok": 0.6,
    "output_per_mtok": 2.4,
    "context_window": 128000
+  },
+  {
+   "provider": "openai",
+   "model": "gpt-daybreak-blue-latest",
+   "input_per_mtok": 4.0,
+   "output_per_mtok": 20.0,
+   "context_window": 1050000
+  },
+  {
+   "provider": "openai",
+   "model": "gpt-daybreak-red-latest",
+   "input_per_mtok": 12.5,
+   "output_per_mtok": 75.0,
+   "context_window": 400000
   },
   {
    "provider": "openai",
@@ -12158,6 +14496,20 @@
   },
   {
    "provider": "openrouter",
+   "model": "openrouter/anthropic/claude-fable-5",
+   "input_per_mtok": 10.0,
+   "output_per_mtok": 50.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/anthropic/claude-fable-5.1",
+   "input_per_mtok": 10.0,
+   "output_per_mtok": 50.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "openrouter",
    "model": "openrouter/anthropic/claude-haiku-4.5",
    "input_per_mtok": 1.0,
    "output_per_mtok": 5.0,
@@ -12200,6 +14552,20 @@
   },
   {
    "provider": "openrouter",
+   "model": "openrouter/anthropic/claude-opus-4.8",
+   "input_per_mtok": 5.0,
+   "output_per_mtok": 25.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/anthropic/claude-opus-5",
+   "input_per_mtok": 5.0,
+   "output_per_mtok": 25.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "openrouter",
    "model": "openrouter/anthropic/claude-sonnet-4",
    "input_per_mtok": 3.0,
    "output_per_mtok": 15.0,
@@ -12210,13 +14576,20 @@
    "model": "openrouter/anthropic/claude-sonnet-4.5",
    "input_per_mtok": 3.0,
    "output_per_mtok": 15.0,
-   "context_window": 1000000
+   "context_window": 200000
   },
   {
    "provider": "openrouter",
    "model": "openrouter/anthropic/claude-sonnet-4.6",
    "input_per_mtok": 3.0,
    "output_per_mtok": 15.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/anthropic/claude-sonnet-5",
+   "input_per_mtok": 2.0,
+   "output_per_mtok": 10.0,
    "context_window": 1000000
   },
   {
@@ -12229,15 +14602,15 @@
   {
    "provider": "openrouter",
    "model": "openrouter/deepseek/deepseek-chat",
-   "input_per_mtok": 0.14,
-   "output_per_mtok": 0.28,
+   "input_per_mtok": 0.32,
+   "output_per_mtok": 0.89,
    "context_window": 65536
   },
   {
    "provider": "openrouter",
    "model": "openrouter/deepseek/deepseek-chat-v3-0324",
-   "input_per_mtok": 0.14,
-   "output_per_mtok": 0.28,
+   "input_per_mtok": 0.25,
+   "output_per_mtok": 1.0,
    "context_window": 65536
   },
   {
@@ -12250,8 +14623,8 @@
   {
    "provider": "openrouter",
    "model": "openrouter/deepseek/deepseek-r1",
-   "input_per_mtok": 0.55,
-   "output_per_mtok": 2.19,
+   "input_per_mtok": 0.7,
+   "output_per_mtok": 2.5,
    "context_window": 65336
   },
   {
@@ -12263,17 +14636,66 @@
   },
   {
    "provider": "openrouter",
+   "model": "openrouter/deepseek/deepseek-r1-distill-llama-70b",
+   "input_per_mtok": 0.8,
+   "output_per_mtok": 0.8,
+   "context_window": 8192
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/deepseek/deepseek-v3.1-terminus",
+   "input_per_mtok": 0.27,
+   "output_per_mtok": 1.0,
+   "context_window": 163840
+  },
+  {
+   "provider": "openrouter",
    "model": "openrouter/deepseek/deepseek-v3.2",
-   "input_per_mtok": 0.28,
+   "input_per_mtok": 0.269,
    "output_per_mtok": 0.4,
    "context_window": 163840
   },
   {
    "provider": "openrouter",
    "model": "openrouter/deepseek/deepseek-v3.2-exp",
-   "input_per_mtok": 0.2,
-   "output_per_mtok": 0.4,
+   "input_per_mtok": 0.27,
+   "output_per_mtok": 0.41,
    "context_window": 163840
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/deepseek/deepseek-v4-flash",
+   "input_per_mtok": 0.0878,
+   "output_per_mtok": 0.1756,
+   "context_window": 1048576
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/deepseek/deepseek-v4-flash-0731",
+   "input_per_mtok": 0.065,
+   "output_per_mtok": 0.18,
+   "context_window": 1310720
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/deepseek/deepseek-v4-flash-vision-exp",
+   "input_per_mtok": 0.22,
+   "output_per_mtok": 0.66,
+   "context_window": 1048576
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/deepseek/deepseek-v4-pro",
+   "input_per_mtok": 1.32,
+   "output_per_mtok": 3.96,
+   "context_window": 1048576
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/deepseek/deepseek-v4-pro-0813",
+   "input_per_mtok": 1.32,
+   "output_per_mtok": 3.96,
+   "context_window": 1048576
   },
   {
    "provider": "openrouter",
@@ -12291,7 +14713,35 @@
   },
   {
    "provider": "openrouter",
+   "model": "openrouter/google/gemini-2.5-flash-image",
+   "input_per_mtok": 0.3,
+   "output_per_mtok": 2.5,
+   "context_window": 32768
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/google/gemini-2.5-flash-lite",
+   "input_per_mtok": 0.1,
+   "output_per_mtok": 0.4,
+   "context_window": 1048576
+  },
+  {
+   "provider": "openrouter",
    "model": "openrouter/google/gemini-2.5-pro",
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 10.0,
+   "context_window": 1048576
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/google/gemini-2.5-pro-preview",
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 10.0,
+   "context_window": 1048576
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/google/gemini-2.5-pro-preview-05-06",
    "input_per_mtok": 1.25,
    "output_per_mtok": 10.0,
    "context_window": 1048576
@@ -12305,6 +14755,20 @@
   },
   {
    "provider": "openrouter",
+   "model": "openrouter/google/gemini-3-pro-image",
+   "input_per_mtok": 2.0,
+   "output_per_mtok": 12.0,
+   "context_window": 131072
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/google/gemini-3-pro-image-preview",
+   "input_per_mtok": 2.0,
+   "output_per_mtok": 12.0,
+   "context_window": 65536
+  },
+  {
+   "provider": "openrouter",
    "model": "openrouter/google/gemini-3-pro-preview",
    "input_per_mtok": 2.0,
    "output_per_mtok": 12.0,
@@ -12312,10 +14776,31 @@
   },
   {
    "provider": "openrouter",
+   "model": "openrouter/google/gemini-3.1-flash-image",
+   "input_per_mtok": 0.5,
+   "output_per_mtok": 3.0,
+   "context_window": 131072
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/google/gemini-3.1-flash-image-preview",
+   "input_per_mtok": 0.5,
+   "output_per_mtok": 3.0,
+   "context_window": 65536
+  },
+  {
+   "provider": "openrouter",
    "model": "openrouter/google/gemini-3.1-flash-lite",
    "input_per_mtok": 0.25,
    "output_per_mtok": 1.5,
    "context_window": 1048576
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/google/gemini-3.1-flash-lite-image",
+   "input_per_mtok": 0.25,
+   "output_per_mtok": 1.5,
+   "context_window": 65536
   },
   {
    "provider": "openrouter",
@@ -12333,16 +14818,114 @@
   },
   {
    "provider": "openrouter",
+   "model": "openrouter/google/gemini-3.1-pro-preview-customtools",
+   "input_per_mtok": 2.0,
+   "output_per_mtok": 12.0,
+   "context_window": 1048576
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/google/gemini-3.5-flash",
+   "input_per_mtok": 1.5,
+   "output_per_mtok": 9.0,
+   "context_window": 1048576
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/google/gemini-3.5-flash-lite",
+   "input_per_mtok": 0.3,
+   "output_per_mtok": 2.5,
+   "context_window": 1048576
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/google/gemini-3.6-flash",
+   "input_per_mtok": 0.75,
+   "output_per_mtok": 3.75,
+   "context_window": 1048576
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/google/gemini-3.7-flash",
+   "input_per_mtok": 0.75,
+   "output_per_mtok": 3.75,
+   "context_window": 1048576
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/google/gemini-3.8-flash",
+   "input_per_mtok": 0.75,
+   "output_per_mtok": 3.75,
+   "context_window": 1048576
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/google/gemma-2-27b-it",
+   "input_per_mtok": 0.65,
+   "output_per_mtok": 0.65,
+   "context_window": 8192
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/google/gemma-3-12b-it",
+   "input_per_mtok": 0.05,
+   "output_per_mtok": 0.15,
+   "context_window": 131072
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/google/gemma-3-27b-it",
+   "input_per_mtok": 0.08,
+   "output_per_mtok": 0.45,
+   "context_window": 131072
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/google/gemma-3-4b-it",
+   "input_per_mtok": 0.05,
+   "output_per_mtok": 0.1,
+   "context_window": 131072
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/google/gemma-4-26b-a4b-it",
+   "input_per_mtok": 0.07,
+   "output_per_mtok": 0.34,
+   "context_window": 262144
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/google/gemma-4-26b-a4b-it:free",
+   "input_per_mtok": 0.0,
+   "output_per_mtok": 0.0,
+   "context_window": 262144
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/google/gemma-4-31b-it",
+   "input_per_mtok": 0.09,
+   "output_per_mtok": 0.34,
+   "context_window": 262144
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/google/gemma-4-31b-it:free",
+   "input_per_mtok": 0.0,
+   "output_per_mtok": 0.0,
+   "context_window": 262144
+  },
+  {
+   "provider": "openrouter",
    "model": "openrouter/gryphe/mythomax-l2-13b",
-   "input_per_mtok": 1.875,
-   "output_per_mtok": 1.875,
+   "input_per_mtok": 0.06,
+   "output_per_mtok": 0.06,
    "context_window": 8192
   },
   {
    "provider": "openrouter",
    "model": "openrouter/mancer/weaver",
-   "input_per_mtok": 5.625,
-   "output_per_mtok": 5.625,
+   "input_per_mtok": 0.4,
+   "output_per_mtok": 0.75,
    "context_window": 8000
   },
   {
@@ -12354,6 +14937,76 @@
   },
   {
    "provider": "openrouter",
+   "model": "openrouter/meta-llama/llama-3.1-70b-instruct",
+   "input_per_mtok": 0.4,
+   "output_per_mtok": 0.4,
+   "context_window": 131072
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/meta-llama/llama-3.1-8b-instruct",
+   "input_per_mtok": 0.05,
+   "output_per_mtok": 0.08,
+   "context_window": 131072
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/meta-llama/llama-3.2-1b-instruct",
+   "input_per_mtok": 0.027,
+   "output_per_mtok": 0.201,
+   "context_window": 60000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/meta-llama/llama-3.2-3b-instruct",
+   "input_per_mtok": 0.05,
+   "output_per_mtok": 0.33,
+   "context_window": 131072
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/meta-llama/llama-3.3-70b-instruct",
+   "input_per_mtok": 0.1,
+   "output_per_mtok": 0.32,
+   "context_window": 131072
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/meta-llama/llama-4-maverick",
+   "input_per_mtok": 0.2,
+   "output_per_mtok": 0.696,
+   "context_window": 1048576
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/meta-llama/llama-4-scout",
+   "input_per_mtok": 0.1,
+   "output_per_mtok": 0.3,
+   "context_window": 1310720
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/meta-llama/llama-guard-4-12b",
+   "input_per_mtok": 0.18,
+   "output_per_mtok": 0.18,
+   "context_window": 163840
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/minimax/minimax-01",
+   "input_per_mtok": 0.2,
+   "output_per_mtok": 1.1,
+   "context_window": 1000192
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/minimax/minimax-m1",
+   "input_per_mtok": 0.55,
+   "output_per_mtok": 2.2,
+   "context_window": 1000000
+  },
+  {
+   "provider": "openrouter",
    "model": "openrouter/minimax/minimax-m2",
    "input_per_mtok": 0.255,
    "output_per_mtok": 1.02,
@@ -12361,23 +15014,65 @@
   },
   {
    "provider": "openrouter",
+   "model": "openrouter/minimax/minimax-m2-her",
+   "input_per_mtok": 0.3,
+   "output_per_mtok": 1.2,
+   "context_window": 65536
+  },
+  {
+   "provider": "openrouter",
    "model": "openrouter/minimax/minimax-m2.1",
-   "input_per_mtok": 0.27,
+   "input_per_mtok": 0.3,
    "output_per_mtok": 1.2,
    "context_window": 204000
   },
   {
    "provider": "openrouter",
    "model": "openrouter/minimax/minimax-m2.5",
-   "input_per_mtok": 0.3,
-   "output_per_mtok": 1.1,
+   "input_per_mtok": 0.27,
+   "output_per_mtok": 1.08,
    "context_window": 196608
   },
   {
    "provider": "openrouter",
+   "model": "openrouter/minimax/minimax-m2.7",
+   "input_per_mtok": 0.3,
+   "output_per_mtok": 1.2,
+   "context_window": 204800
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/minimax/minimax-m2.7:free",
+   "input_per_mtok": 0.0,
+   "output_per_mtok": 0.0,
+   "context_window": 196608
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/minimax/minimax-m3",
+   "input_per_mtok": 0.3,
+   "output_per_mtok": 1.2,
+   "context_window": 1048576
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/minimax/minimax-m3:free",
+   "input_per_mtok": 0.0,
+   "output_per_mtok": 0.0,
+   "context_window": 1048576
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/mistralai/codestral-2508",
+   "input_per_mtok": 0.3,
+   "output_per_mtok": 0.9,
+   "context_window": 256000
+  },
+  {
+   "provider": "openrouter",
    "model": "openrouter/mistralai/devstral-2512",
-   "input_per_mtok": 0.15,
-   "output_per_mtok": 0.6,
+   "input_per_mtok": 0.4,
+   "output_per_mtok": 2.0,
    "context_window": 262144
   },
   {
@@ -12411,9 +15106,16 @@
   {
    "provider": "openrouter",
    "model": "openrouter/mistralai/mistral-large",
-   "input_per_mtok": 8.0,
-   "output_per_mtok": 24.0,
+   "input_per_mtok": 2.0,
+   "output_per_mtok": 6.0,
    "context_window": 128000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/mistralai/mistral-large-2407",
+   "input_per_mtok": 2.0,
+   "output_per_mtok": 6.0,
+   "context_window": 131072
   },
   {
    "provider": "openrouter",
@@ -12424,37 +15126,205 @@
   },
   {
    "provider": "openrouter",
+   "model": "openrouter/mistralai/mistral-medium-3",
+   "input_per_mtok": 0.4,
+   "output_per_mtok": 2.0,
+   "context_window": 131072
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/mistralai/mistral-medium-3-5",
+   "input_per_mtok": 1.5,
+   "output_per_mtok": 7.5,
+   "context_window": 262144
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/mistralai/mistral-medium-3.1",
+   "input_per_mtok": 0.4,
+   "output_per_mtok": 2.0,
+   "context_window": 131072
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/mistralai/mistral-nemo",
+   "input_per_mtok": 0.019,
+   "output_per_mtok": 0.03,
+   "context_window": 131072
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/mistralai/mistral-saba",
+   "input_per_mtok": 0.2,
+   "output_per_mtok": 0.6,
+   "context_window": 32768
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/mistralai/mistral-small-24b-instruct-2501",
+   "input_per_mtok": 0.05,
+   "output_per_mtok": 0.08,
+   "context_window": 32768
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/mistralai/mistral-small-2603",
+   "input_per_mtok": 0.15,
+   "output_per_mtok": 0.6,
+   "context_window": 262144
+  },
+  {
+   "provider": "openrouter",
    "model": "openrouter/mistralai/mistral-small-3.1-24b-instruct",
-   "input_per_mtok": 0.1,
-   "output_per_mtok": 0.3,
+   "input_per_mtok": 0.351,
+   "output_per_mtok": 0.555,
    "context_window": 131072
   },
   {
    "provider": "openrouter",
    "model": "openrouter/mistralai/mistral-small-3.2-24b-instruct",
-   "input_per_mtok": 0.1,
-   "output_per_mtok": 0.3,
+   "input_per_mtok": 0.075,
+   "output_per_mtok": 0.2,
    "context_window": 128000
   },
   {
    "provider": "openrouter",
    "model": "openrouter/mistralai/mixtral-8x22b-instruct",
-   "input_per_mtok": 0.65,
-   "output_per_mtok": 0.65,
+   "input_per_mtok": 2.0,
+   "output_per_mtok": 6.0,
    "context_window": 65536
   },
   {
    "provider": "openrouter",
-   "model": "openrouter/moonshotai/kimi-k2.5",
+   "model": "openrouter/mistralai/voxtral-small-24b-2507",
+   "input_per_mtok": 0.1,
+   "output_per_mtok": 0.3,
+   "context_window": 32768
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/moonshotai/kimi-k2",
+   "input_per_mtok": 0.57,
+   "output_per_mtok": 2.3,
+   "context_window": 131072
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/moonshotai/kimi-k2-0905",
    "input_per_mtok": 0.6,
-   "output_per_mtok": 3.0,
+   "output_per_mtok": 2.5,
    "context_window": 262144
   },
   {
    "provider": "openrouter",
+   "model": "openrouter/moonshotai/kimi-k2-thinking",
+   "input_per_mtok": 0.6,
+   "output_per_mtok": 2.5,
+   "context_window": 262144
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/moonshotai/kimi-k2.5",
+   "input_per_mtok": 0.45,
+   "output_per_mtok": 2.25,
+   "context_window": 262144
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/moonshotai/kimi-k2.6",
+   "input_per_mtok": 0.95,
+   "output_per_mtok": 4.0,
+   "context_window": 262144
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/moonshotai/kimi-k2.7-code",
+   "input_per_mtok": 0.66,
+   "output_per_mtok": 3.4,
+   "context_window": 262144
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/moonshotai/kimi-k3",
+   "input_per_mtok": 3.0,
+   "output_per_mtok": 15.0,
+   "context_window": 1048576
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/nvidia/nemotron-3-nano-30b-a3b",
+   "input_per_mtok": 0.05,
+   "output_per_mtok": 0.2,
+   "context_window": 262144
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+   "input_per_mtok": 0.0,
+   "output_per_mtok": 0.0,
+   "context_window": 256000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b",
+   "input_per_mtok": 0.085,
+   "output_per_mtok": 0.4,
+   "context_window": 1000000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+   "input_per_mtok": 0.0,
+   "output_per_mtok": 0.0,
+   "context_window": 262144
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b",
+   "input_per_mtok": 0.625,
+   "output_per_mtok": 3.125,
+   "context_window": 262144
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+   "input_per_mtok": 0.0,
+   "output_per_mtok": 0.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/nvidia/nemotron-3.5-content-safety",
+   "input_per_mtok": 0.2,
+   "output_per_mtok": 0.2,
+   "context_window": 131072
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/nvidia/nemotron-3.5-content-safety:free",
+   "input_per_mtok": 0.0,
+   "output_per_mtok": 0.0,
+   "context_window": 128000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/nvidia/nemotron-3.5-lightning",
+   "input_per_mtok": 0.08,
+   "output_per_mtok": 0.2,
+   "context_window": 262144
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/nvidia/nemotron-3.5-lightning:free",
+   "input_per_mtok": 0.0,
+   "output_per_mtok": 0.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "openrouter",
    "model": "openrouter/openai/gpt-3.5-turbo",
-   "input_per_mtok": 1.5,
-   "output_per_mtok": 2.0,
+   "input_per_mtok": 0.5,
+   "output_per_mtok": 1.5,
    "context_window": 16385
   },
   {
@@ -12466,10 +15336,31 @@
   },
   {
    "provider": "openrouter",
+   "model": "openrouter/openai/gpt-3.5-turbo-instruct",
+   "input_per_mtok": 1.5,
+   "output_per_mtok": 2.0,
+   "context_window": 4095
+  },
+  {
+   "provider": "openrouter",
    "model": "openrouter/openai/gpt-4",
    "input_per_mtok": 30.0,
    "output_per_mtok": 60.0,
    "context_window": 8191
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/openai/gpt-4-turbo",
+   "input_per_mtok": 10.0,
+   "output_per_mtok": 30.0,
+   "context_window": 128000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/openai/gpt-4-turbo-preview",
+   "input_per_mtok": 10.0,
+   "output_per_mtok": 30.0,
+   "context_window": 128000
   },
   {
    "provider": "openrouter",
@@ -12504,6 +15395,34 @@
    "model": "openrouter/openai/gpt-4o-2024-05-13",
    "input_per_mtok": 5.0,
    "output_per_mtok": 15.0,
+   "context_window": 128000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/openai/gpt-4o-2024-08-06",
+   "input_per_mtok": 2.5,
+   "output_per_mtok": 10.0,
+   "context_window": 128000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/openai/gpt-4o-2024-11-20",
+   "input_per_mtok": 2.5,
+   "output_per_mtok": 10.0,
+   "context_window": 128000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/openai/gpt-4o-mini",
+   "input_per_mtok": 0.15,
+   "output_per_mtok": 0.6,
+   "context_window": 128000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/openai/gpt-4o-mini-2024-07-18",
+   "input_per_mtok": 0.15,
+   "output_per_mtok": 0.6,
    "context_window": 128000
   },
   {
@@ -12543,9 +15462,37 @@
   },
   {
    "provider": "openrouter",
+   "model": "openrouter/openai/gpt-5-pro",
+   "input_per_mtok": 15.0,
+   "output_per_mtok": 120.0,
+   "context_window": 400000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/openai/gpt-5.1",
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 10.0,
+   "context_window": 272000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/openai/gpt-5.1-codex",
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 10.0,
+   "context_window": 400000
+  },
+  {
+   "provider": "openrouter",
    "model": "openrouter/openai/gpt-5.1-codex-max",
    "input_per_mtok": 1.25,
    "output_per_mtok": 10.0,
+   "context_window": 400000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/openai/gpt-5.1-codex-mini",
+   "input_per_mtok": 0.25,
+   "output_per_mtok": 2.0,
    "context_window": 400000
   },
   {
@@ -12578,16 +15525,107 @@
   },
   {
    "provider": "openrouter",
+   "model": "openrouter/openai/gpt-5.3-codex",
+   "input_per_mtok": 1.75,
+   "output_per_mtok": 14.0,
+   "context_window": 272000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/openai/gpt-5.4",
+   "input_per_mtok": 2.5,
+   "output_per_mtok": 15.0,
+   "context_window": 1050000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/openai/gpt-5.4-mini",
+   "input_per_mtok": 0.75,
+   "output_per_mtok": 4.5,
+   "context_window": 272000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/openai/gpt-5.4-nano",
+   "input_per_mtok": 0.2,
+   "output_per_mtok": 1.25,
+   "context_window": 272000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/openai/gpt-5.4-pro",
+   "input_per_mtok": 30.0,
+   "output_per_mtok": 180.0,
+   "context_window": 1050000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/openai/gpt-5.5",
+   "input_per_mtok": 5.0,
+   "output_per_mtok": 30.0,
+   "context_window": 1050000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/openai/gpt-5.5-pro",
+   "input_per_mtok": 30.0,
+   "output_per_mtok": 180.0,
+   "context_window": 1050000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/openai/gpt-5.6-luna",
+   "input_per_mtok": 0.2,
+   "output_per_mtok": 1.2,
+   "context_window": 922000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/openai/gpt-5.6-terra",
+   "input_per_mtok": 2.0,
+   "output_per_mtok": 12.0,
+   "context_window": 922000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/openai/gpt-6-astra",
+   "input_per_mtok": 10.0,
+   "output_per_mtok": 50.0,
+   "context_window": 1050000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/openai/gpt-audio",
+   "input_per_mtok": 2.5,
+   "output_per_mtok": 10.0,
+   "context_window": 128000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/openai/gpt-audio-mini",
+   "input_per_mtok": 0.6,
+   "output_per_mtok": 2.4,
+   "context_window": 128000
+  },
+  {
+   "provider": "openrouter",
    "model": "openrouter/openai/gpt-oss-120b",
-   "input_per_mtok": 0.18,
-   "output_per_mtok": 0.8,
+   "input_per_mtok": 0.037,
+   "output_per_mtok": 0.17,
    "context_window": 131072
   },
   {
    "provider": "openrouter",
    "model": "openrouter/openai/gpt-oss-20b",
-   "input_per_mtok": 0.02,
-   "output_per_mtok": 0.1,
+   "input_per_mtok": 0.03,
+   "output_per_mtok": 0.13,
+   "context_window": 131072
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/openai/gpt-oss-safeguard-20b",
+   "input_per_mtok": 0.075,
+   "output_per_mtok": 0.3,
    "context_window": 131072
   },
   {
@@ -12599,17 +15637,52 @@
   },
   {
    "provider": "openrouter",
+   "model": "openrouter/openai/o1-pro",
+   "input_per_mtok": 150.0,
+   "output_per_mtok": 600.0,
+   "context_window": 200000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/openai/o3",
+   "input_per_mtok": 2.0,
+   "output_per_mtok": 8.0,
+   "context_window": 200000
+  },
+  {
+   "provider": "openrouter",
    "model": "openrouter/openai/o3-mini",
    "input_per_mtok": 1.1,
    "output_per_mtok": 4.4,
-   "context_window": 128000
+   "context_window": 200000
   },
   {
    "provider": "openrouter",
    "model": "openrouter/openai/o3-mini-high",
    "input_per_mtok": 1.1,
    "output_per_mtok": 4.4,
-   "context_window": 128000
+   "context_window": 200000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/openai/o3-pro",
+   "input_per_mtok": 20.0,
+   "output_per_mtok": 80.0,
+   "context_window": 200000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/openai/o4-mini",
+   "input_per_mtok": 1.1,
+   "output_per_mtok": 4.4,
+   "context_window": 200000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/openai/o4-mini-high",
+   "input_per_mtok": 1.1,
+   "output_per_mtok": 4.4,
+   "context_window": 200000
   },
   {
    "provider": "openrouter",
@@ -12634,10 +15707,66 @@
   },
   {
    "provider": "openrouter",
-   "model": "openrouter/qwen/qwen-2.5-coder-32b-instruct",
-   "input_per_mtok": 0.18,
+   "model": "openrouter/poolside/laguna-s-2.1",
+   "input_per_mtok": 0.09,
    "output_per_mtok": 0.18,
+   "context_window": 1048576
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/poolside/laguna-s-2.1:free",
+   "input_per_mtok": 0.0,
+   "output_per_mtok": 0.0,
+   "context_window": 262144
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/poolside/laguna-xs-2.1",
+   "input_per_mtok": 0.06,
+   "output_per_mtok": 0.12,
+   "context_window": 262144
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/poolside/laguna-xs-2.1:free",
+   "input_per_mtok": 0.0,
+   "output_per_mtok": 0.0,
+   "context_window": 262144
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen-2.5-72b-instruct",
+   "input_per_mtok": 0.36,
+   "output_per_mtok": 0.4,
+   "context_window": 32768
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen-2.5-7b-instruct",
+   "input_per_mtok": 0.1,
+   "output_per_mtok": 0.2,
+   "context_window": 32768
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen-2.5-coder-32b-instruct",
+   "input_per_mtok": 0.66,
+   "output_per_mtok": 1.0,
    "context_window": 33792
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen-plus",
+   "input_per_mtok": 0.26,
+   "output_per_mtok": 0.78,
+   "context_window": 1000000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen-plus-2025-07-28",
+   "input_per_mtok": 0.26,
+   "output_per_mtok": 0.78,
+   "context_window": 1000000
   },
   {
    "provider": "openrouter",
@@ -12648,79 +15777,324 @@
   },
   {
    "provider": "openrouter",
+   "model": "openrouter/qwen/qwen2.5-vl-72b-instruct",
+   "input_per_mtok": 0.8,
+   "output_per_mtok": 1.0,
+   "context_window": 128000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen3-14b",
+   "input_per_mtok": 0.12,
+   "output_per_mtok": 0.24,
+   "context_window": 131072
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen3-235b-a22b",
+   "input_per_mtok": 0.455,
+   "output_per_mtok": 1.82,
+   "context_window": 131072
+  },
+  {
+   "provider": "openrouter",
    "model": "openrouter/qwen/qwen3-235b-a22b-2507",
-   "input_per_mtok": 0.071,
-   "output_per_mtok": 0.1,
+   "input_per_mtok": 0.0875,
+   "output_per_mtok": 0.35,
    "context_window": 262144
   },
   {
    "provider": "openrouter",
    "model": "openrouter/qwen/qwen3-235b-a22b-thinking-2507",
-   "input_per_mtok": 0.11,
+   "input_per_mtok": 0.23,
+   "output_per_mtok": 2.3,
+   "context_window": 262144
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen3-30b-a3b",
+   "input_per_mtok": 0.12,
+   "output_per_mtok": 0.5,
+   "context_window": 131072
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen3-30b-a3b-instruct-2507",
+   "input_per_mtok": 0.0481,
+   "output_per_mtok": 0.193,
+   "context_window": 262144
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen3-30b-a3b-thinking-2507",
+   "input_per_mtok": 0.2,
+   "output_per_mtok": 2.4,
+   "context_window": 81920
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen3-32b",
+   "input_per_mtok": 0.08,
+   "output_per_mtok": 0.28,
+   "context_window": 131072
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen3-8b",
+   "input_per_mtok": 0.117,
+   "output_per_mtok": 0.455,
+   "context_window": 131072
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen3-coder",
+   "input_per_mtok": 0.3,
+   "output_per_mtok": 1.0,
+   "context_window": 262100
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen3-coder-30b-a3b-instruct",
+   "input_per_mtok": 0.07,
+   "output_per_mtok": 0.28,
+   "context_window": 262144
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen3-coder-flash",
+   "input_per_mtok": 0.195,
+   "output_per_mtok": 0.975,
+   "context_window": 1000000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen3-coder-next",
+   "input_per_mtok": 0.12,
+   "output_per_mtok": 0.8,
+   "context_window": 262144
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen3-coder-plus",
+   "input_per_mtok": 0.65,
+   "output_per_mtok": 3.25,
+   "context_window": 997952
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen3-max",
+   "input_per_mtok": 0.78,
+   "output_per_mtok": 3.9,
+   "context_window": 262144
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen3-max-thinking",
+   "input_per_mtok": 0.78,
+   "output_per_mtok": 3.9,
+   "context_window": 262144
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen3-next-80b-a3b-instruct",
+   "input_per_mtok": 0.1,
+   "output_per_mtok": 1.1,
+   "context_window": 262144
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen3-next-80b-a3b-thinking",
+   "input_per_mtok": 0.15,
+   "output_per_mtok": 1.2,
+   "context_window": 262144
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen3-vl-235b-a22b-instruct",
+   "input_per_mtok": 0.21,
+   "output_per_mtok": 1.9,
+   "context_window": 262144
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen3-vl-235b-a22b-thinking",
+   "input_per_mtok": 0.4,
+   "output_per_mtok": 4.0,
+   "context_window": 131072
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen3-vl-30b-a3b-instruct",
+   "input_per_mtok": 0.15,
    "output_per_mtok": 0.6,
    "context_window": 262144
   },
   {
    "provider": "openrouter",
-   "model": "openrouter/qwen/qwen3-coder",
-   "input_per_mtok": 0.22,
-   "output_per_mtok": 0.95,
-   "context_window": 262100
+   "model": "openrouter/qwen/qwen3-vl-30b-a3b-thinking",
+   "input_per_mtok": 0.2,
+   "output_per_mtok": 2.4,
+   "context_window": 262144
   },
   {
    "provider": "openrouter",
-   "model": "openrouter/qwen/qwen3-coder-plus",
-   "input_per_mtok": 1.0,
-   "output_per_mtok": 5.0,
-   "context_window": 997952
+   "model": "openrouter/qwen/qwen3-vl-32b-instruct",
+   "input_per_mtok": 0.104,
+   "output_per_mtok": 0.416,
+   "context_window": 131072
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen3-vl-8b-instruct",
+   "input_per_mtok": 0.117,
+   "output_per_mtok": 0.455,
+   "context_window": 262144
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen3-vl-8b-thinking",
+   "input_per_mtok": 0.18,
+   "output_per_mtok": 2.1,
+   "context_window": 131072
   },
   {
    "provider": "openrouter",
    "model": "openrouter/qwen/qwen3.5-122b-a10b",
-   "input_per_mtok": 0.4,
-   "output_per_mtok": 2.0,
+   "input_per_mtok": 0.29,
+   "output_per_mtok": 2.4,
    "context_window": 262144
   },
   {
    "provider": "openrouter",
    "model": "openrouter/qwen/qwen3.5-27b",
-   "input_per_mtok": 0.3,
-   "output_per_mtok": 2.4,
+   "input_per_mtok": 0.195,
+   "output_per_mtok": 1.56,
    "context_window": 262144
   },
   {
    "provider": "openrouter",
    "model": "openrouter/qwen/qwen3.5-35b-a3b",
    "input_per_mtok": 0.25,
-   "output_per_mtok": 2.0,
+   "output_per_mtok": 1.25,
    "context_window": 262144
   },
   {
    "provider": "openrouter",
    "model": "openrouter/qwen/qwen3.5-397b-a17b",
-   "input_per_mtok": 0.6,
-   "output_per_mtok": 3.6,
+   "input_per_mtok": 0.55,
+   "output_per_mtok": 3.5,
+   "context_window": 262144
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen3.5-9b",
+   "input_per_mtok": 0.1,
+   "output_per_mtok": 0.15,
    "context_window": 262144
   },
   {
    "provider": "openrouter",
    "model": "openrouter/qwen/qwen3.5-flash-02-23",
-   "input_per_mtok": 0.1,
-   "output_per_mtok": 0.4,
+   "input_per_mtok": 0.065,
+   "output_per_mtok": 0.26,
    "context_window": 1000000
   },
   {
    "provider": "openrouter",
    "model": "openrouter/qwen/qwen3.5-plus-02-15",
-   "input_per_mtok": 0.4,
-   "output_per_mtok": 2.4,
+   "input_per_mtok": 0.26,
+   "output_per_mtok": 1.56,
    "context_window": 1000000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen3.5-plus-20260420",
+   "input_per_mtok": 0.3,
+   "output_per_mtok": 1.8,
+   "context_window": 1000000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen3.6-27b",
+   "input_per_mtok": 0.3,
+   "output_per_mtok": 2.0,
+   "context_window": 262144
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen3.6-35b-a3b",
+   "input_per_mtok": 0.1,
+   "output_per_mtok": 0.9,
+   "context_window": 262144
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen3.6-flash",
+   "input_per_mtok": 0.1875,
+   "output_per_mtok": 1.125,
+   "context_window": 1000000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen3.6-max-preview",
+   "input_per_mtok": 1.027,
+   "output_per_mtok": 6.162,
+   "context_window": 262144
   },
   {
    "provider": "openrouter",
    "model": "openrouter/qwen/qwen3.6-plus",
    "input_per_mtok": 0.325,
    "output_per_mtok": 1.95,
+   "context_window": 1000000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen3.7-flash",
+   "input_per_mtok": 0.03,
+   "output_per_mtok": 0.13,
+   "context_window": 1000000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen3.7-max",
+   "input_per_mtok": 1.475,
+   "output_per_mtok": 4.425,
+   "context_window": 1000000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen3.7-plus",
+   "input_per_mtok": 0.32,
+   "output_per_mtok": 1.28,
+   "context_window": 1000000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen3.8-2.4t-a95b",
+   "input_per_mtok": 2.0,
+   "output_per_mtok": 6.0,
+   "context_window": 1048576
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen3.8-27b",
+   "input_per_mtok": 0.42,
+   "output_per_mtok": 3.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen3.8-flash",
+   "input_per_mtok": 0.15,
+   "output_per_mtok": 0.47,
+   "context_window": 1000000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/qwen/qwen3.8-max",
+   "input_per_mtok": 2.0,
+   "output_per_mtok": 6.0,
    "context_window": 1000000
   },
   {
@@ -12733,8 +16107,8 @@
   {
    "provider": "openrouter",
    "model": "openrouter/undi95/remm-slerp-l2-13b",
-   "input_per_mtok": 1.875,
-   "output_per_mtok": 1.875,
+   "input_per_mtok": 0.45,
+   "output_per_mtok": 0.65,
    "context_window": 6144
   },
   {
@@ -12742,6 +16116,48 @@
    "model": "openrouter/x-ai/grok-4",
    "input_per_mtok": 3.0,
    "output_per_mtok": 15.0,
+   "context_window": 256000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/x-ai/grok-4.20",
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
+   "context_window": 1000000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/x-ai/grok-4.20-multi-agent",
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
+   "context_window": 1000000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/x-ai/grok-4.3",
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
+   "context_window": 1000000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/x-ai/grok-4.5",
+   "input_per_mtok": 2.0,
+   "output_per_mtok": 6.0,
+   "context_window": 500000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/x-ai/grok-4.6",
+   "input_per_mtok": 2.0,
+   "output_per_mtok": 6.0,
+   "context_window": 500000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/x-ai/grok-build-0.1",
+   "input_per_mtok": 1.0,
+   "output_per_mtok": 2.0,
    "context_window": 256000
   },
   {
@@ -12754,22 +16170,43 @@
   {
    "provider": "openrouter",
    "model": "openrouter/xiaomi/mimo-v2.5",
-   "input_per_mtok": 0.4,
-   "output_per_mtok": 2.0,
+   "input_per_mtok": 0.14,
+   "output_per_mtok": 0.28,
    "context_window": 1048576
   },
   {
    "provider": "openrouter",
    "model": "openrouter/xiaomi/mimo-v2.5-pro",
-   "input_per_mtok": 1.0,
-   "output_per_mtok": 3.0,
+   "input_per_mtok": 0.435,
+   "output_per_mtok": 0.87,
    "context_window": 1048576
   },
   {
    "provider": "openrouter",
+   "model": "openrouter/z-ai/glm-4.5",
+   "input_per_mtok": 0.6,
+   "output_per_mtok": 2.2,
+   "context_window": 131072
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/z-ai/glm-4.5-air",
+   "input_per_mtok": 0.13,
+   "output_per_mtok": 0.85,
+   "context_window": 131072
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/z-ai/glm-4.5v",
+   "input_per_mtok": 0.6,
+   "output_per_mtok": 1.8,
+   "context_window": 65536
+  },
+  {
+   "provider": "openrouter",
    "model": "openrouter/z-ai/glm-4.6",
-   "input_per_mtok": 0.4,
-   "output_per_mtok": 1.75,
+   "input_per_mtok": 0.55,
+   "output_per_mtok": 2.2,
    "context_window": 202800
   },
   {
@@ -12781,30 +16218,79 @@
   },
   {
    "provider": "openrouter",
+   "model": "openrouter/z-ai/glm-4.6v",
+   "input_per_mtok": 0.3,
+   "output_per_mtok": 0.9,
+   "context_window": 131072
+  },
+  {
+   "provider": "openrouter",
    "model": "openrouter/z-ai/glm-4.7",
    "input_per_mtok": 0.4,
-   "output_per_mtok": 1.5,
+   "output_per_mtok": 1.75,
    "context_window": 202752
   },
   {
    "provider": "openrouter",
    "model": "openrouter/z-ai/glm-4.7-flash",
-   "input_per_mtok": 0.07,
+   "input_per_mtok": 0.06,
    "output_per_mtok": 0.4,
    "context_window": 200000
   },
   {
    "provider": "openrouter",
    "model": "openrouter/z-ai/glm-5",
-   "input_per_mtok": 0.8,
-   "output_per_mtok": 2.56,
+   "input_per_mtok": 0.6,
+   "output_per_mtok": 1.92,
+   "context_window": 202752
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/z-ai/glm-5-turbo",
+   "input_per_mtok": 1.2,
+   "output_per_mtok": 4.0,
    "context_window": 202752
   },
   {
    "provider": "openrouter",
    "model": "openrouter/z-ai/glm-5.1",
-   "input_per_mtok": 1.05,
-   "output_per_mtok": 3.5,
+   "input_per_mtok": 0.966,
+   "output_per_mtok": 3.036,
+   "context_window": 202752
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/z-ai/glm-5.2",
+   "input_per_mtok": 0.966,
+   "output_per_mtok": 3.036,
+   "context_window": 1048576
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/z-ai/glm-5.2:free",
+   "input_per_mtok": 0.0,
+   "output_per_mtok": 0.0,
+   "context_window": 256000
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/z-ai/glm-5.3",
+   "input_per_mtok": 1.4,
+   "output_per_mtok": 4.4,
+   "context_window": 1310720
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/z-ai/glm-5.3-flash",
+   "input_per_mtok": 0.075,
+   "output_per_mtok": 0.25,
+   "context_window": 1310720
+  },
+  {
+   "provider": "openrouter",
+   "model": "openrouter/z-ai/glm-5v-turbo",
+   "input_per_mtok": 1.2,
+   "output_per_mtok": 4.0,
    "context_window": 202752
   },
   {
@@ -12956,37 +16442,72 @@
   },
   {
    "provider": "perplexity",
+   "model": "perplexity/anthropic/claude-fable-5",
+   "input_per_mtok": 10.0,
+   "output_per_mtok": 50.0,
+   "context_window": null
+  },
+  {
+   "provider": "perplexity",
    "model": "perplexity/anthropic/claude-haiku-4-5",
-   "input_per_mtok": null,
-   "output_per_mtok": null,
+   "input_per_mtok": 1.0,
+   "output_per_mtok": 5.0,
    "context_window": null
   },
   {
    "provider": "perplexity",
    "model": "perplexity/anthropic/claude-opus-4-5",
-   "input_per_mtok": null,
-   "output_per_mtok": null,
+   "input_per_mtok": 5.0,
+   "output_per_mtok": 25.0,
    "context_window": null
   },
   {
    "provider": "perplexity",
    "model": "perplexity/anthropic/claude-opus-4-6",
-   "input_per_mtok": null,
-   "output_per_mtok": null,
+   "input_per_mtok": 5.0,
+   "output_per_mtok": 25.0,
    "context_window": null
   },
   {
    "provider": "perplexity",
    "model": "perplexity/anthropic/claude-opus-4-7",
-   "input_per_mtok": null,
-   "output_per_mtok": null,
+   "input_per_mtok": 5.0,
+   "output_per_mtok": 25.0,
+   "context_window": null
+  },
+  {
+   "provider": "perplexity",
+   "model": "perplexity/anthropic/claude-opus-4-8",
+   "input_per_mtok": 5.0,
+   "output_per_mtok": 25.0,
+   "context_window": null
+  },
+  {
+   "provider": "perplexity",
+   "model": "perplexity/anthropic/claude-opus-5",
+   "input_per_mtok": 5.0,
+   "output_per_mtok": 25.0,
    "context_window": null
   },
   {
    "provider": "perplexity",
    "model": "perplexity/anthropic/claude-sonnet-4-5",
-   "input_per_mtok": null,
-   "output_per_mtok": null,
+   "input_per_mtok": 3.0,
+   "output_per_mtok": 15.0,
+   "context_window": null
+  },
+  {
+   "provider": "perplexity",
+   "model": "perplexity/anthropic/claude-sonnet-4-6",
+   "input_per_mtok": 3.0,
+   "output_per_mtok": 15.0,
+   "context_window": null
+  },
+  {
+   "provider": "perplexity",
+   "model": "perplexity/anthropic/claude-sonnet-5",
+   "input_per_mtok": 2.0,
+   "output_per_mtok": 10.0,
    "context_window": null
   },
   {
@@ -13020,8 +16541,8 @@
   {
    "provider": "perplexity",
    "model": "perplexity/google/gemini-3-flash-preview",
-   "input_per_mtok": null,
-   "output_per_mtok": null,
+   "input_per_mtok": 0.5,
+   "output_per_mtok": 3.0,
    "context_window": null
   },
   {
@@ -13029,6 +16550,48 @@
    "model": "perplexity/google/gemini-3-pro-preview",
    "input_per_mtok": null,
    "output_per_mtok": null,
+   "context_window": null
+  },
+  {
+   "provider": "perplexity",
+   "model": "perplexity/google/gemini-3.1-flash-lite",
+   "input_per_mtok": 0.25,
+   "output_per_mtok": 1.5,
+   "context_window": null
+  },
+  {
+   "provider": "perplexity",
+   "model": "perplexity/google/gemini-3.1-pro-preview",
+   "input_per_mtok": 2.0,
+   "output_per_mtok": 12.0,
+   "context_window": null
+  },
+  {
+   "provider": "perplexity",
+   "model": "perplexity/google/gemini-3.5-flash",
+   "input_per_mtok": 1.5,
+   "output_per_mtok": 9.0,
+   "context_window": null
+  },
+  {
+   "provider": "perplexity",
+   "model": "perplexity/google/gemini-3.5-flash-lite",
+   "input_per_mtok": 0.3,
+   "output_per_mtok": 2.5,
+   "context_window": null
+  },
+  {
+   "provider": "perplexity",
+   "model": "perplexity/google/gemini-3.6-flash",
+   "input_per_mtok": 1.5,
+   "output_per_mtok": 7.5,
+   "context_window": null
+  },
+  {
+   "provider": "perplexity",
+   "model": "perplexity/google/gemini-3.7-flash",
+   "input_per_mtok": 0.75,
+   "output_per_mtok": 3.75,
    "context_window": null
   },
   {
@@ -13068,30 +16631,142 @@
   },
   {
    "provider": "perplexity",
+   "model": "perplexity/openai/gpt-5",
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 10.0,
+   "context_window": null
+  },
+  {
+   "provider": "perplexity",
    "model": "perplexity/openai/gpt-5-mini",
-   "input_per_mtok": null,
-   "output_per_mtok": null,
+   "input_per_mtok": 0.25,
+   "output_per_mtok": 2.0,
    "context_window": null
   },
   {
    "provider": "perplexity",
    "model": "perplexity/openai/gpt-5.1",
-   "input_per_mtok": null,
-   "output_per_mtok": null,
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 10.0,
    "context_window": null
   },
   {
    "provider": "perplexity",
    "model": "perplexity/openai/gpt-5.2",
-   "input_per_mtok": null,
-   "output_per_mtok": null,
+   "input_per_mtok": 1.75,
+   "output_per_mtok": 14.0,
+   "context_window": null
+  },
+  {
+   "provider": "perplexity",
+   "model": "perplexity/openai/gpt-5.4",
+   "input_per_mtok": 2.5,
+   "output_per_mtok": 15.0,
+   "context_window": null
+  },
+  {
+   "provider": "perplexity",
+   "model": "perplexity/openai/gpt-5.4-mini",
+   "input_per_mtok": 0.75,
+   "output_per_mtok": 4.5,
+   "context_window": null
+  },
+  {
+   "provider": "perplexity",
+   "model": "perplexity/openai/gpt-5.4-nano",
+   "input_per_mtok": 0.2,
+   "output_per_mtok": 1.25,
+   "context_window": null
+  },
+  {
+   "provider": "perplexity",
+   "model": "perplexity/openai/gpt-5.5",
+   "input_per_mtok": 5.0,
+   "output_per_mtok": 30.0,
+   "context_window": null
+  },
+  {
+   "provider": "perplexity",
+   "model": "perplexity/openai/gpt-5.6-luna",
+   "input_per_mtok": 0.2,
+   "output_per_mtok": 1.2,
+   "context_window": null
+  },
+  {
+   "provider": "perplexity",
+   "model": "perplexity/openai/gpt-5.6-sol",
+   "input_per_mtok": 5.0,
+   "output_per_mtok": 30.0,
+   "context_window": null
+  },
+  {
+   "provider": "perplexity",
+   "model": "perplexity/openai/gpt-5.6-terra",
+   "input_per_mtok": 2.0,
+   "output_per_mtok": 12.0,
+   "context_window": null
+  },
+  {
+   "provider": "perplexity",
+   "model": "perplexity/perplexity/deepseek-v4-flash-0731",
+   "input_per_mtok": 0.13,
+   "output_per_mtok": 0.26,
+   "context_window": null
+  },
+  {
+   "provider": "perplexity",
+   "model": "perplexity/perplexity/glm-5.2",
+   "input_per_mtok": 1.4,
+   "output_per_mtok": 4.4,
+   "context_window": null
+  },
+  {
+   "provider": "perplexity",
+   "model": "perplexity/perplexity/glm-5.3",
+   "input_per_mtok": 1.4,
+   "output_per_mtok": 4.4,
+   "context_window": null
+  },
+  {
+   "provider": "perplexity",
+   "model": "perplexity/perplexity/glm-5.3-flash",
+   "input_per_mtok": 0.15,
+   "output_per_mtok": 0.5,
+   "context_window": null
+  },
+  {
+   "provider": "perplexity",
+   "model": "perplexity/perplexity/kimi-k2.7-code",
+   "input_per_mtok": 0.95,
+   "output_per_mtok": 4.0,
+   "context_window": null
+  },
+  {
+   "provider": "perplexity",
+   "model": "perplexity/perplexity/kimi-k3",
+   "input_per_mtok": 3.0,
+   "output_per_mtok": 15.0,
+   "context_window": null
+  },
+  {
+   "provider": "perplexity",
+   "model": "perplexity/perplexity/nemotron-3-ultra-550b-a55b",
+   "input_per_mtok": 0.25,
+   "output_per_mtok": 2.5,
+   "context_window": null
+  },
+  {
+   "provider": "perplexity",
+   "model": "perplexity/perplexity/nemotron-3.5-lightning-30b-a3b",
+   "input_per_mtok": 0.0115,
+   "output_per_mtok": 0.17,
    "context_window": null
   },
   {
    "provider": "perplexity",
    "model": "perplexity/perplexity/sonar",
-   "input_per_mtok": null,
-   "output_per_mtok": null,
+   "input_per_mtok": 0.25,
+   "output_per_mtok": 2.5,
    "context_window": null
   },
   {
@@ -13221,6 +16896,48 @@
    "context_window": null
   },
   {
+   "provider": "perplexity",
+   "model": "perplexity/xai/grok-4.20-multi-agent",
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
+   "context_window": null
+  },
+  {
+   "provider": "perplexity",
+   "model": "perplexity/xai/grok-4.20-non-reasoning",
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
+   "context_window": null
+  },
+  {
+   "provider": "perplexity",
+   "model": "perplexity/xai/grok-4.20-reasoning",
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
+   "context_window": null
+  },
+  {
+   "provider": "perplexity",
+   "model": "perplexity/xai/grok-4.3",
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
+   "context_window": null
+  },
+  {
+   "provider": "perplexity",
+   "model": "perplexity/xai/grok-4.5",
+   "input_per_mtok": 2.0,
+   "output_per_mtok": 6.0,
+   "context_window": null
+  },
+  {
+   "provider": "perplexity",
+   "model": "perplexity/xai/grok-4.6",
+   "input_per_mtok": 2.0,
+   "output_per_mtok": 6.0,
+   "context_window": null
+  },
+  {
    "provider": "pinstripes",
    "model": "pinstripes/ps/deepseek-v4-flash",
    "input_per_mtok": 0.1,
@@ -13324,6 +17041,580 @@
    "input_per_mtok": 0.0,
    "output_per_mtok": 0.0,
    "context_window": 8192
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/deepseek-v4-flash",
+   "input_per_mtok": 0.2,
+   "output_per_mtok": 0.4,
+   "context_window": 1000000
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/deepseek-v4-flash-0731",
+   "input_per_mtok": 0.2,
+   "output_per_mtok": 0.4,
+   "context_window": 1000000
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/deepseek-v4-pro",
+   "input_per_mtok": 2.4,
+   "output_per_mtok": 4.8,
+   "context_window": 1000000
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/glm-5.1",
+   "input_per_mtok": 1.4,
+   "output_per_mtok": 4.4,
+   "context_window": 202745
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/glm-5.2",
+   "input_per_mtok": 1.4,
+   "output_per_mtok": 4.4,
+   "context_window": 1048576
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/kimi-k2.7-code",
+   "input_per_mtok": 0.95,
+   "output_per_mtok": 4.0,
+   "context_window": 229376
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/qwen-coder",
+   "input_per_mtok": 0.3,
+   "output_per_mtok": 1.5,
+   "context_window": 1000000
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/qwen-flash",
+   "input_per_mtok": null,
+   "output_per_mtok": null,
+   "context_window": 997952
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/qwen-flash-2025-07-28",
+   "input_per_mtok": null,
+   "output_per_mtok": null,
+   "context_window": 997952
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/qwen-max",
+   "input_per_mtok": 1.6,
+   "output_per_mtok": 6.4,
+   "context_window": 30720
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/qwen-plus",
+   "input_per_mtok": 0.4,
+   "output_per_mtok": 1.2,
+   "context_window": 129024
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/qwen-plus-2025-01-25",
+   "input_per_mtok": 0.4,
+   "output_per_mtok": 1.2,
+   "context_window": 129024
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/qwen-plus-2025-04-28",
+   "input_per_mtok": 0.4,
+   "output_per_mtok": 1.2,
+   "context_window": 129024
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/qwen-plus-2025-07-14",
+   "input_per_mtok": 0.4,
+   "output_per_mtok": 1.2,
+   "context_window": 129024
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/qwen-plus-2025-07-28",
+   "input_per_mtok": null,
+   "output_per_mtok": null,
+   "context_window": 997952
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/qwen-plus-2025-09-11",
+   "input_per_mtok": null,
+   "output_per_mtok": null,
+   "context_window": 997952
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/qwen-plus-latest",
+   "input_per_mtok": null,
+   "output_per_mtok": null,
+   "context_window": 997952
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/qwen-turbo",
+   "input_per_mtok": 0.05,
+   "output_per_mtok": 0.2,
+   "context_window": 129024
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/qwen-turbo-2024-11-01",
+   "input_per_mtok": 0.05,
+   "output_per_mtok": 0.2,
+   "context_window": 1000000
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/qwen-turbo-2025-04-28",
+   "input_per_mtok": 0.05,
+   "output_per_mtok": 0.2,
+   "context_window": 1000000
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/qwen-turbo-latest",
+   "input_per_mtok": 0.05,
+   "output_per_mtok": 0.2,
+   "context_window": 1000000
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/qwen3-30b-a3b",
+   "input_per_mtok": null,
+   "output_per_mtok": null,
+   "context_window": 129024
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/qwen3-coder-flash",
+   "input_per_mtok": null,
+   "output_per_mtok": null,
+   "context_window": 997952
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/qwen3-coder-flash-2025-07-28",
+   "input_per_mtok": null,
+   "output_per_mtok": null,
+   "context_window": 997952
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/qwen3-coder-plus",
+   "input_per_mtok": null,
+   "output_per_mtok": null,
+   "context_window": 997952
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/qwen3-coder-plus-2025-07-22",
+   "input_per_mtok": null,
+   "output_per_mtok": null,
+   "context_window": 997952
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/qwen3-max",
+   "input_per_mtok": null,
+   "output_per_mtok": null,
+   "context_window": 258048
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/qwen3-max-2026-01-23",
+   "input_per_mtok": null,
+   "output_per_mtok": null,
+   "context_window": 258048
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/qwen3-max-preview",
+   "input_per_mtok": null,
+   "output_per_mtok": null,
+   "context_window": 258048
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/qwen3-next-80b-a3b-instruct",
+   "input_per_mtok": 0.15,
+   "output_per_mtok": 1.2,
+   "context_window": 262144
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/qwen3-next-80b-a3b-thinking",
+   "input_per_mtok": 0.15,
+   "output_per_mtok": 1.2,
+   "context_window": 262144
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/qwen3-vl-235b-a22b-instruct",
+   "input_per_mtok": 0.4,
+   "output_per_mtok": 1.6,
+   "context_window": 131072
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/qwen3-vl-235b-a22b-thinking",
+   "input_per_mtok": 0.4,
+   "output_per_mtok": 4.0,
+   "context_window": 131072
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/qwen3-vl-32b-instruct",
+   "input_per_mtok": 0.16,
+   "output_per_mtok": 0.64,
+   "context_window": 131072
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/qwen3-vl-32b-thinking",
+   "input_per_mtok": 0.16,
+   "output_per_mtok": 2.87,
+   "context_window": 131072
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/qwen3-vl-plus",
+   "input_per_mtok": null,
+   "output_per_mtok": null,
+   "context_window": 260096
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/qwen3.5-plus",
+   "input_per_mtok": null,
+   "output_per_mtok": null,
+   "context_window": 991808
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/qwen3.7-max",
+   "input_per_mtok": 2.5,
+   "output_per_mtok": 7.5,
+   "context_window": 991808
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/qwen3.7-plus",
+   "input_per_mtok": null,
+   "output_per_mtok": null,
+   "context_window": 991808
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/qwen3.8-max",
+   "input_per_mtok": 2.0,
+   "output_per_mtok": 6.0,
+   "context_window": 991808
+  },
+  {
+   "provider": "qwen_ai_platform",
+   "model": "qwen_ai_platform/qwq-plus",
+   "input_per_mtok": 0.8,
+   "output_per_mtok": 2.4,
+   "context_window": 98304
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/deepseek-v4-flash",
+   "input_per_mtok": 0.2,
+   "output_per_mtok": 0.4,
+   "context_window": 1000000
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/deepseek-v4-flash-0731",
+   "input_per_mtok": 0.2,
+   "output_per_mtok": 0.4,
+   "context_window": 1000000
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/deepseek-v4-pro",
+   "input_per_mtok": 2.4,
+   "output_per_mtok": 4.8,
+   "context_window": 1000000
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/glm-5.1",
+   "input_per_mtok": 1.4,
+   "output_per_mtok": 4.4,
+   "context_window": 202745
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/glm-5.2",
+   "input_per_mtok": 1.4,
+   "output_per_mtok": 4.4,
+   "context_window": 1048576
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/kimi-k2.7-code",
+   "input_per_mtok": 0.95,
+   "output_per_mtok": 4.0,
+   "context_window": 229376
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/qwen-coder",
+   "input_per_mtok": 0.3,
+   "output_per_mtok": 1.5,
+   "context_window": 1000000
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/qwen-flash",
+   "input_per_mtok": null,
+   "output_per_mtok": null,
+   "context_window": 997952
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/qwen-flash-2025-07-28",
+   "input_per_mtok": null,
+   "output_per_mtok": null,
+   "context_window": 997952
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/qwen-max",
+   "input_per_mtok": 1.6,
+   "output_per_mtok": 6.4,
+   "context_window": 30720
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/qwen-plus",
+   "input_per_mtok": 0.4,
+   "output_per_mtok": 1.2,
+   "context_window": 129024
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/qwen-plus-2025-01-25",
+   "input_per_mtok": 0.4,
+   "output_per_mtok": 1.2,
+   "context_window": 129024
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/qwen-plus-2025-04-28",
+   "input_per_mtok": 0.4,
+   "output_per_mtok": 1.2,
+   "context_window": 129024
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/qwen-plus-2025-07-14",
+   "input_per_mtok": 0.4,
+   "output_per_mtok": 1.2,
+   "context_window": 129024
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/qwen-plus-2025-07-28",
+   "input_per_mtok": null,
+   "output_per_mtok": null,
+   "context_window": 997952
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/qwen-plus-2025-09-11",
+   "input_per_mtok": null,
+   "output_per_mtok": null,
+   "context_window": 997952
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/qwen-plus-latest",
+   "input_per_mtok": null,
+   "output_per_mtok": null,
+   "context_window": 997952
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/qwen-turbo",
+   "input_per_mtok": 0.05,
+   "output_per_mtok": 0.2,
+   "context_window": 129024
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/qwen-turbo-2024-11-01",
+   "input_per_mtok": 0.05,
+   "output_per_mtok": 0.2,
+   "context_window": 1000000
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/qwen-turbo-2025-04-28",
+   "input_per_mtok": 0.05,
+   "output_per_mtok": 0.2,
+   "context_window": 1000000
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/qwen-turbo-latest",
+   "input_per_mtok": 0.05,
+   "output_per_mtok": 0.2,
+   "context_window": 1000000
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/qwen3-30b-a3b",
+   "input_per_mtok": null,
+   "output_per_mtok": null,
+   "context_window": 129024
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/qwen3-coder-flash",
+   "input_per_mtok": null,
+   "output_per_mtok": null,
+   "context_window": 997952
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/qwen3-coder-flash-2025-07-28",
+   "input_per_mtok": null,
+   "output_per_mtok": null,
+   "context_window": 997952
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/qwen3-coder-plus",
+   "input_per_mtok": null,
+   "output_per_mtok": null,
+   "context_window": 997952
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/qwen3-coder-plus-2025-07-22",
+   "input_per_mtok": null,
+   "output_per_mtok": null,
+   "context_window": 997952
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/qwen3-max",
+   "input_per_mtok": null,
+   "output_per_mtok": null,
+   "context_window": 258048
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/qwen3-max-2026-01-23",
+   "input_per_mtok": null,
+   "output_per_mtok": null,
+   "context_window": 258048
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/qwen3-max-preview",
+   "input_per_mtok": null,
+   "output_per_mtok": null,
+   "context_window": 258048
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/qwen3-next-80b-a3b-instruct",
+   "input_per_mtok": 0.15,
+   "output_per_mtok": 1.2,
+   "context_window": 262144
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/qwen3-next-80b-a3b-thinking",
+   "input_per_mtok": 0.15,
+   "output_per_mtok": 1.2,
+   "context_window": 262144
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/qwen3-vl-235b-a22b-instruct",
+   "input_per_mtok": 0.4,
+   "output_per_mtok": 1.6,
+   "context_window": 131072
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/qwen3-vl-235b-a22b-thinking",
+   "input_per_mtok": 0.4,
+   "output_per_mtok": 4.0,
+   "context_window": 131072
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/qwen3-vl-32b-instruct",
+   "input_per_mtok": 0.16,
+   "output_per_mtok": 0.64,
+   "context_window": 131072
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/qwen3-vl-32b-thinking",
+   "input_per_mtok": 0.16,
+   "output_per_mtok": 2.87,
+   "context_window": 131072
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/qwen3-vl-plus",
+   "input_per_mtok": null,
+   "output_per_mtok": null,
+   "context_window": 260096
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/qwen3.5-plus",
+   "input_per_mtok": null,
+   "output_per_mtok": null,
+   "context_window": 991808
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/qwen3.7-max",
+   "input_per_mtok": 2.5,
+   "output_per_mtok": 7.5,
+   "context_window": 991808
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/qwen3.7-plus",
+   "input_per_mtok": null,
+   "output_per_mtok": null,
+   "context_window": 991808
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/qwen3.8-max",
+   "input_per_mtok": 2.0,
+   "output_per_mtok": 6.0,
+   "context_window": 991808
+  },
+  {
+   "provider": "qwencloud",
+   "model": "qwencloud/qwq-plus",
+   "input_per_mtok": 0.8,
+   "output_per_mtok": 2.4,
+   "context_window": 98304
   },
   {
    "provider": "replicate",
@@ -13565,6 +17856,13 @@
   },
   {
    "provider": "replicate",
+   "model": "replicate/openai/gpt-oss-20b",
+   "input_per_mtok": 0.09,
+   "output_per_mtok": 0.36,
+   "context_window": null
+  },
+  {
+   "provider": "replicate",
    "model": "replicate/openai/o1",
    "input_per_mtok": 15.0,
    "output_per_mtok": 60.0,
@@ -13596,13 +17894,6 @@
    "model": "replicate/xai/grok-4",
    "input_per_mtok": 7.2,
    "output_per_mtok": 36.0,
-   "context_window": null
-  },
-  {
-   "provider": "replicate",
-   "model": "replicateopenai/gpt-oss-20b",
-   "input_per_mtok": 0.09,
-   "output_per_mtok": 0.36,
    "context_window": null
   },
   {
@@ -13789,6 +18080,20 @@
   },
   {
    "provider": "scaleway",
+   "model": "scaleway/deepseek-v4-flash-0731",
+   "input_per_mtok": 0.4,
+   "output_per_mtok": 0.8,
+   "context_window": 256000
+  },
+  {
+   "provider": "scaleway",
+   "model": "scaleway/glm-5.2",
+   "input_per_mtok": 1.8,
+   "output_per_mtok": 5.5,
+   "context_window": 256000
+  },
+  {
+   "provider": "scaleway",
    "model": "scaleway/google/gemma-3-27b-it",
    "input_per_mtok": 0.25,
    "output_per_mtok": 0.5,
@@ -13884,6 +18189,20 @@
    "input_per_mtok": 0.25,
    "output_per_mtok": 1.5,
    "context_window": 256000
+  },
+  {
+   "provider": "scx-ai",
+   "model": "scx-ai/GLM-5.2",
+   "input_per_mtok": 0.61,
+   "output_per_mtok": 1.98,
+   "context_window": 1048576
+  },
+  {
+   "provider": "scx-ai",
+   "model": "scx-ai/Qwen3.8-Max",
+   "input_per_mtok": 1.65,
+   "output_per_mtok": 4.99,
+   "context_window": 1000000
   },
   {
    "provider": "snowflake",
@@ -14145,6 +18464,13 @@
    "context_window": 1000000
   },
   {
+   "provider": "tencent",
+   "model": "tencent/minimax-m3",
+   "input_per_mtok": 0.3,
+   "output_per_mtok": 1.2,
+   "context_window": 1000000
+  },
+  {
    "provider": "tensormesh",
    "model": "tensormesh/MiniMaxAI/MiniMax-M2.5",
    "input_per_mtok": 0.3,
@@ -14321,6 +18647,20 @@
   },
   {
    "provider": "together_ai",
+   "model": "together_ai/MiniMaxAI/MiniMax-M3",
+   "input_per_mtok": 0.3,
+   "output_per_mtok": 1.2,
+   "context_window": 524288
+  },
+  {
+   "provider": "together_ai",
+   "model": "together_ai/Prism-ML/Ternary-Bonsai-27B",
+   "input_per_mtok": 0.0,
+   "output_per_mtok": 0.0,
+   "context_window": 262144
+  },
+  {
+   "provider": "together_ai",
    "model": "together_ai/Qwen/Qwen2.5-72B-Instruct-Turbo",
    "input_per_mtok": null,
    "output_per_mtok": null,
@@ -14384,6 +18724,55 @@
   },
   {
    "provider": "together_ai",
+   "model": "together_ai/Qwen/Qwen3.5-9B",
+   "input_per_mtok": 0.17,
+   "output_per_mtok": 0.25,
+   "context_window": 262144
+  },
+  {
+   "provider": "together_ai",
+   "model": "together_ai/Qwen/Qwen3.6-Plus",
+   "input_per_mtok": 0.5,
+   "output_per_mtok": 3.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "together_ai",
+   "model": "together_ai/Qwen/Qwen3.7-Max",
+   "input_per_mtok": 2.5,
+   "output_per_mtok": 7.5,
+   "context_window": 1000000
+  },
+  {
+   "provider": "together_ai",
+   "model": "together_ai/Qwen/Qwen3.7-Plus",
+   "input_per_mtok": 0.32,
+   "output_per_mtok": 1.28,
+   "context_window": 1000000
+  },
+  {
+   "provider": "together_ai",
+   "model": "together_ai/Qwen/Qwen3.8-2.4T-A95B",
+   "input_per_mtok": 2.0,
+   "output_per_mtok": 6.0,
+   "context_window": 1010000
+  },
+  {
+   "provider": "together_ai",
+   "model": "together_ai/Qwen/Qwen3.8-Flash",
+   "input_per_mtok": 0.15,
+   "output_per_mtok": 0.47,
+   "context_window": 1000000
+  },
+  {
+   "provider": "together_ai",
+   "model": "together_ai/arize-ai/qwen-2-1.5b-instruct",
+   "input_per_mtok": 0.1,
+   "output_per_mtok": 0.1,
+   "context_window": 32768
+  },
+  {
+   "provider": "together_ai",
    "model": "together_ai/deepseek-ai/DeepSeek-R1",
    "input_per_mtok": 3.0,
    "output_per_mtok": 7.0,
@@ -14412,6 +18801,41 @@
   },
   {
    "provider": "together_ai",
+   "model": "together_ai/deepseek-ai/DeepSeek-V4-Flash-0731",
+   "input_per_mtok": 0.14,
+   "output_per_mtok": 0.28,
+   "context_window": 1048576
+  },
+  {
+   "provider": "together_ai",
+   "model": "together_ai/deepseek-ai/DeepSeek-V4-Pro",
+   "input_per_mtok": 1.74,
+   "output_per_mtok": 3.48,
+   "context_window": 512000
+  },
+  {
+   "provider": "together_ai",
+   "model": "together_ai/deepseek-ai/DeepSeek-V4-Pro-0813",
+   "input_per_mtok": 1.32,
+   "output_per_mtok": 3.96,
+   "context_window": 1048576
+  },
+  {
+   "provider": "together_ai",
+   "model": "together_ai/google/gemma-3n-E4B-it",
+   "input_per_mtok": 0.06,
+   "output_per_mtok": 0.12,
+   "context_window": 32768
+  },
+  {
+   "provider": "together_ai",
+   "model": "together_ai/google/gemma-4-31B-it",
+   "input_per_mtok": 0.39,
+   "output_per_mtok": 0.97,
+   "context_window": 262144
+  },
+  {
+   "provider": "together_ai",
    "model": "together_ai/meta-llama/Llama-3.2-3B-Instruct-Turbo",
    "input_per_mtok": null,
    "output_per_mtok": null,
@@ -14420,9 +18844,9 @@
   {
    "provider": "together_ai",
    "model": "together_ai/meta-llama/Llama-3.3-70B-Instruct-Turbo",
-   "input_per_mtok": 0.88,
-   "output_per_mtok": 0.88,
-   "context_window": null
+   "input_per_mtok": 1.04,
+   "output_per_mtok": 1.04,
+   "context_window": 131072
   },
   {
    "provider": "together_ai",
@@ -14447,6 +18871,13 @@
   },
   {
    "provider": "together_ai",
+   "model": "together_ai/meta-llama/Llama-Guard-4-12B",
+   "input_per_mtok": 0.2,
+   "output_per_mtok": 0.2,
+   "context_window": 1048576
+  },
+  {
+   "provider": "together_ai",
    "model": "together_ai/meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
    "input_per_mtok": 3.5,
    "output_per_mtok": 3.5,
@@ -14465,6 +18896,13 @@
    "input_per_mtok": 0.18,
    "output_per_mtok": 0.18,
    "context_window": null
+  },
+  {
+   "provider": "together_ai",
+   "model": "together_ai/meta-models/Muse-Glimmer-30B",
+   "input_per_mtok": 0.35,
+   "output_per_mtok": 1.5,
+   "context_window": 131072
   },
   {
    "provider": "together_ai",
@@ -14510,6 +18948,27 @@
   },
   {
    "provider": "together_ai",
+   "model": "together_ai/moonshotai/Kimi-K2.7-Code",
+   "input_per_mtok": 0.95,
+   "output_per_mtok": 4.0,
+   "context_window": 262144
+  },
+  {
+   "provider": "together_ai",
+   "model": "together_ai/moonshotai/Kimi-K3",
+   "input_per_mtok": 3.0,
+   "output_per_mtok": 15.0,
+   "context_window": 1048576
+  },
+  {
+   "provider": "together_ai",
+   "model": "together_ai/nvidia/nemotron-3-ultra-550b-a55b",
+   "input_per_mtok": 0.6,
+   "output_per_mtok": 3.6,
+   "context_window": 512288
+  },
+  {
+   "provider": "together_ai",
    "model": "together_ai/openai/gpt-oss-120b",
    "input_per_mtok": 0.15,
    "output_per_mtok": 0.6,
@@ -14520,7 +18979,28 @@
    "model": "together_ai/openai/gpt-oss-20b",
    "input_per_mtok": 0.05,
    "output_per_mtok": 0.2,
-   "context_window": 128000
+   "context_window": 131072
+  },
+  {
+   "provider": "together_ai",
+   "model": "together_ai/pearl-ai/gemma-4-31b-it",
+   "input_per_mtok": 0.28,
+   "output_per_mtok": 0.86,
+   "context_window": 262144
+  },
+  {
+   "provider": "together_ai",
+   "model": "together_ai/thinkingmachines/Inkling",
+   "input_per_mtok": 1.0,
+   "output_per_mtok": 4.05,
+   "context_window": 524288
+  },
+  {
+   "provider": "together_ai",
+   "model": "together_ai/thinkingmachines/Inkling-Small",
+   "input_per_mtok": 0.5,
+   "output_per_mtok": 1.2,
+   "context_window": 524288
   },
   {
    "provider": "together_ai",
@@ -14549,6 +19029,27 @@
    "input_per_mtok": 0.45,
    "output_per_mtok": 2.0,
    "context_window": 200000
+  },
+  {
+   "provider": "together_ai",
+   "model": "together_ai/zai-org/GLM-5.2",
+   "input_per_mtok": 1.4,
+   "output_per_mtok": 4.4,
+   "context_window": 1048575
+  },
+  {
+   "provider": "together_ai",
+   "model": "together_ai/zai-org/GLM-5.3",
+   "input_per_mtok": 1.4,
+   "output_per_mtok": 4.4,
+   "context_window": 1048575
+  },
+  {
+   "provider": "together_ai",
+   "model": "together_ai/zai-org/GLM-5.3-Flash",
+   "input_per_mtok": 0.15,
+   "output_per_mtok": 0.5,
+   "context_window": 1048575
   },
   {
    "provider": "v0",
@@ -15274,8 +19775,22 @@
   {
    "provider": "vertex_ai",
    "model": "vertex_ai/gemini-3.6-flash",
-   "input_per_mtok": 1.5,
-   "output_per_mtok": 7.5,
+   "input_per_mtok": 0.75,
+   "output_per_mtok": 3.75,
+   "context_window": 1048576
+  },
+  {
+   "provider": "vertex_ai",
+   "model": "vertex_ai/gemini-3.7-flash",
+   "input_per_mtok": 0.75,
+   "output_per_mtok": 3.75,
+   "context_window": 1048576
+  },
+  {
+   "provider": "vertex_ai",
+   "model": "vertex_ai/gemini-3.8-flash",
+   "input_per_mtok": 0.75,
+   "output_per_mtok": 3.75,
    "context_window": 1048576
   },
   {
@@ -15421,6 +19936,20 @@
   {
    "provider": "vertex_ai-anthropic_models",
    "model": "vertex_ai/claude-fable-5",
+   "input_per_mtok": 10.0,
+   "output_per_mtok": 50.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "vertex_ai-anthropic_models",
+   "model": "vertex_ai/claude-fable-5-1",
+   "input_per_mtok": 10.0,
+   "output_per_mtok": 50.0,
+   "context_window": 1000000
+  },
+  {
+   "provider": "vertex_ai-anthropic_models",
+   "model": "vertex_ai/claude-fable-5-1@default",
    "input_per_mtok": 10.0,
    "output_per_mtok": 50.0,
    "context_window": 1000000
@@ -15610,8 +20139,8 @@
   {
    "provider": "vertex_ai-deepseek_models",
    "model": "vertex_ai/deepseek-ai/deepseek-v3.1-maas",
-   "input_per_mtok": 1.35,
-   "output_per_mtok": 5.4,
+   "input_per_mtok": 0.6,
+   "output_per_mtok": 1.7,
    "context_window": 163840
   },
   {
@@ -15701,8 +20230,8 @@
   {
    "provider": "vertex_ai-language-models",
    "model": "gemini-2.5-pro-preview-tts",
-   "input_per_mtok": 1.25,
-   "output_per_mtok": 10.0,
+   "input_per_mtok": 1.0,
+   "output_per_mtok": 20.0,
    "context_window": 1048576
   },
   {
@@ -15764,8 +20293,22 @@
   {
    "provider": "vertex_ai-language-models",
    "model": "gemini-3.6-flash",
-   "input_per_mtok": 1.5,
-   "output_per_mtok": 7.5,
+   "input_per_mtok": 0.75,
+   "output_per_mtok": 3.75,
+   "context_window": 1048576
+  },
+  {
+   "provider": "vertex_ai-language-models",
+   "model": "gemini-3.7-flash",
+   "input_per_mtok": 0.75,
+   "output_per_mtok": 3.75,
+   "context_window": 1048576
+  },
+  {
+   "provider": "vertex_ai-language-models",
+   "model": "gemini-3.8-flash",
+   "input_per_mtok": 0.75,
+   "output_per_mtok": 3.75,
    "context_window": 1048576
   },
   {
@@ -16051,8 +20594,8 @@
   {
    "provider": "vertex_ai-openai_models",
    "model": "vertex_ai/openai/gpt-oss-120b-maas",
-   "input_per_mtok": 0.15,
-   "output_per_mtok": 0.6,
+   "input_per_mtok": 0.09,
+   "output_per_mtok": 0.36,
    "context_window": 131072
   },
   {
@@ -16065,15 +20608,15 @@
   {
    "provider": "vertex_ai-qwen_models",
    "model": "vertex_ai/qwen/qwen3-235b-a22b-instruct-2507-maas",
-   "input_per_mtok": 0.25,
-   "output_per_mtok": 1.0,
+   "input_per_mtok": 0.22,
+   "output_per_mtok": 0.88,
    "context_window": 262144
   },
   {
    "provider": "vertex_ai-qwen_models",
    "model": "vertex_ai/qwen/qwen3-coder-480b-a35b-instruct-maas",
-   "input_per_mtok": 1.0,
-   "output_per_mtok": 4.0,
+   "input_per_mtok": 0.22,
+   "output_per_mtok": 1.8,
    "context_window": 262144
   },
   {
@@ -16169,6 +20712,13 @@
   },
   {
    "provider": "wandb",
+   "model": "wandb/JetBrains/Mellum2-12B-A2.5B-Instruct",
+   "input_per_mtok": 0.05,
+   "output_per_mtok": 0.1,
+   "context_window": 131072
+  },
+  {
+   "provider": "wandb",
    "model": "wandb/MiniMaxAI/MiniMax-M2.5",
    "input_per_mtok": 0.3,
    "output_per_mtok": 1.2,
@@ -16176,65 +20726,156 @@
   },
   {
    "provider": "wandb",
+   "model": "wandb/MiniMaxAI/MiniMax-M3",
+   "input_per_mtok": 0.23,
+   "output_per_mtok": 0.96,
+   "context_window": 262144
+  },
+  {
+   "provider": "wandb",
+   "model": "wandb/OpenPipe/Qwen3-14B-Instruct",
+   "input_per_mtok": 0.05,
+   "output_per_mtok": 0.22,
+   "context_window": 32768
+  },
+  {
+   "provider": "wandb",
    "model": "wandb/Qwen/Qwen3-235B-A22B-Instruct-2507",
-   "input_per_mtok": 10000.0,
-   "output_per_mtok": 10000.0,
+   "input_per_mtok": 0.1,
+   "output_per_mtok": 0.1,
    "context_window": 262144
   },
   {
    "provider": "wandb",
    "model": "wandb/Qwen/Qwen3-235B-A22B-Thinking-2507",
-   "input_per_mtok": 10000.0,
-   "output_per_mtok": 10000.0,
+   "input_per_mtok": 0.1,
+   "output_per_mtok": 0.1,
+   "context_window": 262144
+  },
+  {
+   "provider": "wandb",
+   "model": "wandb/Qwen/Qwen3-30B-A3B-Instruct-2507",
+   "input_per_mtok": 0.1,
+   "output_per_mtok": 0.3,
    "context_window": 262144
   },
   {
    "provider": "wandb",
    "model": "wandb/Qwen/Qwen3-Coder-480B-A35B-Instruct",
-   "input_per_mtok": 100000.0,
-   "output_per_mtok": 150000.0,
+   "input_per_mtok": 1.0,
+   "output_per_mtok": 1.5,
+   "context_window": 262144
+  },
+  {
+   "provider": "wandb",
+   "model": "wandb/Qwen/Qwen3.5-35B-A3B",
+   "input_per_mtok": 0.25,
+   "output_per_mtok": 1.25,
+   "context_window": 262144
+  },
+  {
+   "provider": "wandb",
+   "model": "wandb/Qwen/Qwen3.6-27B",
+   "input_per_mtok": 0.6,
+   "output_per_mtok": 3.6,
+   "context_window": 262144
+  },
+  {
+   "provider": "wandb",
+   "model": "wandb/Qwen/Qwen3.6-35B-A3B",
+   "input_per_mtok": 0.25,
+   "output_per_mtok": 1.25,
+   "context_window": 262144
+  },
+  {
+   "provider": "wandb",
+   "model": "wandb/Qwen/Qwen3.8-27B",
+   "input_per_mtok": 0.4,
+   "output_per_mtok": 3.0,
    "context_window": 262144
   },
   {
    "provider": "wandb",
    "model": "wandb/deepseek-ai/DeepSeek-R1-0528",
-   "input_per_mtok": 135000.0,
-   "output_per_mtok": 540000.0,
+   "input_per_mtok": 1.35,
+   "output_per_mtok": 5.4,
    "context_window": 161000
   },
   {
    "provider": "wandb",
    "model": "wandb/deepseek-ai/DeepSeek-V3-0324",
-   "input_per_mtok": 114000.0,
-   "output_per_mtok": 275000.0,
+   "input_per_mtok": 1.14,
+   "output_per_mtok": 2.75,
    "context_window": 161000
   },
   {
    "provider": "wandb",
    "model": "wandb/deepseek-ai/DeepSeek-V3.1",
-   "input_per_mtok": 55000.0,
-   "output_per_mtok": 165000.0,
+   "input_per_mtok": 0.55,
+   "output_per_mtok": 1.65,
+   "context_window": 161000
+  },
+  {
+   "provider": "wandb",
+   "model": "wandb/deepseek-ai/DeepSeek-V4-Flash",
+   "input_per_mtok": 0.14,
+   "output_per_mtok": 0.28,
+   "context_window": 1048576
+  },
+  {
+   "provider": "wandb",
+   "model": "wandb/deepseek-ai/DeepSeek-V4-Flash-0731",
+   "input_per_mtok": 0.13,
+   "output_per_mtok": 0.28,
+   "context_window": 262144
+  },
+  {
+   "provider": "wandb",
+   "model": "wandb/deepseek-ai/DeepSeek-V4-Pro",
+   "input_per_mtok": 1.15,
+   "output_per_mtok": 2.55,
+   "context_window": 1048576
+  },
+  {
+   "provider": "wandb",
+   "model": "wandb/google/gemma-4-31B-it",
+   "input_per_mtok": 0.1,
+   "output_per_mtok": 0.34,
+   "context_window": 262144
+  },
+  {
+   "provider": "wandb",
+   "model": "wandb/ibm-granite/granite-4.1-8b",
+   "input_per_mtok": 0.05,
+   "output_per_mtok": 0.1,
+   "context_window": 131072
+  },
+  {
+   "provider": "wandb",
+   "model": "wandb/meta-llama/Llama-3.1-70B-Instruct",
+   "input_per_mtok": 0.8,
+   "output_per_mtok": 0.8,
    "context_window": 128000
   },
   {
    "provider": "wandb",
    "model": "wandb/meta-llama/Llama-3.1-8B-Instruct",
-   "input_per_mtok": 22000.0,
-   "output_per_mtok": 22000.0,
+   "input_per_mtok": 0.22,
+   "output_per_mtok": 0.22,
    "context_window": 128000
   },
   {
    "provider": "wandb",
    "model": "wandb/meta-llama/Llama-3.3-70B-Instruct",
-   "input_per_mtok": 71000.0,
-   "output_per_mtok": 71000.0,
+   "input_per_mtok": 0.71,
+   "output_per_mtok": 0.71,
    "context_window": 128000
   },
   {
    "provider": "wandb",
    "model": "wandb/meta-llama/Llama-4-Scout-17B-16E-Instruct",
-   "input_per_mtok": 17000.0,
-   "output_per_mtok": 66000.0,
+   "input_per_mtok": 0.17,
+   "output_per_mtok": 0.66,
    "context_window": 64000
   },
   {
@@ -16260,16 +20901,44 @@
   },
   {
    "provider": "wandb",
+   "model": "wandb/moonshotai/Kimi-K2.6",
+   "input_per_mtok": 0.65,
+   "output_per_mtok": 3.41,
+   "context_window": 262144
+  },
+  {
+   "provider": "wandb",
+   "model": "wandb/moonshotai/Kimi-K2.7-Code",
+   "input_per_mtok": 0.71,
+   "output_per_mtok": 3.5,
+   "context_window": 262144
+  },
+  {
+   "provider": "wandb",
+   "model": "wandb/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B",
+   "input_per_mtok": 0.75,
+   "output_per_mtok": 2.75,
+   "context_window": 262144
+  },
+  {
+   "provider": "wandb",
+   "model": "wandb/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B",
+   "input_per_mtok": 0.1,
+   "output_per_mtok": 0.25,
+   "context_window": 262144
+  },
+  {
+   "provider": "wandb",
    "model": "wandb/openai/gpt-oss-120b",
-   "input_per_mtok": 15000.0,
-   "output_per_mtok": 60000.0,
+   "input_per_mtok": 0.03,
+   "output_per_mtok": 0.17,
    "context_window": 131072
   },
   {
    "provider": "wandb",
    "model": "wandb/openai/gpt-oss-20b",
-   "input_per_mtok": 5000.0,
-   "output_per_mtok": 20000.0,
+   "input_per_mtok": 0.03,
+   "output_per_mtok": 0.13,
    "context_window": 131072
   },
   {
@@ -16280,11 +20949,25 @@
    "context_window": 131072
   },
   {
+   "provider": "wandb",
+   "model": "wandb/zai-org/GLM-5.2",
+   "input_per_mtok": 0.76,
+   "output_per_mtok": 2.42,
+   "context_window": 262144
+  },
+  {
+   "provider": "watsonx",
+   "model": "watsonx/bigscience/mt0-xxl",
+   "input_per_mtok": 1.908,
+   "output_per_mtok": 1.908,
+   "context_window": 4096
+  },
+  {
    "provider": "watsonx",
    "model": "watsonx/bigscience/mt0-xxl-13b",
-   "input_per_mtok": 500.0,
-   "output_per_mtok": 2000.0,
-   "context_window": 8192
+   "input_per_mtok": 1.908,
+   "output_per_mtok": 1.908,
+   "context_window": 4096
   },
   {
    "provider": "watsonx",
@@ -16331,9 +21014,9 @@
   {
    "provider": "watsonx",
    "model": "watsonx/ibm/granite-4-h-small",
-   "input_per_mtok": 0.06,
-   "output_per_mtok": 0.25,
-   "context_window": 20480
+   "input_per_mtok": 0.0636,
+   "output_per_mtok": 0.265,
+   "context_window": 131072
   },
   {
    "provider": "watsonx",
@@ -16408,16 +21091,23 @@
   {
    "provider": "watsonx",
    "model": "watsonx/meta-llama/llama-3-3-70b-instruct",
-   "input_per_mtok": 0.71,
-   "output_per_mtok": 0.71,
-   "context_window": 128000
+   "input_per_mtok": 0.7526,
+   "output_per_mtok": 0.7526,
+   "context_window": 131072
   },
   {
    "provider": "watsonx",
    "model": "watsonx/meta-llama/llama-4-maverick-17b",
-   "input_per_mtok": 0.35,
-   "output_per_mtok": 1.4,
-   "context_window": 128000
+   "input_per_mtok": 0.371,
+   "output_per_mtok": 1.484,
+   "context_window": 131072
+  },
+  {
+   "provider": "watsonx",
+   "model": "watsonx/meta-llama/llama-4-maverick-17b-128e-instruct-fp8",
+   "input_per_mtok": 0.371,
+   "output_per_mtok": 1.484,
+   "context_window": 131072
   },
   {
    "provider": "watsonx",
@@ -16450,9 +21140,9 @@
   {
    "provider": "watsonx",
    "model": "watsonx/mistralai/mistral-small-3-1-24b-instruct-2503",
-   "input_per_mtok": 0.1,
-   "output_per_mtok": 0.3,
-   "context_window": 32000
+   "input_per_mtok": 0.106,
+   "output_per_mtok": 0.318,
+   "context_window": 131072
   },
   {
    "provider": "watsonx",
@@ -16464,9 +21154,9 @@
   {
    "provider": "watsonx",
    "model": "watsonx/openai/gpt-oss-120b",
-   "input_per_mtok": 0.15,
-   "output_per_mtok": 0.6,
-   "context_window": 8192
+   "input_per_mtok": 0.159,
+   "output_per_mtok": 0.636,
+   "context_window": 131072
   },
   {
    "provider": "watsonx",
@@ -16477,220 +21167,241 @@
   },
   {
    "provider": "xai",
-   "model": "xai/grok-2",
-   "input_per_mtok": 2.0,
-   "output_per_mtok": 10.0,
-   "context_window": 131072
-  },
-  {
-   "provider": "xai",
-   "model": "xai/grok-2-1212",
-   "input_per_mtok": 2.0,
-   "output_per_mtok": 10.0,
-   "context_window": 131072
-  },
-  {
-   "provider": "xai",
-   "model": "xai/grok-2-latest",
-   "input_per_mtok": 2.0,
-   "output_per_mtok": 10.0,
-   "context_window": 131072
-  },
-  {
-   "provider": "xai",
-   "model": "xai/grok-2-vision",
-   "input_per_mtok": 2.0,
-   "output_per_mtok": 10.0,
-   "context_window": 32768
-  },
-  {
-   "provider": "xai",
-   "model": "xai/grok-2-vision-1212",
-   "input_per_mtok": 2.0,
-   "output_per_mtok": 10.0,
-   "context_window": 32768
-  },
-  {
-   "provider": "xai",
-   "model": "xai/grok-2-vision-latest",
-   "input_per_mtok": 2.0,
-   "output_per_mtok": 10.0,
-   "context_window": 32768
-  },
-  {
-   "provider": "xai",
    "model": "xai/grok-3",
-   "input_per_mtok": 3.0,
-   "output_per_mtok": 15.0,
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
    "context_window": 131072
   },
   {
    "provider": "xai",
    "model": "xai/grok-3-beta",
-   "input_per_mtok": 3.0,
-   "output_per_mtok": 15.0,
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
    "context_window": 131072
   },
   {
    "provider": "xai",
    "model": "xai/grok-3-fast-beta",
-   "input_per_mtok": 5.0,
-   "output_per_mtok": 25.0,
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
    "context_window": 131072
   },
   {
    "provider": "xai",
    "model": "xai/grok-3-fast-latest",
-   "input_per_mtok": 5.0,
-   "output_per_mtok": 25.0,
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
    "context_window": 131072
   },
   {
    "provider": "xai",
    "model": "xai/grok-3-latest",
-   "input_per_mtok": 3.0,
-   "output_per_mtok": 15.0,
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
    "context_window": 131072
   },
   {
    "provider": "xai",
    "model": "xai/grok-3-mini",
-   "input_per_mtok": 0.3,
-   "output_per_mtok": 0.5,
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
    "context_window": 131072
   },
   {
    "provider": "xai",
    "model": "xai/grok-3-mini-beta",
-   "input_per_mtok": 0.3,
-   "output_per_mtok": 0.5,
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
    "context_window": 131072
   },
   {
    "provider": "xai",
    "model": "xai/grok-3-mini-fast",
-   "input_per_mtok": 0.6,
-   "output_per_mtok": 4.0,
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
    "context_window": 131072
   },
   {
    "provider": "xai",
    "model": "xai/grok-3-mini-fast-beta",
-   "input_per_mtok": 0.6,
-   "output_per_mtok": 4.0,
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
    "context_window": 131072
   },
   {
    "provider": "xai",
    "model": "xai/grok-3-mini-fast-latest",
-   "input_per_mtok": 0.6,
-   "output_per_mtok": 4.0,
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
    "context_window": 131072
   },
   {
    "provider": "xai",
    "model": "xai/grok-3-mini-latest",
-   "input_per_mtok": 0.3,
-   "output_per_mtok": 0.5,
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
    "context_window": 131072
   },
   {
    "provider": "xai",
    "model": "xai/grok-4",
-   "input_per_mtok": 3.0,
-   "output_per_mtok": 15.0,
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
    "context_window": 256000
   },
   {
    "provider": "xai",
    "model": "xai/grok-4-0709",
-   "input_per_mtok": 3.0,
-   "output_per_mtok": 15.0,
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
    "context_window": 256000
   },
   {
    "provider": "xai",
    "model": "xai/grok-4-1-fast",
-   "input_per_mtok": 0.2,
-   "output_per_mtok": 0.5,
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
    "context_window": 2000000.0
   },
   {
    "provider": "xai",
    "model": "xai/grok-4-1-fast-non-reasoning",
-   "input_per_mtok": 0.2,
-   "output_per_mtok": 0.5,
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
    "context_window": 2000000.0
   },
   {
    "provider": "xai",
    "model": "xai/grok-4-1-fast-non-reasoning-latest",
-   "input_per_mtok": 0.2,
-   "output_per_mtok": 0.5,
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
    "context_window": 2000000.0
   },
   {
    "provider": "xai",
    "model": "xai/grok-4-1-fast-reasoning",
-   "input_per_mtok": 0.2,
-   "output_per_mtok": 0.5,
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
    "context_window": 2000000.0
   },
   {
    "provider": "xai",
    "model": "xai/grok-4-1-fast-reasoning-latest",
-   "input_per_mtok": 0.2,
-   "output_per_mtok": 0.5,
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
    "context_window": 2000000.0
   },
   {
    "provider": "xai",
    "model": "xai/grok-4-fast-non-reasoning",
-   "input_per_mtok": 0.2,
-   "output_per_mtok": 0.5,
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
    "context_window": 2000000.0
   },
   {
    "provider": "xai",
    "model": "xai/grok-4-fast-reasoning",
-   "input_per_mtok": 0.2,
-   "output_per_mtok": 0.5,
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
    "context_window": 2000000.0
   },
   {
    "provider": "xai",
    "model": "xai/grok-4-latest",
-   "input_per_mtok": 3.0,
-   "output_per_mtok": 15.0,
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
    "context_window": 256000
   },
   {
    "provider": "xai",
+   "model": "xai/grok-4.20",
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
+   "context_window": 1000000
+  },
+  {
+   "provider": "xai",
+   "model": "xai/grok-4.20-0309-non-reasoning",
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
+   "context_window": 1000000
+  },
+  {
+   "provider": "xai",
    "model": "xai/grok-4.20-0309-reasoning",
-   "input_per_mtok": 2.0,
-   "output_per_mtok": 6.0,
-   "context_window": 2000000
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
+   "context_window": 1000000
   },
   {
    "provider": "xai",
    "model": "xai/grok-4.20-beta-0309-non-reasoning",
-   "input_per_mtok": 2.0,
-   "output_per_mtok": 6.0,
-   "context_window": 2000000
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
+   "context_window": 1000000
   },
   {
    "provider": "xai",
    "model": "xai/grok-4.20-beta-0309-reasoning",
-   "input_per_mtok": 2.0,
-   "output_per_mtok": 6.0,
-   "context_window": 2000000
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
+   "context_window": 1000000
+  },
+  {
+   "provider": "xai",
+   "model": "xai/grok-4.20-multi-agent",
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
+   "context_window": 1000000
+  },
+  {
+   "provider": "xai",
+   "model": "xai/grok-4.20-multi-agent-0309",
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
+   "context_window": 1000000
   },
   {
    "provider": "xai",
    "model": "xai/grok-4.20-multi-agent-beta-0309",
-   "input_per_mtok": 2.0,
-   "output_per_mtok": 6.0,
-   "context_window": 2000000
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
+   "context_window": 1000000
+  },
+  {
+   "provider": "xai",
+   "model": "xai/grok-4.20-multi-agent-latest",
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
+   "context_window": 1000000
+  },
+  {
+   "provider": "xai",
+   "model": "xai/grok-4.20-non-reasoning",
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
+   "context_window": 1000000
+  },
+  {
+   "provider": "xai",
+   "model": "xai/grok-4.20-non-reasoning-latest",
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
+   "context_window": 1000000
+  },
+  {
+   "provider": "xai",
+   "model": "xai/grok-4.20-reasoning",
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
+   "context_window": 1000000
+  },
+  {
+   "provider": "xai",
+   "model": "xai/grok-4.20-reasoning-latest",
+   "input_per_mtok": 1.25,
+   "output_per_mtok": 2.5,
+   "context_window": 1000000
   },
   {
    "provider": "xai",
@@ -16722,38 +21433,45 @@
   },
   {
    "provider": "xai",
-   "model": "xai/grok-beta",
-   "input_per_mtok": 5.0,
-   "output_per_mtok": 15.0,
-   "context_window": 131072
+   "model": "xai/grok-4.6",
+   "input_per_mtok": 2.0,
+   "output_per_mtok": 6.0,
+   "context_window": 500000
+  },
+  {
+   "provider": "xai",
+   "model": "xai/grok-build-0.1",
+   "input_per_mtok": 1.0,
+   "output_per_mtok": 2.0,
+   "context_window": 256000
+  },
+  {
+   "provider": "xai",
+   "model": "xai/grok-build-latest",
+   "input_per_mtok": 2.0,
+   "output_per_mtok": 6.0,
+   "context_window": 500000
   },
   {
    "provider": "xai",
    "model": "xai/grok-code-fast",
-   "input_per_mtok": 0.2,
-   "output_per_mtok": 1.5,
+   "input_per_mtok": 1.0,
+   "output_per_mtok": 2.0,
    "context_window": 256000
   },
   {
    "provider": "xai",
    "model": "xai/grok-code-fast-1",
-   "input_per_mtok": 0.2,
-   "output_per_mtok": 1.5,
+   "input_per_mtok": 1.0,
+   "output_per_mtok": 2.0,
    "context_window": 256000
   },
   {
    "provider": "xai",
    "model": "xai/grok-code-fast-1-0825",
-   "input_per_mtok": 0.2,
-   "output_per_mtok": 1.5,
+   "input_per_mtok": 1.0,
+   "output_per_mtok": 2.0,
    "context_window": 256000
-  },
-  {
-   "provider": "xai",
-   "model": "xai/grok-vision-beta",
-   "input_per_mtok": 5.0,
-   "output_per_mtok": 15.0,
-   "context_window": 8192
   },
   {
    "provider": "zai",
@@ -16845,6 +21563,27 @@
    "input_per_mtok": 1.4,
    "output_per_mtok": 4.4,
    "context_window": 200000
+  },
+  {
+   "provider": "zai",
+   "model": "zai/glm-5.2",
+   "input_per_mtok": 1.4,
+   "output_per_mtok": 4.4,
+   "context_window": 1000000
+  },
+  {
+   "provider": "zai",
+   "model": "zai/glm-5.3",
+   "input_per_mtok": 1.4,
+   "output_per_mtok": 4.4,
+   "context_window": 1000000
+  },
+  {
+   "provider": "zai",
+   "model": "zai/glm-5.3-flash",
+   "input_per_mtok": 0.15,
+   "output_per_mtok": 0.5,
+   "context_window": 1048576
   }
  ]
 }
