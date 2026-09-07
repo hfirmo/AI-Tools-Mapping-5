@@ -26,9 +26,9 @@
   "OpenAI API": {
     "latest_model": "gpt-5.6 family",
     "access_pricing": "Pay-as-you-go (no subscription)",
-    "token_price": "$5/$30 per MTok (gpt-5.6)",
+    "token_price": "$4/$20 per MTok (gpt-5.6)",
     "source": "LiteLLM community price map",
-    "retrieved": "2026-07-29",
+    "retrieved": "2026-09-07",
     "status": "auto-applied — review"
   },
   "DeepSeek — chat + hosted API": {
@@ -42,9 +42,9 @@
   "Grok — xAI chat + hosted API": {
     "latest_model": "Grok 4.5 (Jul 2026)",
     "access_pricing": "Via X Premium / SuperGrok tiers (verify); API pay-as-you-go",
-    "token_price": "$3/$15 per MTok (xai/grok-4)",
+    "token_price": "$1.25/$2.5 per MTok (xai/grok-4)",
     "source": "LiteLLM community price map",
-    "retrieved": "2026-07-29",
+    "retrieved": "2026-09-07",
     "status": "auto-applied — review"
   },
   "Mistral — hosted + open weights": {
